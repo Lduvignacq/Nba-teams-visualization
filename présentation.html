@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <!-- Chargement de D3.js depuis CDN -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- d3-hexbin for hex aggregation -->
+    <script src="https://d3js.org/d3-hexbin.v0.2.min.js"></script>
 </head>
 <body>
     <header>
@@ -46,9 +48,18 @@
                 <p>Cliquez sur les éléments des graphiques pour plus de détails.</p>
             </div>
         </section>
+    <main>
+        <!-- Shot chart controls and container -->
+        <section class="chart-section">
+            <h2>🎯 Shot chart</h2>
+            <div style="margin-bottom:5px;">
+                <label for="season-select">Saison:</label>
+                <select id="season-select"></select>
+            </div>
+            <div id="shot-chart" class="chart-container" style="height:520px;"></div>
+        </section>
+        /* Lines 18-49 omitted */
     </main>
-
-    <footer>
         <p>Données NBA - Visualisation avec D3.js</p>
     </footer>
 

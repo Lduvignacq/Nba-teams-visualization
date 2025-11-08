@@ -5,6 +5,8 @@ console.log("🏀 Script NBA D3.js chargé");
 const config = {
     margin: { top: 60, right: 60, bottom: 80, left: 80 },
     colors: {
+        made: '#28a745',
+        missed: '#dc3545',
         primary: '#e74c3c',
         secondary: '#3498db',
         accent: '#1abc9c',
@@ -12,7 +14,6 @@ const config = {
     }
 };
 
-// Fonction utilitaire pour créer un tooltip
 function createTooltip() {
     return d3.select("body")
         .append("div")
@@ -27,6 +28,155 @@ function createTooltip() {
         .style("opacity", 0)
         .style("z-index", 1000);
 }
+
+// draw a simple SVG court (coordinates already used by your python code)
+function createCourt(g, color) {
+    // group is already translated by margins; shift half-court by +60 to match Python
+    g.append("line").attr("x1", -220).attr("y1", 0).attr("x2", -220).attr("y2", 140).attr("stroke", color).attr("stroke-width", 2);
+    g.append("line").attr("x1", 220).attr("y1", 0).attr("x2", 220).attr("y2", 140).attr("stroke", color).attr("stroke-width", 2);
+    // elliptical arc (top of key)
+    g.append("path")
+        .attr("d", "M -220 140 A 220 157.5 0 0 1 220 140")
+        .attr("fill", "none").attr("stroke", color).attr("stroke-width", 2);
+    g.append("line").attr("x1", -80).attr("y1", 0).attr("x2", -80).attr("y2", 190).attr("stroke", color).attr("stroke-width", 2);
+    g.append("line").attr("x1", 80).attr("y1", 0).attr("x2", 80).attr("y2", 190).attr("stroke", color).attr("stroke-width", 2);
+    g.append("line").attr("x1", -60).attr("y1", 0).attr("x2", -60).attr("y2", 190).attr("stroke", color).attr("stroke-width", 2);
+    g.append("line").attr("x1", 60).attr("y1", 0).attr("x2", 60).attr("y2", 190).attr("stroke", color).attr("stroke-width", 2);
+    g.append("line").attr("x1", -80).attr("y1", 190).attr("x2", 80).attr("y2", 190).attr("stroke", color).attr("stroke-width", 2);
+    g.append("circle").attr("cx", 0).attr("cy", 190).attr("r", 60).attr("stroke", color).attr("fill", "none").attr("stroke-width", 2);
+    g.append("circle").attr("cx", 0).attr("cy", 60).attr("r", 15).attr("stroke", color).attr("fill", "none").attr("stroke-width", 2);
+    g.append("line").attr("x1", -30).attr("y1", 40).attr("x2", 30).attr("y2", 40).attr("stroke", color).attr("stroke-width", 2);
+
+    // apply same vertical shift as Python (+60)
+    g.attr("transform", `translate(0,60)`);
+}
+
+// Draw raw points (optional)
+function drawShotsPoints(g, data) {
+    const made = data.filter(d => +d.SHOT_MADE_FLAG === 1);
+    const missed = data.filter(d => +d.SHOT_MADE_FLAG === 0);
+
+    g.selectAll(".made-shot")
+        .data(made)
+        .join("circle")
+        .attr("class", "made-shot")
+        .attr("cx", d => +d.LOC_X)
+        .attr("cy", d => +d.LOC_Y + 60)
+        .attr("r", 3)
+        .attr("fill", config.colors.made)
+        .attr("opacity", 0.7);
+
+    g.selectAll(".missed-shot")
+        .data(missed)
+        .join("circle")
+        .attr("class", "missed-shot")
+        .attr("cx", d => +d.LOC_X)
+        .attr("cy", d => +d.LOC_Y + 60)
+        .attr("r", 3)
+        .attr("fill", config.colors.missed)
+        .attr("opacity", 0.6);
+}
+
+// Hexbin heatmap (translates draw_shots_hex logic)
+function drawShotsHex(g, data, width, height, { gridsize = 25, mincount = 10 } = {}) {
+    // d3-hexbin uses radius; derive from gridsize so number of hexes fits like Python gridsize
+    const radius = Math.max(width, height) / gridsize;
+    const hexbin = d3.hexbin()
+        .x(d => +d.LOC_X)
+        .y(d => +d.LOC_Y + 60)
+        .radius(radius)
+        .extent([[-250, 0], [250, 470]]);
+
+    const bins = hexbin(data);
+
+    // compute counts and max
+    const counts = bins.map(b => b.length);
+    const maxCount = d3.max(counts) || 1;
+
+    // color scale: log-scale mapped to [0,1] for sequential interpolator
+    const colorScale = d3.scaleLog().domain([Math.max(1, d3.min(counts) || 1), Math.max(1, maxCount)]).range([0,1]);
+
+    const tooltip = createTooltip();
+
+    const hexGroup = g.append("g").attr("class", "hex-layer");
+    hexGroup.selectAll("path")
+        .data(bins.filter(b => b.length >= mincount))
+        .join("path")
+        .attr("d", d => hexbin.hexagon())
+        .attr("transform", d => `translate(${d.x},${d.y})`)
+        .attr("fill", d => d3.interpolatePlasma(colorScale(Math.max(1, d.length))))
+        .attr("stroke", "none")
+        .attr("opacity", 0.9)
+        .on("mouseenter", (event, d) => {
+            const made = d.reduce((acc, v) => acc + (+v.SHOT_MADE_FLAG || 0), 0);
+            const pct = ((made / d.length) * 100).toFixed(1);
+            tooltip.style("opacity", 1)
+                .html(`<strong>Shots:</strong> ${d.length}<br><strong>FG%:</strong> ${pct}%`)
+                .style("left", (event.pageX + 12) + "px")
+                .style("top", (event.pageY + 12) + "px");
+        })
+        .on("mousemove", (event) => {
+            tooltip.style("left", (event.pageX + 12) + "px")
+                   .style("top", (event.pageY + 12) + "px");
+        })
+        .on("mouseleave", () => tooltip.style("opacity", 0));
+}
+
+// main
+async function drawShotChart(year, opts = {}) {
+    const data = await d3.csv(`data/nba_api/shot_per_season/shot_chart_team_${year}.csv`);
+    const container = d3.select("#shot-chart");
+    const containerRect = container.node().getBoundingClientRect();
+    const width = containerRect.width - config.margin.left - config.margin.right;
+    const height = 470 - config.margin.top - config.margin.bottom;
+
+    container.selectAll("*").remove();
+
+    const svg = container.append("svg")
+        .attr("width", width + config.margin.left + config.margin.right)
+        .attr("height", height + config.margin.top + config.margin.bottom);
+
+    const g = svg.append("g")
+        .attr("transform", `translate(${config.margin.left},${config.margin.top})`);
+
+    createCourt(g, config.colors.dark);
+
+    // choose either points or hex (hex is default)
+    if (opts.show === 'points') {
+        drawShotsPoints(g, data);
+    } else {
+        drawShotsHex(g, data, width, height, { gridsize: opts.gridsize || 25, mincount: opts.mincount || 1 });
+    }
+}
+
+function setupSeasonSelector(defaultSeason = "2024-25") {
+    const seasons = [
+        "2000-01","2001-02","2002-03","2003-04","2004-05","2005-06","2006-07",
+        "2007-08","2008-09","2009-10","2010-11","2011-12","2012-13","2013-14",
+        "2014-15","2015-16","2016-17","2017-18","2018-19","2019-20","2020-21",
+        "2021-22","2022-23","2023-24","2024-25"
+    ];
+    const sel = d3.select("#season-select");
+    sel.selectAll("option").data(seasons).join("option")
+        .attr("value", d => d)
+        .text(d => d);
+    sel.property("value", defaultSeason);
+    sel.on("change", (event) => {
+        const season = event.target.value;
+        drawShotChart(season, { gridsize: 30, mincount: 3 });
+    });
+    // initial draw
+    drawShotChart(defaultSeason, { gridsize: 30, mincount: 3 });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    // populate season selector and draw initial chart
+    setupSeasonSelector("2024-25");
+
+    // initialize other visualizations if present
+    if (typeof createTeamsTimeline === 'function') createTeamsTimeline();
+    if (typeof createScoringTrends === 'function') createScoringTrends();
+});
 
 // Fonction pour afficher des informations dans le panneau info
 function updateInfoPanel(content) {

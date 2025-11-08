@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>NBA data visualisation</title>
+        <!-- https://d3js.org/ -->
+        <script type="text/javascript" src="js/d3.v7.min.js"></script>
+        <!-- Your code -->
+         
+    <script type="text/javascript" src="js/nbajs.js"></script>
+    <script type="text/javascript" src="js/team-map.js"></script>
+        <script src="https://d3js.org/d3-hexbin.v0.2.min.js"></script>
+        <style>
+body {
+    background-color: rgb(16, 16, 255);
+    color:#ffffff;
+}
+svg {
+    display: block;
+    font-family: sans-serif;
+    font-size: 100px;
+}
+        </style>
+    </head>
+
+    <body onload="createViz();">
+        <div id="main">
+            <div style="float:left " >
+                <form>
+                    <input type="button" value="switch" onclick="applyControls();" id="toggleBt"/>
+                    <label for="minbins" style="margin-left:8px;">Bin count:</label>
+                    <input type="number" id="minbins" min="0" placeholder="min shots (e.g. 10)" value="50" style="width:64px;margin-left:6px;"/>
+            
+                </form>
+                    <label for="season-select">Season</label>
+                    <select id="season-select" style="margin-left:12px; font-size:35px;" ></select>
+                <!-- Replaced dropdown with interactive map -->
+                <div id="team-map" style="margin-top:16px; width:500px; height:500px;"></div>
+            </div>
+        </div>
+    </body>
+
+</html>
