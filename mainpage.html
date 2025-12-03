@@ -24,24 +24,27 @@ svg {
 #main {overflow: auto;}
 #graphs {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
-    padding: 12px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0px;
+    padding: 10px;
     box-sizing: border-box;
     clear: both;
     margin-top: 16px;
+    min-height: 10vh;
 }
 
 /* each graph cell holds one svg; gives a suggested height */
 .graph-cell {
-    background: transparent;
-    border-radius: 4px;
-    min-height: 280px; /* adjust as needed */
-    height: 320px;     /* fixed height per cell (adjust) */
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 1px;
+    min-height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    position: relative;
 }
 
 /* inner svg will be sized by JS to fill its cell */
@@ -66,8 +69,13 @@ svg {
                 <!-- Replaced dropdown with interactive map -->
             </div>
         </div>
-        <div id = "graphs">
-
+        <div id="graphs">
+            <div class="graph-cell" id="team-map-cell"></div>
+            <div class="graph-cell" id="passing-chart-cell"></div>
+            <div class="graph-cell" id="shot-chart-cell"></div>
+            <div class="graph-cell" id="graph-cell-4"></div>
+            <div class="graph-cell" id="graph-cell-5"></div>
+            <div class="graph-cell" id="graph-cell-6"></div>
         </div>
     </body>
 

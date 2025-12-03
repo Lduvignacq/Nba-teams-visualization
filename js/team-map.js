@@ -1,28 +1,25 @@
 // Team Map (D3 v7) — integrates with nbajs.js via window.setTeamSelection(teamName)
 // Data sources: data/map_data/US-states.csv, data/map_data/US-geo.json, data/map_data/NBA-teams.csv
-
 (function(){
   function initMap(){
     console.log('[team-map] initializing');
-    const creator = d3.select('#graphs').append('svg');
-    // const container = d3.select('#main').append('team-map').attr("id", "g-team_map");
-    container = creator.append('g').attr("id", "g-team_map");
+    const container = d3.select('#team-map-cell');
     if (container.empty()) {
-      console.warn('[team-map] #team-map not found at init time.');
+      console.warn('[team-map] #team-map-cell not found at init time.');
       return;
     }
-    // const width = Math.max(1000, container.node().clientWidth || 900);
-    // const height = Math.max(1000, container.node().clientHeight || 600);
+    container.selectAll('*').remove();
+    
     const width = 600;
     const height = 600;
-    container.selectAll('*').remove();
 
     const svg = container.append('svg')
-      .attr('width', width)
-      .attr('height', height)
+      .attr('width', '100%')
+      .attr('height', '100%')
+      .attr('viewBox', `0 0 ${width} ${height}`)
+      .attr('preserveAspectRatio', 'xMidYMid meet')
       .style('display', 'block');
     const g = svg.append('g').attr('class','map-root');
-
     const projection = d3.geoAlbersUsa()
       .translate([250, 200])
       .scale(Math.min(width, height) * 1.0);

@@ -499,21 +499,34 @@ function setupSeasonteamSelector(defaultSeason = "2024-25") {
 }
 function createViz() {
     console.log("Using D3 v" + d3.version);
-    const container = d3.select("#graphs");
-    // let svgEl = d3.select("#main").append("svg");
-    let svgEl = container.select("svg");
-    svgEl.attr("width", ctx.w);
-    svgEl.attr("height", ctx.h);
-
-    const courtGroup = svgEl.append("g")
+    
+    // Create SVG for shot chart in its cell
+    const shotCell = d3.select("#shot-chart-cell");
+    shotCell.selectAll("svg").remove(); // Clear any existing
+    const shotSvg = shotCell.append("svg")
+        .attr("width", "100%")
+        .attr("height", "100%")
+        .attr("viewBox", `0 0 ${ctx.w} ${ctx.h}`)
+        .attr("preserveAspectRatio", "xMidYMid meet");
+    
+    const courtGroup = shotSvg.append("g")
         .attr("id", "g-court")
-        // .attr("transform", `translate(${ctx.w / 4},60)`);
+        .attr("transform", `translate(${ctx.w / 2}, 100)`);
     ctx.courtGroup = courtGroup;
-    // Passing chord group (position independently)
-    const passGroup = svgEl.append("g")
-        .attr("id", "g-pass")
-        // .attr("transform", `translate(${1*ctx.w / 4},250)`);
+    
+    // Create SVG for passing chord in its cell
+    const passCell = d3.select("#passing-chart-cell");
+    passCell.selectAll("svg").remove(); // Clear any existing
+    const passSvg = passCell.append("svg")
+        .attr("width", "100%")
+        .attr("height", "100%")
+        .attr("viewBox", `0 0 ${ctx.w} ${ctx.h}`)
+        .attr("preserveAspectRatio", "xMidYMid meet");
+    
+    const passGroup = passSvg.append("g")
+        .attr("id", "g-pass");
     ctx.passGroup = passGroup;
+    
     createCourt(courtGroup, "#ffffffff");
 
     // draw points for season (change season string as needed)
@@ -543,8 +556,8 @@ function applyControls() {
         mincount: ctx.hexMinCount || 50 }, ctx.team);
     // console.log(`data\\nba_api\\passing_data\\${ctx.season}\\team${ctx.season}.csv`)
     if (typeof createPassingChordInSvg === "function") {
-        createPassingChordInSvg(ctx.courtGroup, `data/nba_api/passing_data/team${ctx.season}.csv`, ctx.team, {
-            width: 500, height: 500, cx: 1*ctx.w / 2, cy: 250
+        createPassingChordInSvg(ctx.passGroup, `data/nba_api/passing_data/team${ctx.season}.csv`, ctx.team, {
+            width: 400, height: 400, cx: 1*ctx.w / 2, cy: 250
         });
     }
     }
