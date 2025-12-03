@@ -4,7 +4,9 @@
 (function(){
   function initMap(){
     console.log('[team-map] initializing');
-    const container = d3.select('#team-map');
+    const creator = d3.select('#graphs').append('svg');
+    // const container = d3.select('#main').append('team-map').attr("id", "g-team_map");
+    container = creator.append('g').attr("id", "g-team_map");
     if (container.empty()) {
       console.warn('[team-map] #team-map not found at init time.');
       return;

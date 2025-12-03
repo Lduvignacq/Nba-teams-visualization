@@ -499,13 +499,21 @@ function setupSeasonteamSelector(defaultSeason = "2024-25") {
 }
 function createViz() {
     console.log("Using D3 v" + d3.version);
-    let svgEl = d3.select("#main").append("svg");
+    const container = d3.select("#graphs");
+    // let svgEl = d3.select("#main").append("svg");
+    let svgEl = container.select("svg");
     svgEl.attr("width", ctx.w);
     svgEl.attr("height", ctx.h);
 
     const courtGroup = svgEl.append("g")
-        .attr("transform", `translate(${ctx.w / 4},60)`);
+        .attr("id", "g-court")
+        // .attr("transform", `translate(${ctx.w / 4},60)`);
     ctx.courtGroup = courtGroup;
+    // Passing chord group (position independently)
+    const passGroup = svgEl.append("g")
+        .attr("id", "g-pass")
+        // .attr("transform", `translate(${1*ctx.w / 4},250)`);
+    ctx.passGroup = passGroup;
     createCourt(courtGroup, "#ffffffff");
 
     // draw points for season (change season string as needed)
@@ -513,7 +521,7 @@ function createViz() {
         mincount: ctx.hexMinCount || 50 }, ctx.team);
      // draw passing chord inside the same SVG (uses separate reusable function)
     if (typeof createPassingChordInSvg === "function") {
-        createPassingChordInSvg(courtGroup, `data/nba_api/passing_data/team${ctx.season}.csv`, ctx.team, {
+        createPassingChordInSvg(ctx.passGroup, `data/nba_api/passing_data/team${ctx.season}.csv`, ctx.team, {
             width: 400, height: 400, cx: 1*ctx.w / 2, cy: 250
         });
     }
