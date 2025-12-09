@@ -9,6 +9,7 @@
          
     <script type="text/javascript" src="js/nbajs.js"></script>
     <script type="text/javascript" src="js/team-map.js"></script>
+    <script type="text/javascript" src="js/team_stats.js"></script>
         <script src="https://d3js.org/d3-hexbin.v0.2.min.js"></script>
         <style>
 body {
@@ -61,7 +62,7 @@ svg {
                 <form>
                     <input type="button" value="apply" onclick="applyControls();" id="toggleBt"/>
                     <label for="minbins" style="margin-left:8px;">Bin count:</label>
-                    <input type="number" id="minbins" min="0" placeholder="min shots (e.g. 10)" value="50" style="width:64px;margin-left:6px;"/>
+                    <input type="number" id="minbins" min="0" placeholder="min shots (e.g. 10)" value="10" style="width:64px;margin-left:6px;"/>
             
                 </form>
                     <label for="season-select">Season</label>

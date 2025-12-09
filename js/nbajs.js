@@ -511,7 +511,7 @@ function createViz() {
     
     const courtGroup = shotSvg.append("g")
         .attr("id", "g-court")
-        .attr("transform", `translate(${ctx.w / 2}, 100)`);
+        .attr("transform", `translate(${ctx.w / 2}, 100), scale(1.8)`);
     ctx.courtGroup = courtGroup;
     
     // Create SVG for passing chord in its cell
@@ -531,11 +531,11 @@ function createViz() {
 
     // draw points for season (change season string as needed)
     drawShotChart(courtGroup, ctx.season, {
-        mincount: ctx.hexMinCount || 50 }, ctx.team);
+        mincount: ctx.hexMinCount || 10 }, ctx.team);
      // draw passing chord inside the same SVG (uses separate reusable function)
     if (typeof createPassingChordInSvg === "function") {
         createPassingChordInSvg(ctx.passGroup, `data/nba_api/passing_data/team${ctx.season}.csv`, ctx.team, {
-            width: 400, height: 400, cx: 1*ctx.w / 2, cy: 250
+            width: 800, height: 800, cx: 1*ctx.w / 2, cy: 250
         });
     }
     // loadData(svgEl);
@@ -547,17 +547,17 @@ function applyControls() {
     const sel = d3.select("#season-select");
     const season = sel.empty() ? ctx.season : sel.node().value;
     const minInput = d3.select("#minbins");
-    const mincount = !minInput.empty() ? Math.max(0, parseInt(minInput.node().value) || 0) : (ctx.hexMinCount || 50);
+    const mincount = !minInput.empty() ? Math.max(0, parseInt(minInput.node().value) || 0) : (ctx.hexMinCount || 10);
     ctx.hexMinCount = mincount;
     team = ctx.team || "ATL";
     console.log("Applying controls: season =", season, ", mincount =", mincount, ", team =", team);
     ctx.season = season;
     drawShotChart(ctx.courtGroup, ctx.season, {
-        mincount: ctx.hexMinCount || 50 }, ctx.team);
+        mincount: ctx.hexMinCount || 10 }, ctx.team);
     // console.log(`data\\nba_api\\passing_data\\${ctx.season}\\team${ctx.season}.csv`)
     if (typeof createPassingChordInSvg === "function") {
         createPassingChordInSvg(ctx.passGroup, `data/nba_api/passing_data/team${ctx.season}.csv`, ctx.team, {
-            width: 400, height: 400, cx: 1*ctx.w / 2, cy: 250
+            width: 800, height: 800, cx: 1*ctx.w / 2, cy: 250
         });
     }
     }
@@ -612,6 +612,11 @@ window.setTeamSelection = function(teamName) {
         if (teamName && typeof teamName === 'string') {
             ctx.team = teamName;
             applyControls();
+            
+            // Update scatter plot if available
+            if (window.updateTeamStatsScatter) {
+                window.updateTeamStatsScatter();
+            }
         }
     } catch (e) {
         console.error('Failed to set team from map:', e);
