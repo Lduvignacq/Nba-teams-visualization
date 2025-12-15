@@ -1,0 +1,138 @@
+{
+  "season": "2022-23",
+  "champion": "DEN",
+  "east": {
+    "conference": "East",
+    "finals": {
+      "winner": "MIA",
+      "teams": [
+        "BOS",
+        "MIA"
+      ],
+      "series": "3-4"
+    },
+    "semifinals": [
+      {
+        "winner": "BOS",
+        "teams": [
+          "BOS",
+          "PHI"
+        ],
+        "series": "4-3"
+      },
+      {
+        "winner": "MIA",
+        "teams": [
+          "MIA",
+          "NYK"
+        ],
+        "series": "4-2"
+      }
+    ],
+    "first_round": [
+      {
+        "winner": "BOS",
+        "teams": [
+          "BOS",
+          "ATL"
+        ],
+        "series": "4-2"
+      },
+      {
+        "winner": "PHI",
+        "teams": [
+          "PHI",
+          "BKN"
+        ],
+        "series": "4-0"
+      },
+      {
+        "winner": "NYK",
+        "teams": [
+          "NYK",
+          "CLE"
+        ],
+        "series": "4-1"
+      },
+      {
+        "winner": "MIA",
+        "teams": [
+          "MIA",
+          "MIL"
+        ],
+        "series": "4-1"
+      }
+    ]
+  },
+  "west": {
+    "conference": "West",
+    "finals": {
+      "winner": "DEN",
+      "teams": [
+        "DEN",
+        "LAL"
+      ],
+      "series": "4-0"
+    },
+    "semifinals": [
+      {
+        "winner": "DEN",
+        "teams": [
+          "DEN",
+          "PHX"
+        ],
+        "series": "4-2"
+      },
+      {
+        "winner": "LAL",
+        "teams": [
+          "LAL",
+          "GSW"
+        ],
+        "series": "4-2"
+      }
+    ],
+    "first_round": [
+      {
+        "winner": "DEN",
+        "teams": [
+          "DEN",
+          "MIN"
+        ],
+        "series": "4-1"
+      },
+      {
+        "winner": "PHX",
+        "teams": [
+          "PHX",
+          "LAC"
+        ],
+        "series": "4-1"
+      },
+      {
+        "winner": "GSW",
+        "teams": [
+          "GSW",
+          "SAC"
+        ],
+        "series": "4-3"
+      },
+      {
+        "winner": "LAL",
+        "teams": [
+          "LAL",
+          "MEM"
+        ],
+        "series": "4-2"
+      }
+    ]
+  },
+  "finals": {
+    "winner": "DEN",
+    "teams": [
+      "DEN",
+      "MIA"
+    ],
+    "series": "4-1"
+  }
+}

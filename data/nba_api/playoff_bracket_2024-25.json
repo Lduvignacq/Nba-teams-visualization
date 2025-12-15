@@ -1,0 +1,138 @@
+{
+  "season": "2024-25",
+  "champion": "OKC",
+  "east": {
+    "conference": "East",
+    "finals": {
+      "winner": "IND",
+      "teams": [
+        "NYK",
+        "IND"
+      ],
+      "series": "4-3"
+    },
+    "semifinals": [
+      {
+        "winner": "NYK",
+        "teams": [
+          "BOS",
+          "NYK"
+        ],
+        "series": "2-4"
+      },
+      {
+        "winner": "IND",
+        "teams": [
+          "CLE",
+          "IND"
+        ],
+        "series": "1-4"
+      }
+    ],
+    "first_round": [
+      {
+        "winner": "BOS",
+        "teams": [
+          "BOS",
+          "ORL"
+        ],
+        "series": "4-1"
+      },
+      {
+        "winner": "CLE",
+        "teams": [
+          "CLE",
+          "MIA"
+        ],
+        "series": "4-0"
+      },
+      {
+        "winner": "IND",
+        "teams": [
+          "IND",
+          "MIL"
+        ],
+        "series": "4-1"
+      },
+      {
+        "winner": "NYK",
+        "teams": [
+          "NYK",
+          "DET"
+        ],
+        "series": "4-2"
+      }
+    ]
+  },
+  "west": {
+    "conference": "West",
+    "finals": {
+      "winner": "OKC",
+      "teams": [
+        "OKC",
+        "MIN"
+      ],
+      "series": "4-2"
+    },
+    "semifinals": [
+      {
+        "winner": "OKC",
+        "teams": [
+          "OKC",
+          "DEN"
+        ],
+        "series": "4-3"
+      },
+      {
+        "winner": "MIN",
+        "teams": [
+          "MIN",
+          "GSW"
+        ],
+        "series": "4-1"
+      }
+    ],
+    "first_round": [
+      {
+        "winner": "OKC",
+        "teams": [
+          "OKC",
+          "MEM"
+        ],
+        "series": "4-0"
+      },
+      {
+        "winner": "DEN",
+        "teams": [
+          "DEN",
+          "LAC"
+        ],
+        "series": "4-3"
+      },
+      {
+        "winner": "GSW",
+        "teams": [
+          "GSW",
+          "HOU"
+        ],
+        "series": "4-3"
+      },
+      {
+        "winner": "MIN",
+        "teams": [
+          "MIN",
+          "LAL"
+        ],
+        "series": "4-1"
+      }
+    ]
+  },
+  "finals": {
+    "winner": "OKC",
+    "teams": [
+      "OKC",
+      "IND"
+    ],
+    "series": "4-3"
+  }
+}

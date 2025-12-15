@@ -10,11 +10,28 @@
     <script type="text/javascript" src="js/nbajs.js"></script>
     <script type="text/javascript" src="js/team-map.js"></script>
     <script type="text/javascript" src="js/team_stats.js"></script>
+    <script type="text/javascript" src="js/players.js"></script>
         <script src="https://d3js.org/d3-hexbin.v0.2.min.js"></script>
         <style>
 body {
     background-color: rgb(85, 82, 82);
     color:#464545;
+    position: relative;
+}
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: var(--team-logo, url('data/logo/ATL_logo.svg'));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    opacity: 0.08;
+    z-index: -1;
+    pointer-events: none;
 }
 svg {
     display: block;

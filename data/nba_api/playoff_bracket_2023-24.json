@@ -1,0 +1,138 @@
+{
+  "season": "2023-24",
+  "champion": "BOS",
+  "east": {
+    "conference": "East",
+    "finals": {
+      "winner": "BOS",
+      "teams": [
+        "BOS",
+        "IND"
+      ],
+      "series": "4-0"
+    },
+    "semifinals": [
+      {
+        "winner": "BOS",
+        "teams": [
+          "BOS",
+          "CLE"
+        ],
+        "series": "4-1"
+      },
+      {
+        "winner": "IND",
+        "teams": [
+          "IND",
+          "NYK"
+        ],
+        "series": "4-3"
+      }
+    ],
+    "first_round": [
+      {
+        "winner": "BOS",
+        "teams": [
+          "BOS",
+          "MIA"
+        ],
+        "series": "4-1"
+      },
+      {
+        "winner": "CLE",
+        "teams": [
+          "CLE",
+          "ORL"
+        ],
+        "series": "4-3"
+      },
+      {
+        "winner": "NYK",
+        "teams": [
+          "NYK",
+          "PHI"
+        ],
+        "series": "4-2"
+      },
+      {
+        "winner": "IND",
+        "teams": [
+          "IND",
+          "MIL"
+        ],
+        "series": "4-2"
+      }
+    ]
+  },
+  "west": {
+    "conference": "West",
+    "finals": {
+      "winner": "DAL",
+      "teams": [
+        "DAL",
+        "MIN"
+      ],
+      "series": "4-1"
+    },
+    "semifinals": [
+      {
+        "winner": "DAL",
+        "teams": [
+          "DAL",
+          "OKC"
+        ],
+        "series": "4-2"
+      },
+      {
+        "winner": "MIN",
+        "teams": [
+          "MIN",
+          "DEN"
+        ],
+        "series": "4-3"
+      }
+    ],
+    "first_round": [
+      {
+        "winner": "OKC",
+        "teams": [
+          "OKC",
+          "NOP"
+        ],
+        "series": "4-0"
+      },
+      {
+        "winner": "DEN",
+        "teams": [
+          "DEN",
+          "LAL"
+        ],
+        "series": "4-1"
+      },
+      {
+        "winner": "MIN",
+        "teams": [
+          "MIN",
+          "PHX"
+        ],
+        "series": "4-0"
+      },
+      {
+        "winner": "DAL",
+        "teams": [
+          "DAL",
+          "LAC"
+        ],
+        "series": "4-2"
+      }
+    ]
+  },
+  "finals": {
+    "winner": "BOS",
+    "teams": [
+      "BOS",
+      "DAL"
+    ],
+    "series": "4-1"
+  }
+}

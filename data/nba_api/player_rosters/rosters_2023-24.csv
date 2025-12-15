@@ -1,0 +1,533 @@
+season,team,team_abb,player,position,games,minutes_per_game
+2023-24,Atlanta Hawks,ATL,Trae Young,G,54,36.0
+2023-24,Atlanta Hawks,ATL,Dejounte Murray,G,78,35.7
+2023-24,Atlanta Hawks,ATL,Jalen Johnson,F,56,33.7
+2023-24,Atlanta Hawks,ATL,Saddiq Bey,G-F,63,32.7
+2023-24,Atlanta Hawks,ATL,Bogdan Bogdanović,G,79,30.4
+2023-24,Atlanta Hawks,ATL,De'Andre Hunter,F-G,57,29.5
+2023-24,Atlanta Hawks,ATL,Clint Capela,C,73,25.8
+2023-24,Atlanta Hawks,ATL,Onyeka Okongwu,F-C,55,25.5
+2023-24,Atlanta Hawks,ATL,Vít Krejčí,G,22,24.6
+2023-24,Atlanta Hawks,ATL,Bruno Fernando,F-C,45,15.2
+2023-24,Atlanta Hawks,ATL,Garrison Mathews,G,66,15.0
+2023-24,Atlanta Hawks,ATL,Mouhamed Gueye,F,6,12.1
+2023-24,Atlanta Hawks,ATL,Kobe Bufkin,G,17,11.5
+2023-24,Atlanta Hawks,ATL,Wesley Matthews,G,36,11.5
+2023-24,Atlanta Hawks,ATL,Trent Forrest,G,38,10.9
+2023-24,Atlanta Hawks,ATL,AJ Griffin,F,20,8.5
+2023-24,Atlanta Hawks,ATL,Dylan Windler,G-F,17,6.4
+2023-24,Atlanta Hawks,ATL,Seth Lundy,G-F,9,5.8
+2023-24,Boston Celtics,BOS,Jayson Tatum,F-G,74,35.7
+2023-24,Boston Celtics,BOS,Jaylen Brown,G-F,70,33.5
+2023-24,Boston Celtics,BOS,Jrue Holiday,G,69,32.8
+2023-24,Boston Celtics,BOS,Derrick White,G,73,32.6
+2023-24,Boston Celtics,BOS,Kristaps Porziņģis,F-C,57,29.6
+2023-24,Boston Celtics,BOS,Al Horford,C-F,65,26.8
+2023-24,Boston Celtics,BOS,Payton Pritchard,G,82,22.3
+2023-24,Boston Celtics,BOS,Sam Hauser,F,79,22.0
+2023-24,Boston Celtics,BOS,Xavier Tillman,F,54,18.0
+2023-24,Boston Celtics,BOS,Luke Kornet,C-F,63,15.6
+2023-24,Boston Celtics,BOS,Neemias Queta,C,28,11.9
+2023-24,Boston Celtics,BOS,Oshae Brissett,F-G,55,11.5
+2023-24,Boston Celtics,BOS,Jaden Springer,G,49,10.3
+2023-24,Boston Celtics,BOS,Svi Mykhailiuk,G-F,41,10.1
+2023-24,Boston Celtics,BOS,Jordan Walsh,G,9,9.3
+2023-24,Boston Celtics,BOS,Drew Peterson,F,3,7.6
+2023-24,Boston Celtics,BOS,JD Davison,G,8,4.9
+2023-24,Cleveland Cavaliers,CLE,Donovan Mitchell,G,55,35.3
+2023-24,Cleveland Cavaliers,CLE,Darius Garland,G,57,33.3
+2023-24,Cleveland Cavaliers,CLE,Max Strus,G-F,70,32.0
+2023-24,Cleveland Cavaliers,CLE,Jarrett Allen,C,77,31.7
+2023-24,Cleveland Cavaliers,CLE,Evan Mobley,C,50,30.6
+2023-24,Cleveland Cavaliers,CLE,Caris LeVert,G,68,28.8
+2023-24,Cleveland Cavaliers,CLE,Isaac Okoro,F-G,69,27.3
+2023-24,Cleveland Cavaliers,CLE,Georges Niang,F,82,22.3
+2023-24,Cleveland Cavaliers,CLE,Dean Wade,F-C,54,20.5
+2023-24,Cleveland Cavaliers,CLE,Sam Merrill,G,61,17.5
+2023-24,Cleveland Cavaliers,CLE,Marcus Morris Sr.,F,49,16.7
+2023-24,Cleveland Cavaliers,CLE,Craig Porter Jr.,G,51,12.7
+2023-24,Cleveland Cavaliers,CLE,Tristan Thompson,C-F,49,11.2
+2023-24,Cleveland Cavaliers,CLE,Emoni Bates,F,15,8.9
+2023-24,Cleveland Cavaliers,CLE,Ty Jerome,G-F,2,7.4
+2023-24,Cleveland Cavaliers,CLE,Isaiah Mobley,F,10,7.2
+2023-24,Cleveland Cavaliers,CLE,Damian Jones,C,39,6.9
+2023-24,Cleveland Cavaliers,CLE,Pete Nance,F,8,3.4
+2023-24,New Orleans Pelicans,NOP,Brandon Ingram,F,64,32.9
+2023-24,New Orleans Pelicans,NOP,CJ McCollum,G,66,32.7
+2023-24,New Orleans Pelicans,NOP,Zion Williamson,F,70,31.5
+2023-24,New Orleans Pelicans,NOP,Herbert Jones,F,76,30.5
+2023-24,New Orleans Pelicans,NOP,Trey Murphy III,F,57,29.7
+2023-24,New Orleans Pelicans,NOP,Jonas Valančiūnas,C,82,23.5
+2023-24,New Orleans Pelicans,NOP,Dyson Daniels,G,61,22.3
+2023-24,New Orleans Pelicans,NOP,Larry Nance Jr.,F-C,61,19.9
+2023-24,New Orleans Pelicans,NOP,Naji Marshall,F,66,19.0
+2023-24,New Orleans Pelicans,NOP,Jose Alvarado,G,56,18.4
+2023-24,New Orleans Pelicans,NOP,Jordan Hawkins,G,67,17.3
+2023-24,New Orleans Pelicans,NOP,Matt Ryan,F,28,13.9
+2023-24,New Orleans Pelicans,NOP,Dereon Seabron,G,6,9.2
+2023-24,New Orleans Pelicans,NOP,Jeremiah Robinson-Earl,F,39,8.6
+2023-24,New Orleans Pelicans,NOP,Cody Zeller,F-C,43,7.4
+2023-24,New Orleans Pelicans,NOP,E.J. Liddell,F,8,2.9
+2023-24,New Orleans Pelicans,NOP,Malcolm Hill,F,0,0.0
+2023-24,Chicago Bulls,CHI,DeMar DeRozan,G-F,79,37.8
+2023-24,Chicago Bulls,CHI,Coby White,G,79,36.5
+2023-24,Chicago Bulls,CHI,Zach LaVine,G,25,34.9
+2023-24,Chicago Bulls,CHI,Nikola Vučević,C,76,34.3
+2023-24,Chicago Bulls,CHI,Ayo Dosunmu,G,76,29.1
+2023-24,Chicago Bulls,CHI,Alex Caruso,G,71,28.7
+2023-24,Chicago Bulls,CHI,Patrick Williams,F,43,27.3
+2023-24,Chicago Bulls,CHI,Javonte Green,G,9,25.6
+2023-24,Chicago Bulls,CHI,Torrey Craig,F,53,19.8
+2023-24,Chicago Bulls,CHI,Andre Drummond,C,79,17.1
+2023-24,Chicago Bulls,CHI,Jevon Carter,G,72,13.9
+2023-24,Chicago Bulls,CHI,Onuralp Bitim,F,23,11.7
+2023-24,Chicago Bulls,CHI,Dalen Terry,F,59,11.5
+2023-24,Chicago Bulls,CHI,Julian Phillips,F,40,8.1
+2023-24,Chicago Bulls,CHI,Henri Drell,F,4,7.5
+2023-24,Chicago Bulls,CHI,Adama Sanogo,F,9,7.3
+2023-24,Chicago Bulls,CHI,Andrew Funk,G,5,2.7
+2023-24,Chicago Bulls,CHI,Lonzo Ball,G,0,0.0
+2023-24,Dallas Mavericks,DAL,Luka Dončić,F-G,70,37.5
+2023-24,Dallas Mavericks,DAL,Kyrie Irving,G,58,35.0
+2023-24,Dallas Mavericks,DAL,P.J. Washington,F,73,30.4
+2023-24,Dallas Mavericks,DAL,Tim Hardaway Jr.,G-F,79,26.8
+2023-24,Dallas Mavericks,DAL,Josh Green,G,57,26.4
+2023-24,Dallas Mavericks,DAL,Daniel Gafford,F-C,74,24.5
+2023-24,Dallas Mavericks,DAL,Dereck Lively II,C,55,23.5
+2023-24,Dallas Mavericks,DAL,Derrick Jones Jr.,F,76,23.5
+2023-24,Dallas Mavericks,DAL,Maxi Kleber,F,43,20.3
+2023-24,Dallas Mavericks,DAL,Danté Exum,G,55,19.8
+2023-24,Dallas Mavericks,DAL,Jaden Hardy,G,73,13.6
+2023-24,Dallas Mavericks,DAL,Dwight Powell,F-C,63,13.3
+2023-24,Dallas Mavericks,DAL,Olivier-Maxence Prosper,F,40,8.4
+2023-24,Dallas Mavericks,DAL,Markieff Morris,F,26,8.3
+2023-24,Dallas Mavericks,DAL,A.J. Lawson,G,42,7.4
+2023-24,Dallas Mavericks,DAL,Alex Fudge,F,6,6.7
+2023-24,Dallas Mavericks,DAL,Greg Brown III,F,6,6.6
+2023-24,Dallas Mavericks,DAL,Brandon Williams,G,17,6.6
+2023-24,Denver Nuggets,DEN,Nikola Jokić,C,79,34.6
+2023-24,Denver Nuggets,DEN,Michael Porter Jr.,F,81,31.7
+2023-24,Denver Nuggets,DEN,Kentavious Caldwell-Pope,G,76,31.6
+2023-24,Denver Nuggets,DEN,Aaron Gordon,F,73,31.5
+2023-24,Denver Nuggets,DEN,Jamal Murray,G,59,31.5
+2023-24,Denver Nuggets,DEN,Reggie Jackson,G,82,22.2
+2023-24,Denver Nuggets,DEN,Christian Braun,G,82,20.2
+2023-24,Denver Nuggets,DEN,Peyton Watson,G,80,18.6
+2023-24,Denver Nuggets,DEN,Justin Holiday,F-G,58,14.9
+2023-24,Denver Nuggets,DEN,DeAndre Jordan,C,36,11.0
+2023-24,Denver Nuggets,DEN,Julian Strawther,G,50,10.9
+2023-24,Denver Nuggets,DEN,Zeke Nnaji,F-C,58,9.9
+2023-24,Denver Nuggets,DEN,Collin Gillespie,G,24,9.4
+2023-24,Denver Nuggets,DEN,Jalen Pickett,G,27,4.5
+2023-24,Denver Nuggets,DEN,Braxton Key,F,20,3.0
+2023-24,Denver Nuggets,DEN,Hunter Tyson,F,18,2.7
+2023-24,Denver Nuggets,DEN,Jay Huff,C,20,2.5
+2023-24,Denver Nuggets,DEN,Vlatko Čančar,F,0,0.0
+2023-24,Golden State Warriors,GSW,Stephen Curry,G,74,32.7
+2023-24,Golden State Warriors,GSW,Klay Thompson,G,77,29.7
+2023-24,Golden State Warriors,GSW,Draymond Green,F,55,27.1
+2023-24,Golden State Warriors,GSW,Andrew Wiggins,F,71,27.0
+2023-24,Golden State Warriors,GSW,Brandin Podziemski,G,74,26.6
+2023-24,Golden State Warriors,GSW,Chris Paul,G,58,26.4
+2023-24,Golden State Warriors,GSW,Jonathan Kuminga,F,74,26.3
+2023-24,Golden State Warriors,GSW,Moses Moody,G,66,17.5
+2023-24,Golden State Warriors,GSW,Dario Šarić,F-C,64,17.2
+2023-24,Golden State Warriors,GSW,Trayce Jackson-Davis,F,68,16.6
+2023-24,Golden State Warriors,GSW,Kevon Looney,F,74,16.1
+2023-24,Golden State Warriors,GSW,Gary Payton II,G,44,15.5
+2023-24,Golden State Warriors,GSW,Lester Quinones,G,37,10.7
+2023-24,Golden State Warriors,GSW,Gui Santos,F,23,8.4
+2023-24,Golden State Warriors,GSW,Pat Spencer,G,6,4.3
+2023-24,Golden State Warriors,GSW,Jerome Robinson,G,22,3.7
+2023-24,Golden State Warriors,GSW,Usman Garuba,F,6,3.0
+2023-24,Houston Rockets,HOU,Fred VanVleet,G,73,36.8
+2023-24,Houston Rockets,HOU,Alperen Sengun,C,63,32.5
+2023-24,Houston Rockets,HOU,Jabari Smith Jr.,F,76,31.9
+2023-24,Houston Rockets,HOU,Jalen Green,G,82,31.7
+2023-24,Houston Rockets,HOU,Dillon Brooks,G-F,72,30.9
+2023-24,Houston Rockets,HOU,Amen Thompson,G-F,62,22.4
+2023-24,Houston Rockets,HOU,Tari Eason,F,22,21.8
+2023-24,Houston Rockets,HOU,Cam Whitmore,F,47,18.7
+2023-24,Houston Rockets,HOU,Jeff Green,F,78,16.8
+2023-24,Houston Rockets,HOU,Aaron Holiday,G,78,16.3
+2023-24,Houston Rockets,HOU,Jae'Sean Tate,F,65,15.9
+2023-24,Houston Rockets,HOU,Jock Landale,C,56,13.6
+2023-24,Houston Rockets,HOU,Reggie Bullock Jr.,G-F,44,9.5
+2023-24,Houston Rockets,HOU,Nate Williams,G,22,5.9
+2023-24,Houston Rockets,HOU,Boban Marjanovic,C,14,5.1
+2023-24,Houston Rockets,HOU,Nate Hinton,G-F,15,5.0
+2023-24,Houston Rockets,HOU,Jermaine Samuels Jr.,F,14,4.3
+2023-24,Houston Rockets,HOU,Steven Adams,C,0,0.0
+2023-24,Los Angeles Clippers,LAC,Kawhi Leonard,F,68,34.3
+2023-24,Los Angeles Clippers,LAC,James Harden,G,72,34.3
+2023-24,Los Angeles Clippers,LAC,Paul George,F,74,33.8
+2023-24,Los Angeles Clippers,LAC,Ivica Zubac,C,68,26.4
+2023-24,Los Angeles Clippers,LAC,Norman Powell,G,76,26.2
+2023-24,Los Angeles Clippers,LAC,Terance Mann,G-F,75,25.0
+2023-24,Los Angeles Clippers,LAC,Russell Westbrook,G,68,22.5
+2023-24,Los Angeles Clippers,LAC,Amir Coffey,G-F,70,20.9
+2023-24,Los Angeles Clippers,LAC,Daniel Theis,F-C,60,16.9
+2023-24,Los Angeles Clippers,LAC,P.J. Tucker,F,31,15.7
+2023-24,Los Angeles Clippers,LAC,Mason Plumlee,F-C,46,14.7
+2023-24,Los Angeles Clippers,LAC,Bones Hyland,G,37,14.6
+2023-24,Los Angeles Clippers,LAC,Brandon Boston,G,32,10.8
+2023-24,Los Angeles Clippers,LAC,Kobe Brown,F,44,9.0
+2023-24,Los Angeles Clippers,LAC,Xavier Moon,G,14,8.5
+2023-24,Los Angeles Clippers,LAC,Moussa Diabaté,F,11,5.8
+2023-24,Los Angeles Clippers,LAC,Jordan Miller,G,8,3.5
+2023-24,Los Angeles Clippers,LAC,Kai Jones,C-F,0,0.0
+2023-24,Los Angeles Lakers,LAL,Anthony Davis,F-C,76,35.5
+2023-24,Los Angeles Lakers,LAL,LeBron James,F,71,35.3
+2023-24,Los Angeles Lakers,LAL,D'Angelo Russell,G,76,32.7
+2023-24,Los Angeles Lakers,LAL,Austin Reaves,G,82,32.1
+2023-24,Los Angeles Lakers,LAL,Spencer Dinwiddie,G,76,28.3
+2023-24,Los Angeles Lakers,LAL,Taurean Prince,F,78,27.0
+2023-24,Los Angeles Lakers,LAL,Rui Hachimura,F,68,26.8
+2023-24,Los Angeles Lakers,LAL,Cam Reddish,F-G,48,20.5
+2023-24,Los Angeles Lakers,LAL,Jarred Vanderbilt,F,29,20.0
+2023-24,Los Angeles Lakers,LAL,Gabe Vincent,G,11,19.8
+2023-24,Los Angeles Lakers,LAL,Christian Wood,F,50,17.4
+2023-24,Los Angeles Lakers,LAL,Max Christie,G,67,14.1
+2023-24,Los Angeles Lakers,LAL,Jaxson Hayes,C-F,70,12.5
+2023-24,Los Angeles Lakers,LAL,Skylar Mays,G,38,11.4
+2023-24,Los Angeles Lakers,LAL,Jalen Hood-Schifino,G,21,5.2
+2023-24,Los Angeles Lakers,LAL,Harry Giles III,F-C,23,4.3
+2023-24,Los Angeles Lakers,LAL,Colin Castleton,C,16,3.7
+2023-24,Los Angeles Lakers,LAL,Maxwell Lewis,F,34,3.0
+2023-24,Miami Heat,MIA,Bam Adebayo,C-F,71,34.0
+2023-24,Miami Heat,MIA,Jimmy Butler III,F,60,34.0
+2023-24,Miami Heat,MIA,Tyler Herro,G,42,33.5
+2023-24,Miami Heat,MIA,Terry Rozier,G,61,33.4
+2023-24,Miami Heat,MIA,Jaime Jaquez Jr.,G,75,28.2
+2023-24,Miami Heat,MIA,Duncan Robinson,F,68,28.0
+2023-24,Miami Heat,MIA,Caleb Martin,F,64,27.4
+2023-24,Miami Heat,MIA,Josh Richardson,G,43,25.6
+2023-24,Miami Heat,MIA,Haywood Highsmith,F,66,20.7
+2023-24,Miami Heat,MIA,Nikola Jović,F,46,19.5
+2023-24,Miami Heat,MIA,Kevin Love,F-C,55,16.8
+2023-24,Miami Heat,MIA,Delon Wright,G,47,15.8
+2023-24,Miami Heat,MIA,Patty Mills,G,32,13.0
+2023-24,Miami Heat,MIA,Thomas Bryant,C-F,38,11.6
+2023-24,Miami Heat,MIA,Jamal Cain,F,26,10.0
+2023-24,Miami Heat,MIA,Orlando Robinson,C,36,8.4
+2023-24,Miami Heat,MIA,Cole Swider,F,18,4.8
+2023-24,Miami Heat,MIA,Alondes Williams,G,7,2.2
+2023-24,Milwaukee Bucks,MIL,Damian Lillard,G,73,35.3
+2023-24,Milwaukee Bucks,MIL,Giannis Antetokounmpo,F,73,35.2
+2023-24,Milwaukee Bucks,MIL,Brook Lopez,C,79,30.5
+2023-24,Milwaukee Bucks,MIL,Malik Beasley,G,79,29.6
+2023-24,Milwaukee Bucks,MIL,Khris Middleton,F,55,27.0
+2023-24,Milwaukee Bucks,MIL,Bobby Portis,F,82,24.5
+2023-24,Milwaukee Bucks,MIL,Jae Crowder,F,50,23.1
+2023-24,Milwaukee Bucks,MIL,Pat Connaughton,G,76,22.1
+2023-24,Milwaukee Bucks,MIL,Patrick Beverley,G,73,20.0
+2023-24,Milwaukee Bucks,MIL,Danilo Gallinari,F,49,12.8
+2023-24,Milwaukee Bucks,MIL,MarJon Beauchamp,F,48,12.7
+2023-24,Milwaukee Bucks,MIL,AJ Green,G,56,11.0
+2023-24,Milwaukee Bucks,MIL,Andre Jackson Jr.,G,57,10.0
+2023-24,Milwaukee Bucks,MIL,Ryan Rollins,G,13,6.0
+2023-24,Milwaukee Bucks,MIL,TyTy Washington Jr.,G,11,5.1
+2023-24,Milwaukee Bucks,MIL,Thanasis Antetokounmpo,F,34,4.6
+2023-24,Milwaukee Bucks,MIL,Chris Livingston,F,21,4.3
+2023-24,Milwaukee Bucks,MIL,Jaylin Galloway,F,0,0.0
+2023-24,Minnesota Timberwolves,MIN,Anthony Edwards,G,79,35.1
+2023-24,Minnesota Timberwolves,MIN,Rudy Gobert,C,76,34.1
+2023-24,Minnesota Timberwolves,MIN,Karl-Anthony Towns,C-F,62,32.7
+2023-24,Minnesota Timberwolves,MIN,Jaden McDaniels,F,72,29.2
+2023-24,Minnesota Timberwolves,MIN,Mike Conley,G,76,28.9
+2023-24,Minnesota Timberwolves,MIN,Naz Reid,C-F,81,24.2
+2023-24,Minnesota Timberwolves,MIN,Nickeil Alexander-Walker,G,82,23.4
+2023-24,Minnesota Timberwolves,MIN,Kyle Anderson,F-G,79,22.6
+2023-24,Minnesota Timberwolves,MIN,Monté Morris,G,33,14.4
+2023-24,Minnesota Timberwolves,MIN,T.J. Warren,F,11,11.3
+2023-24,Minnesota Timberwolves,MIN,Jordan McLaughlin,G,56,11.2
+2023-24,Minnesota Timberwolves,MIN,Luka Garza,C,25,4.9
+2023-24,Minnesota Timberwolves,MIN,Daishen Nix,G,15,3.3
+2023-24,Minnesota Timberwolves,MIN,Leonard Miller,F,17,3.1
+2023-24,Minnesota Timberwolves,MIN,Wendell Moore Jr.,G,25,3.0
+2023-24,Minnesota Timberwolves,MIN,Josh Minott,F,32,2.9
+2023-24,Minnesota Timberwolves,MIN,Jaylen Clark,G,0,0.0
+2023-24,Brooklyn Nets,BKN,Mikal Bridges,G-F,82,34.8
+2023-24,Brooklyn Nets,BKN,Cam Thomas,G,66,31.4
+2023-24,Brooklyn Nets,BKN,Dennis Schröder,G,80,31.1
+2023-24,Brooklyn Nets,BKN,Nic Claxton,C,71,29.8
+2023-24,Brooklyn Nets,BKN,Dorian Finney-Smith,F,68,28.4
+2023-24,Brooklyn Nets,BKN,Cameron Johnson,F,58,27.6
+2023-24,Brooklyn Nets,BKN,Ben Simmons,G-F,15,23.9
+2023-24,Brooklyn Nets,BKN,Dennis Smith Jr.,G,56,18.9
+2023-24,Brooklyn Nets,BKN,Lonnie Walker IV,G-F,58,17.4
+2023-24,Brooklyn Nets,BKN,Jacob Gilyard,G,41,17.0
+2023-24,Brooklyn Nets,BKN,Noah Clowney,F,23,16.1
+2023-24,Brooklyn Nets,BKN,Jalen Wilson,F,43,15.5
+2023-24,Brooklyn Nets,BKN,Day'Ron Sharpe,C,61,15.1
+2023-24,Brooklyn Nets,BKN,Trendon Watford,F,63,13.6
+2023-24,Brooklyn Nets,BKN,Keita Bates-Diop,F,53,12.5
+2023-24,Brooklyn Nets,BKN,Keon Johnson,G,5,12.3
+2023-24,Brooklyn Nets,BKN,Dariq Whitehead,F,2,12.0
+2023-24,Brooklyn Nets,BKN,Jaylen Martin,G,0,0.0
+2023-24,New York Knicks,NYK,Jalen Brunson,G,77,35.4
+2023-24,New York Knicks,NYK,Julius Randle,F-C,46,35.4
+2023-24,New York Knicks,NYK,OG Anunoby,F-G,50,34.0
+2023-24,New York Knicks,NYK,Josh Hart,G,81,33.4
+2023-24,New York Knicks,NYK,Donte DiVincenzo,G,81,29.1
+2023-24,New York Knicks,NYK,Bojan Bogdanovic,F,57,25.9
+2023-24,New York Knicks,NYK,Isaiah Hartenstein,C-F,75,25.3
+2023-24,New York Knicks,NYK,Mitchell Robinson,C-F,31,24.8
+2023-24,New York Knicks,NYK,Precious Achiuwa,F,74,21.9
+2023-24,New York Knicks,NYK,Miles McBride,G,68,19.5
+2023-24,New York Knicks,NYK,Alec Burks,G,66,18.4
+2023-24,New York Knicks,NYK,Jericho Sims,C,45,13.0
+2023-24,New York Knicks,NYK,Shake Milton,G-F,48,12.1
+2023-24,New York Knicks,NYK,Charlie Brown Jr.,G,8,4.7
+2023-24,New York Knicks,NYK,Jacob Toppin,F,9,4.2
+2023-24,New York Knicks,NYK,Mamadi Diakite,F,6,4.1
+2023-24,New York Knicks,NYK,DaQuan Jeffries,G-F,17,2.7
+2023-24,New York Knicks,NYK,Duane Washington Jr.,G,0,0.0
+2023-24,Orlando Magic,ORL,Paolo Banchero,F,80,35.0
+2023-24,Orlando Magic,ORL,Franz Wagner,F,72,32.5
+2023-24,Orlando Magic,ORL,Jalen Suggs,G,75,27.0
+2023-24,Orlando Magic,ORL,Wendell Carter Jr.,C-F,55,25.6
+2023-24,Orlando Magic,ORL,Gary Harris,G,54,24.0
+2023-24,Orlando Magic,ORL,Cole Anthony,G,81,22.4
+2023-24,Orlando Magic,ORL,Markelle Fultz,G,43,21.2
+2023-24,Orlando Magic,ORL,Moritz Wagner,F-C,80,17.7
+2023-24,Orlando Magic,ORL,Joe Ingles,F-G,68,17.2
+2023-24,Orlando Magic,ORL,Anthony Black,G,69,16.9
+2023-24,Orlando Magic,ORL,Jonathan Isaac,F,58,15.8
+2023-24,Orlando Magic,ORL,Goga Bitadze,C-F,62,15.4
+2023-24,Orlando Magic,ORL,Caleb Houstan,G,59,13.8
+2023-24,Orlando Magic,ORL,Trevelin Queen,G,14,11.8
+2023-24,Orlando Magic,ORL,Chuma Okeke,F,47,9.2
+2023-24,Orlando Magic,ORL,Admiral Schofield,F,23,3.7
+2023-24,Orlando Magic,ORL,Jett Howard,G,18,3.7
+2023-24,Orlando Magic,ORL,Kevon Harris,G,2,3.0
+2023-24,Indiana Pacers,IND,Pascal Siakam,F,80,33.2
+2023-24,Indiana Pacers,IND,Tyrese Haliburton,G,69,32.2
+2023-24,Indiana Pacers,IND,Aaron Nesmith,G-F,72,27.7
+2023-24,Indiana Pacers,IND,Myles Turner,C-F,77,27.0
+2023-24,Indiana Pacers,IND,Bennedict Mathurin,G-F,59,26.1
+2023-24,Indiana Pacers,IND,Andrew Nembhard,G-F,68,25.0
+2023-24,Indiana Pacers,IND,Obi Toppin,F,82,21.1
+2023-24,Indiana Pacers,IND,T.J. McConnell,G,71,18.2
+2023-24,Indiana Pacers,IND,Jalen Smith,F-C,61,17.2
+2023-24,Indiana Pacers,IND,Ben Sheppard,G,57,14.3
+2023-24,Indiana Pacers,IND,Doug McDermott,F,64,14.1
+2023-24,Indiana Pacers,IND,Isaiah Jackson,F,60,12.8
+2023-24,Indiana Pacers,IND,Jarace Walker,F,33,10.3
+2023-24,Indiana Pacers,IND,Oscar Tshiebwe,F-C,8,5.2
+2023-24,Indiana Pacers,IND,James Johnson,F,9,5.2
+2023-24,Indiana Pacers,IND,Isaiah Wong,G,1,4.3
+2023-24,Indiana Pacers,IND,Kendall Brown,G,15,4.2
+2023-24,Indiana Pacers,IND,Quenton Jackson,G,3,3.5
+2023-24,Philadelphia 76ers,PHI,Tyrese Maxey,G,70,37.5
+2023-24,Philadelphia 76ers,PHI,Tobias Harris,F,70,33.8
+2023-24,Philadelphia 76ers,PHI,Joel Embiid,C-F,39,33.6
+2023-24,Philadelphia 76ers,PHI,Kelly Oubre Jr.,F-G,68,30.2
+2023-24,Philadelphia 76ers,PHI,Kyle Lowry,G,60,28.2
+2023-24,Philadelphia 76ers,PHI,De'Anthony Melton,G,38,26.9
+2023-24,Philadelphia 76ers,PHI,Buddy Hield,G,84,25.7
+2023-24,Philadelphia 76ers,PHI,Nicolas Batum,G-F,60,25.5
+2023-24,Philadelphia 76ers,PHI,Paul Reed,F,82,19.4
+2023-24,Philadelphia 76ers,PHI,Robert Covington,F,29,16.8
+2023-24,Philadelphia 76ers,PHI,Cameron Payne,G,78,16.7
+2023-24,Philadelphia 76ers,PHI,Mo Bamba,C,57,13.0
+2023-24,Philadelphia 76ers,PHI,KJ Martin,F,60,12.4
+2023-24,Philadelphia 76ers,PHI,Jeff Dowtin Jr.,G,12,11.8
+2023-24,Philadelphia 76ers,PHI,Ricky Council IV,G,32,9.0
+2023-24,Philadelphia 76ers,PHI,Terquavion Smith,G,16,5.3
+2023-24,Phoenix Suns,PHX,Kevin Durant,F,75,37.2
+2023-24,Phoenix Suns,PHX,Devin Booker,G,68,36.0
+2023-24,Phoenix Suns,PHX,Grayson Allen,G,75,33.5
+2023-24,Phoenix Suns,PHX,Bradley Beal,G,53,33.3
+2023-24,Phoenix Suns,PHX,Eric Gordon,G,68,27.8
+2023-24,Phoenix Suns,PHX,Jusuf Nurkić,C,76,27.3
+2023-24,Phoenix Suns,PHX,Royce O'Neale,F,79,24.7
+2023-24,Phoenix Suns,PHX,David Roddy,F,65,18.1
+2023-24,Phoenix Suns,PHX,Josh Okogie,G,60,16.0
+2023-24,Phoenix Suns,PHX,Drew Eubanks,F-C,75,15.6
+2023-24,Phoenix Suns,PHX,Thaddeus Young,F,33,13.3
+2023-24,Phoenix Suns,PHX,Bol Bol,C-F,43,10.9
+2023-24,Phoenix Suns,PHX,Nassir Little,F-G,45,10.2
+2023-24,Phoenix Suns,PHX,Saben Lee,G,24,7.7
+2023-24,Phoenix Suns,PHX,Udoka Azubuike,C-F,16,7.1
+2023-24,Phoenix Suns,PHX,Ish Wainright,F,11,5.7
+2023-24,Phoenix Suns,PHX,Isaiah Thomas,G,6,3.2
+2023-24,Phoenix Suns,PHX,Damion Lee,G-F,0,0.0
+2023-24,Portland Trail Blazers,POR,Anfernee Simons,G,46,34.4
+2023-24,Portland Trail Blazers,POR,Jerami Grant,F,54,33.9
+2023-24,Portland Trail Blazers,POR,Shaedon Sharpe,G,32,33.1
+2023-24,Portland Trail Blazers,POR,Deandre Ayton,C,55,32.4
+2023-24,Portland Trail Blazers,POR,Malcolm Brogdon,G,39,28.7
+2023-24,Portland Trail Blazers,POR,Scoot Henderson,G,62,28.5
+2023-24,Portland Trail Blazers,POR,Toumani Camara,F,70,24.8
+2023-24,Portland Trail Blazers,POR,Jabari Walker,F,72,23.6
+2023-24,Portland Trail Blazers,POR,Matisse Thybulle,G-F,65,22.9
+2023-24,Portland Trail Blazers,POR,Kris Murray,F,62,21.7
+2023-24,Portland Trail Blazers,POR,Robert Williams III,C-F,6,19.8
+2023-24,Portland Trail Blazers,POR,Dalano Banton,F,54,19.4
+2023-24,Portland Trail Blazers,POR,Duop Reath,C,68,17.9
+2023-24,Portland Trail Blazers,POR,Ashton Hagans,G-F,19,16.6
+2023-24,Portland Trail Blazers,POR,Rayan Rupert,G-F,39,16.2
+2023-24,Portland Trail Blazers,POR,Justin Minaya,F,34,11.2
+2023-24,Portland Trail Blazers,POR,Ibou Badji,C,22,10.3
+2023-24,Portland Trail Blazers,POR,Moses Brown,C,22,9.1
+2023-24,Sacramento Kings,SAC,De'Aaron Fox,G,74,35.9
+2023-24,Sacramento Kings,SAC,Domantas Sabonis,F-C,82,35.7
+2023-24,Sacramento Kings,SAC,Keegan Murray,F,77,33.6
+2023-24,Sacramento Kings,SAC,Harrison Barnes,F,82,29.0
+2023-24,Sacramento Kings,SAC,Malik Monk,G,72,26.0
+2023-24,Sacramento Kings,SAC,Kevin Huerter,G-F,64,24.4
+2023-24,Sacramento Kings,SAC,Trey Lyles,F,58,20.0
+2023-24,Sacramento Kings,SAC,Keon Ellis,G,57,17.2
+2023-24,Sacramento Kings,SAC,Davion Mitchell,G,72,15.3
+2023-24,Sacramento Kings,SAC,Sasha Vezenkov,F,42,12.2
+2023-24,Sacramento Kings,SAC,Chris Duarte,G,59,12.2
+2023-24,Sacramento Kings,SAC,Alex Len,C,48,9.3
+2023-24,Sacramento Kings,SAC,JaVale McGee,C-F,46,7.4
+2023-24,Sacramento Kings,SAC,Colby Jones,G,30,6.4
+2023-24,Sacramento Kings,SAC,Mason Jones,G,5,5.5
+2023-24,Sacramento Kings,SAC,Kessler Edwards,F,54,5.1
+2023-24,Sacramento Kings,SAC,Jordan Ford,G,6,3.6
+2023-24,Sacramento Kings,SAC,Jalen Slawson,F,12,3.1
+2023-24,San Antonio Spurs,SAS,Devin Vassell,G-F,68,33.1
+2023-24,San Antonio Spurs,SAS,Victor Wembanyama,F-C,71,29.7
+2023-24,San Antonio Spurs,SAS,Jeremy Sochan,F,74,29.6
+2023-24,San Antonio Spurs,SAS,Keldon Johnson,F-G,69,29.5
+2023-24,San Antonio Spurs,SAS,Tre Jones,G,77,27.8
+2023-24,San Antonio Spurs,SAS,Zach Collins,F-C,69,22.1
+2023-24,San Antonio Spurs,SAS,Malaki Branham,F,75,21.3
+2023-24,San Antonio Spurs,SAS,Julian Champagnie,F,74,19.8
+2023-24,San Antonio Spurs,SAS,Cedi Osman,F,72,17.6
+2023-24,San Antonio Spurs,SAS,Blake Wesley,G,61,14.4
+2023-24,San Antonio Spurs,SAS,Devonte' Graham,G,23,13.6
+2023-24,San Antonio Spurs,SAS,RaiQuan Gray,F,3,13.0
+2023-24,San Antonio Spurs,SAS,David Duke Jr.,G,4,12.8
+2023-24,San Antonio Spurs,SAS,Dominick Barlow,F,33,12.7
+2023-24,San Antonio Spurs,SAS,Sidy Cissoko,G,12,11.7
+2023-24,San Antonio Spurs,SAS,Charles Bassey,C-F,19,10.8
+2023-24,San Antonio Spurs,SAS,Jamaree Bouyea,G,9,10.5
+2023-24,San Antonio Spurs,SAS,Sandro Mamukelashvili,F-C,46,9.8
+2023-24,Oklahoma City Thunder,OKC,Shai Gilgeous-Alexander,G,75,34.0
+2023-24,Oklahoma City Thunder,OKC,Jalen Williams,G-F,71,31.3
+2023-24,Oklahoma City Thunder,OKC,Chet Holmgren,C-F,82,29.4
+2023-24,Oklahoma City Thunder,OKC,Luguentz Dort,G,79,28.4
+2023-24,Oklahoma City Thunder,OKC,Josh Giddey,G,80,25.1
+2023-24,Oklahoma City Thunder,OKC,Gordon Hayward,F,51,24.4
+2023-24,Oklahoma City Thunder,OKC,Cason Wallace,G,82,20.6
+2023-24,Oklahoma City Thunder,OKC,Bismack Biyombo,C,40,19.8
+2023-24,Oklahoma City Thunder,OKC,Isaiah Joe,G,78,18.5
+2023-24,Oklahoma City Thunder,OKC,Aaron Wiggins,G,78,15.7
+2023-24,Oklahoma City Thunder,OKC,Kenrich Williams,G-F,69,14.9
+2023-24,Oklahoma City Thunder,OKC,Jaylin Williams,F,69,13.0
+2023-24,Oklahoma City Thunder,OKC,Mike Muscala,F-C,53,11.3
+2023-24,Oklahoma City Thunder,OKC,Ousmane Dieng,F,33,11.1
+2023-24,Oklahoma City Thunder,OKC,Keyontae Johnson,F,9,7.4
+2023-24,Oklahoma City Thunder,OKC,Lindy Waters III,F,38,7.4
+2023-24,Oklahoma City Thunder,OKC,Adam Flagler,G,2,7.0
+2023-24,Oklahoma City Thunder,OKC,Olivier Sarr,C,15,6.5
+2023-24,Toronto Raptors,TOR,Scottie Barnes,F-G,60,34.9
+2023-24,Toronto Raptors,TOR,RJ Barrett,F-G,58,31.7
+2023-24,Toronto Raptors,TOR,Immanuel Quickley,G,68,29.2
+2023-24,Toronto Raptors,TOR,Gary Trent Jr.,G,71,28.1
+2023-24,Toronto Raptors,TOR,Bruce Brown,G-F,67,27.8
+2023-24,Toronto Raptors,TOR,Jakob Poeltl,C,50,26.4
+2023-24,Toronto Raptors,TOR,Kelly Olynyk,F-C,78,22.5
+2023-24,Toronto Raptors,TOR,Gradey Dick,G-F,60,21.1
+2023-24,Toronto Raptors,TOR,Ochai Agbaji,G,78,21.0
+2023-24,Toronto Raptors,TOR,Javon Freeman-Liberty,G,22,18.3
+2023-24,Toronto Raptors,TOR,Malik Williams,C,7,15.2
+2023-24,Toronto Raptors,TOR,Chris Boucher,F,50,14.1
+2023-24,Toronto Raptors,TOR,Jordan Nwora,F,52,13.7
+2023-24,Toronto Raptors,TOR,Mouhamadou Gueye,F,11,10.9
+2023-24,Toronto Raptors,TOR,Jalen McDaniels,F,50,10.8
+2023-24,Toronto Raptors,TOR,Garrett Temple,G-F,27,10.7
+2023-24,Toronto Raptors,TOR,D.J. Carton,G,4,8.9
+2023-24,Utah Jazz,UTA,Lauri Markkanen,F-C,55,33.1
+2023-24,Utah Jazz,UTA,Jordan Clarkson,G,55,30.6
+2023-24,Utah Jazz,UTA,John Collins,F-C,68,28.0
+2023-24,Utah Jazz,UTA,Keyonte George,G,75,27.0
+2023-24,Utah Jazz,UTA,Collin Sexton,G,78,26.6
+2023-24,Utah Jazz,UTA,Walker Kessler,C,64,23.3
+2023-24,Utah Jazz,UTA,Taylor Hendricks,F,40,21.4
+2023-24,Utah Jazz,UTA,Talen Horton-Tucker,G,51,19.8
+2023-24,Utah Jazz,UTA,Kris Dunn,G,66,18.9
+2023-24,Utah Jazz,UTA,Johnny Juzang,G,20,18.6
+2023-24,Utah Jazz,UTA,Brice Sensabaugh,F,32,18.3
+2023-24,Utah Jazz,UTA,Darius Bazley,F,9,16.9
+2023-24,Utah Jazz,UTA,Micah Potter,C,16,11.6
+2023-24,Utah Jazz,UTA,Omer Yurtseven,C,48,11.4
+2023-24,Utah Jazz,UTA,Jason Preston,G,7,10.2
+2023-24,Utah Jazz,UTA,Kira Lewis Jr.,G,28,9.4
+2023-24,Utah Jazz,UTA,Kenneth Lofton Jr.,F,21,9.4
+2023-24,Utah Jazz,UTA,Luka Samanic,F,43,9.4
+2023-24,Memphis Grizzlies,MEM,Ja Morant,G,9,35.3
+2023-24,Memphis Grizzlies,MEM,Desmond Bane,G,42,34.4
+2023-24,Memphis Grizzlies,MEM,Jaren Jackson Jr.,F-C,66,32.2
+2023-24,Memphis Grizzlies,MEM,Marcus Smart,G,20,30.2
+2023-24,Memphis Grizzlies,MEM,Vince Williams Jr.,G,52,27.6
+2023-24,Memphis Grizzlies,MEM,Santi Aldama,F-C,61,26.5
+2023-24,Memphis Grizzlies,MEM,GG Jackson,F,48,25.7
+2023-24,Memphis Grizzlies,MEM,Luke Kennard,G,39,25.6
+2023-24,Memphis Grizzlies,MEM,Scotty Pippen Jr.,G,21,25.1
+2023-24,Memphis Grizzlies,MEM,Trey Jemison III,C,25,23.0
+2023-24,Memphis Grizzlies,MEM,Jake LaRavia,F,35,23.0
+2023-24,Memphis Grizzlies,MEM,Brandon Clarke,F,6,22.4
+2023-24,Memphis Grizzlies,MEM,John Konchar,G,55,21.3
+2023-24,Memphis Grizzlies,MEM,Ziaire Williams,F,51,20.3
+2023-24,Memphis Grizzlies,MEM,Jordan Goodwin,G,57,18.5
+2023-24,Memphis Grizzlies,MEM,Derrick Rose,G,24,16.6
+2023-24,Memphis Grizzlies,MEM,Lamar Stevens,F,38,14.7
+2023-24,Memphis Grizzlies,MEM,Yuta Watanabe,G-F,34,13.7
+2023-24,Washington Wizards,WAS,Kyle Kuzma,F,70,32.6
+2023-24,Washington Wizards,WAS,Deni Avdija,F,75,30.1
+2023-24,Washington Wizards,WAS,Jordan Poole,G,78,30.1
+2023-24,Washington Wizards,WAS,Tyus Jones,G,66,29.3
+2023-24,Washington Wizards,WAS,Bilal Coulibaly,G,63,27.2
+2023-24,Washington Wizards,WAS,Corey Kispert,F,80,25.8
+2023-24,Washington Wizards,WAS,Marvin Bagley III,F,50,21.1
+2023-24,Washington Wizards,WAS,Landry Shamet,G,46,15.8
+2023-24,Washington Wizards,WAS,Justin Champagnie,G-F,15,15.7
+2023-24,Washington Wizards,WAS,Tristan Vukcevic,F,10,15.3
+2023-24,Washington Wizards,WAS,Jared Butler,G,40,14.1
+2023-24,Washington Wizards,WAS,Richaun Holmes,F,40,13.9
+2023-24,Washington Wizards,WAS,Patrick Baldwin Jr.,F,38,13.0
+2023-24,Washington Wizards,WAS,Johnny Davis,G,50,12.3
+2023-24,Washington Wizards,WAS,Anthony Gill,F,50,9.3
+2023-24,Washington Wizards,WAS,Eugene Omoruyi,F,43,9.1
+2023-24,Washington Wizards,WAS,Jules Bernard,G,19,7.9
+2023-24,Detroit Pistons,DET,Cade Cunningham,G,62,33.5
+2023-24,Detroit Pistons,DET,Isaiah Stewart,F-C,46,30.9
+2023-24,Detroit Pistons,DET,Jalen Duren,C,61,29.1
+2023-24,Detroit Pistons,DET,Jaden Ivey,G,77,28.8
+2023-24,Detroit Pistons,DET,Ausar Thompson,G-F,63,25.1
+2023-24,Detroit Pistons,DET,Simone Fontecchio,F,66,24.9
+2023-24,Detroit Pistons,DET,Tosan Evbuomwan,F,17,21.6
+2023-24,Detroit Pistons,DET,Quentin Grimes,G,51,20.1
+2023-24,Detroit Pistons,DET,Marcus Sasser,G,71,19.0
+2023-24,Detroit Pistons,DET,Evan Fournier,G-F,32,18.1
+2023-24,Detroit Pistons,DET,James Wiseman,C,63,17.3
+2023-24,Detroit Pistons,DET,Chimezie Metu,F-C,51,16.8
+2023-24,Detroit Pistons,DET,Jared Rhoden,G,17,14.4
+2023-24,Detroit Pistons,DET,Troy Brown Jr.,G-F,59,14.0
+2023-24,Detroit Pistons,DET,Stanley Umude,G,24,12.8
+2023-24,Detroit Pistons,DET,Malachi Flynn,G,69,12.7
+2023-24,Detroit Pistons,DET,Taj Gibson,F,20,10.2
+2023-24,Detroit Pistons,DET,Buddy Boeheim,F,10,8.4
+2023-24,Charlotte Hornets,CHA,Miles Bridges,F,69,37.4
+2023-24,Charlotte Hornets,CHA,LaMelo Ball,G,22,32.3
+2023-24,Charlotte Hornets,CHA,Brandon Miller,F,74,32.2
+2023-24,Charlotte Hornets,CHA,Grant Williams,F,76,28.0
+2023-24,Charlotte Hornets,CHA,Cody Martin,F,28,26.9
+2023-24,Charlotte Hornets,CHA,Mark Williams,C,19,26.8
+2023-24,Charlotte Hornets,CHA,Nick Richards,C,67,26.2
+2023-24,Charlotte Hornets,CHA,Tre Mann,G,41,24.1
+2023-24,Charlotte Hornets,CHA,Vasilije Micic,G,60,19.6
+2023-24,Charlotte Hornets,CHA,Davis Bertans,F,43,15.7
+2023-24,Charlotte Hornets,CHA,Bryce McGowens,G,59,14.9
+2023-24,Charlotte Hornets,CHA,Aleksej Pokusevski,F,28,14.5
+2023-24,Charlotte Hornets,CHA,Nick Smith Jr.,G,51,14.3
+2023-24,Charlotte Hornets,CHA,Seth Curry,G,44,14.0
+2023-24,Charlotte Hornets,CHA,JT Thor,F,63,12.4
+2023-24,Charlotte Hornets,CHA,Marques Bolden,C,11,11.0
+2023-24,Charlotte Hornets,CHA,Leaky Black,F,26,10.9
+2023-24,Charlotte Hornets,CHA,Amari Bailey,G,10,6.5
