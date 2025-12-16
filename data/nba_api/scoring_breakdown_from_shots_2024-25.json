@@ -1,0 +1,482 @@
+{
+  "Atlanta Hawks": {
+    "team_name": "Atlanta Hawks",
+    "team_abb": "BOS",
+    "field_goal_points": {
+      "three_pt": 3321.0,
+      "paint": 4524.0,
+      "mid_range": 374.0,
+      "total": 8219.0
+    },
+    "percentages": {
+      "three_pt_pct": 40.4,
+      "paint_pct": 55.0,
+      "mid_range_pct": 4.6
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Boston Celtics": {
+    "team_name": "Boston Celtics",
+    "team_abb": "BOS",
+    "field_goal_points": {
+      "three_pt": 4839.0,
+      "paint": 3792.0,
+      "mid_range": 616.0,
+      "total": 9247.0
+    },
+    "percentages": {
+      "three_pt_pct": 52.3,
+      "paint_pct": 41.0,
+      "mid_range_pct": 6.7
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Brooklyn Nets": {
+    "team_name": "Brooklyn Nets",
+    "team_abb": "NYK",
+    "field_goal_points": {
+      "three_pt": 3339.0,
+      "paint": 3570.0,
+      "mid_range": 376.0,
+      "total": 7285.0
+    },
+    "percentages": {
+      "three_pt_pct": 45.8,
+      "paint_pct": 49.0,
+      "mid_range_pct": 5.2
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Charlotte Hornets": {
+    "team_name": "Charlotte Hornets",
+    "team_abb": "ORL",
+    "field_goal_points": {
+      "three_pt": 3195.0,
+      "paint": 3688.0,
+      "mid_range": 466.0,
+      "total": 7349.0
+    },
+    "percentages": {
+      "three_pt_pct": 43.5,
+      "paint_pct": 50.2,
+      "mid_range_pct": 6.3
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Chicago Bulls": {
+    "team_name": "Chicago Bulls",
+    "team_abb": "CLE",
+    "field_goal_points": {
+      "three_pt": 3798.0,
+      "paint": 4164.0,
+      "mid_range": 390.0,
+      "total": 8352.0
+    },
+    "percentages": {
+      "three_pt_pct": 45.5,
+      "paint_pct": 49.9,
+      "mid_range_pct": 4.7
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Cleveland Cavaliers": {
+    "team_name": "Cleveland Cavaliers",
+    "team_abb": "CLE",
+    "field_goal_points": {
+      "three_pt": 4311.0,
+      "paint": 4648.0,
+      "mid_range": 518.0,
+      "total": 9477.0
+    },
+    "percentages": {
+      "three_pt_pct": 45.5,
+      "paint_pct": 49.0,
+      "mid_range_pct": 5.5
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Dallas Mavericks": {
+    "team_name": "Dallas Mavericks",
+    "team_abb": "GSW",
+    "field_goal_points": {
+      "three_pt": 3060.0,
+      "paint": 4178.0,
+      "mid_range": 668.0,
+      "total": 7906.0
+    },
+    "percentages": {
+      "three_pt_pct": 38.7,
+      "paint_pct": 52.8,
+      "mid_range_pct": 8.4
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Denver Nuggets": {
+    "team_name": "Denver Nuggets",
+    "team_abb": "NOP",
+    "field_goal_points": {
+      "three_pt": 3450.0,
+      "paint": 5426.0,
+      "mid_range": 802.0,
+      "total": 9678.0
+    },
+    "percentages": {
+      "three_pt_pct": 35.6,
+      "paint_pct": 56.1,
+      "mid_range_pct": 8.3
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Detroit Pistons": {
+    "team_name": "Detroit Pistons",
+    "team_abb": "DET",
+    "field_goal_points": {
+      "three_pt": 3336.0,
+      "paint": 4608.0,
+      "mid_range": 620.0,
+      "total": 8564.0
+    },
+    "percentages": {
+      "three_pt_pct": 39.0,
+      "paint_pct": 53.8,
+      "mid_range_pct": 7.2
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Golden State Warriors": {
+    "team_name": "Golden State Warriors",
+    "team_abb": "GSW",
+    "field_goal_points": {
+      "three_pt": 4284.0,
+      "paint": 4158.0,
+      "mid_range": 554.0,
+      "total": 8996.0
+    },
+    "percentages": {
+      "three_pt_pct": 47.6,
+      "paint_pct": 46.2,
+      "mid_range_pct": 6.2
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Houston Rockets": {
+    "team_name": "Houston Rockets",
+    "team_abb": "HOU",
+    "field_goal_points": {
+      "three_pt": 3336.0,
+      "paint": 4550.0,
+      "mid_range": 708.0,
+      "total": 8594.0
+    },
+    "percentages": {
+      "three_pt_pct": 38.8,
+      "paint_pct": 52.9,
+      "mid_range_pct": 8.2
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Indiana Pacers": {
+    "team_name": "Indiana Pacers",
+    "team_abb": "IND",
+    "field_goal_points": {
+      "three_pt": 4152.0,
+      "paint": 5156.0,
+      "mid_range": 1100.0,
+      "total": 10408.0
+    },
+    "percentages": {
+      "three_pt_pct": 39.9,
+      "paint_pct": 49.5,
+      "mid_range_pct": 10.6
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "LA Clippers": {
+    "team_name": "LA Clippers",
+    "team_abb": "HOU",
+    "field_goal_points": {
+      "three_pt": 3318.0,
+      "paint": 4590.0,
+      "mid_range": 592.0,
+      "total": 8500.0
+    },
+    "percentages": {
+      "three_pt_pct": 39.0,
+      "paint_pct": 54.0,
+      "mid_range_pct": 7.0
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Los Angeles Lakers": {
+    "team_name": "Los Angeles Lakers",
+    "team_abb": "SAS",
+    "field_goal_points": {
+      "three_pt": 3480.0,
+      "paint": 4116.0,
+      "mid_range": 622.0,
+      "total": 8218.0
+    },
+    "percentages": {
+      "three_pt_pct": 42.3,
+      "paint_pct": 50.1,
+      "mid_range_pct": 7.6
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Memphis Grizzlies": {
+    "team_name": "Memphis Grizzlies",
+    "team_abb": "GSW",
+    "field_goal_points": {
+      "three_pt": 3549.0,
+      "paint": 4768.0,
+      "mid_range": 494.0,
+      "total": 8811.0
+    },
+    "percentages": {
+      "three_pt_pct": 40.3,
+      "paint_pct": 54.1,
+      "mid_range_pct": 5.6
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Miami Heat": {
+    "team_name": "Miami Heat",
+    "team_abb": "DET",
+    "field_goal_points": {
+      "three_pt": 3537.0,
+      "paint": 4024.0,
+      "mid_range": 544.0,
+      "total": 8105.0
+    },
+    "percentages": {
+      "three_pt_pct": 43.6,
+      "paint_pct": 49.6,
+      "mid_range_pct": 6.7
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Milwaukee Bucks": {
+    "team_name": "Milwaukee Bucks",
+    "team_abb": "MIL",
+    "field_goal_points": {
+      "three_pt": 3699.0,
+      "paint": 3838.0,
+      "mid_range": 984.0,
+      "total": 8521.0
+    },
+    "percentages": {
+      "three_pt_pct": 43.4,
+      "paint_pct": 45.0,
+      "mid_range_pct": 11.5
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Minnesota Timberwolves": {
+    "team_name": "Minnesota Timberwolves",
+    "team_abb": "POR",
+    "field_goal_points": {
+      "three_pt": 4296.0,
+      "paint": 4594.0,
+      "mid_range": 454.0,
+      "total": 9344.0
+    },
+    "percentages": {
+      "three_pt_pct": 46.0,
+      "paint_pct": 49.2,
+      "mid_range_pct": 4.9
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "New Orleans Pelicans": {
+    "team_name": "New Orleans Pelicans",
+    "team_abb": "NOP",
+    "field_goal_points": {
+      "three_pt": 2958.0,
+      "paint": 4088.0,
+      "mid_range": 604.0,
+      "total": 7650.0
+    },
+    "percentages": {
+      "three_pt_pct": 38.7,
+      "paint_pct": 53.4,
+      "mid_range_pct": 7.9
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "New York Knicks": {
+    "team_name": "New York Knicks",
+    "team_abb": "PHI",
+    "field_goal_points": {
+      "three_pt": 3690.0,
+      "paint": 5156.0,
+      "mid_range": 908.0,
+      "total": 9754.0
+    },
+    "percentages": {
+      "three_pt_pct": 37.8,
+      "paint_pct": 52.9,
+      "mid_range_pct": 9.3
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Oklahoma City Thunder": {
+    "team_name": "Oklahoma City Thunder",
+    "team_abb": "OKC",
+    "field_goal_points": {
+      "three_pt": 4392.0,
+      "paint": 5312.0,
+      "mid_range": 966.0,
+      "total": 10670.0
+    },
+    "percentages": {
+      "three_pt_pct": 41.2,
+      "paint_pct": 49.8,
+      "mid_range_pct": 9.1
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Orlando Magic": {
+    "team_name": "Orlando Magic",
+    "team_abb": "ORL",
+    "field_goal_points": {
+      "three_pt": 2886.0,
+      "paint": 3960.0,
+      "mid_range": 732.0,
+      "total": 7578.0
+    },
+    "percentages": {
+      "three_pt_pct": 38.1,
+      "paint_pct": 52.3,
+      "mid_range_pct": 9.7
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Philadelphia 76ers": {
+    "team_name": "Philadelphia 76ers",
+    "team_abb": "PHI",
+    "field_goal_points": {
+      "three_pt": 3123.0,
+      "paint": 3840.0,
+      "mid_range": 586.0,
+      "total": 7549.0
+    },
+    "percentages": {
+      "three_pt_pct": 41.4,
+      "paint_pct": 50.9,
+      "mid_range_pct": 7.8
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Phoenix Suns": {
+    "team_name": "Phoenix Suns",
+    "team_abb": "UTA",
+    "field_goal_points": {
+      "three_pt": 3528.0,
+      "paint": 3462.0,
+      "mid_range": 948.0,
+      "total": 7938.0
+    },
+    "percentages": {
+      "three_pt_pct": 44.4,
+      "paint_pct": 43.6,
+      "mid_range_pct": 11.9
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Portland Trail Blazers": {
+    "team_name": "Portland Trail Blazers",
+    "team_abb": "POR",
+    "field_goal_points": {
+      "three_pt": 3171.0,
+      "paint": 4006.0,
+      "mid_range": 530.0,
+      "total": 7707.0
+    },
+    "percentages": {
+      "three_pt_pct": 41.1,
+      "paint_pct": 52.0,
+      "mid_range_pct": 6.9
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Sacramento Kings": {
+    "team_name": "Sacramento Kings",
+    "team_abb": "SAC",
+    "field_goal_points": {
+      "three_pt": 3096.0,
+      "paint": 3934.0,
+      "mid_range": 1060.0,
+      "total": 8090.0
+    },
+    "percentages": {
+      "three_pt_pct": 38.3,
+      "paint_pct": 48.6,
+      "mid_range_pct": 13.1
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "San Antonio Spurs": {
+    "team_name": "San Antonio Spurs",
+    "team_abb": "SAS",
+    "field_goal_points": {
+      "three_pt": 3474.0,
+      "paint": 3924.0,
+      "mid_range": 612.0,
+      "total": 8010.0
+    },
+    "percentages": {
+      "three_pt_pct": 43.4,
+      "paint_pct": 49.0,
+      "mid_range_pct": 7.6
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Toronto Raptors": {
+    "team_name": "Toronto Raptors",
+    "team_abb": "MIL",
+    "field_goal_points": {
+      "three_pt": 2907.0,
+      "paint": 4382.0,
+      "mid_range": 508.0,
+      "total": 7797.0
+    },
+    "percentages": {
+      "three_pt_pct": 37.3,
+      "paint_pct": 56.2,
+      "mid_range_pct": 6.5
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Utah Jazz": {
+    "team_name": "Utah Jazz",
+    "team_abb": "UTA",
+    "field_goal_points": {
+      "three_pt": 3432.0,
+      "paint": 3930.0,
+      "mid_range": 392.0,
+      "total": 7754.0
+    },
+    "percentages": {
+      "three_pt_pct": 44.3,
+      "paint_pct": 50.7,
+      "mid_range_pct": 5.1
+    },
+    "note": "Free throws not included yet - need additional API call"
+  },
+  "Washington Wizards": {
+    "team_name": "Washington Wizards",
+    "team_abb": "ATL",
+    "field_goal_points": {
+      "three_pt": 3225.0,
+      "paint": 3792.0,
+      "mid_range": 524.0,
+      "total": 7541.0
+    },
+    "percentages": {
+      "three_pt_pct": 42.8,
+      "paint_pct": 50.3,
+      "mid_range_pct": 6.9
+    },
+    "note": "Free throws not included yet - need additional API call"
+  }
+}

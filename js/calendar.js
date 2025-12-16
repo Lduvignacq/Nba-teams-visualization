@@ -93,7 +93,6 @@
     
     function drawCalendar() {
         const container = d3.select('#graph-cell-5');
-        container.selectAll('*').remove();
         
         if (!teamSchedule) {
             drawError('Pas de données pour cette équipe');
@@ -104,11 +103,13 @@
         const width = containerRect.width;
         const height = containerRect.height;
         
+        // Create new SVG with initial opacity 0 (will fade in)
         const svg = container.append('svg')
             .attr('width', '100%')
             .attr('height', '100%')
             .attr('viewBox', `0 0 ${width} ${height}`)
-            .style('display', 'block');
+            .style('display', 'block')
+            .style('opacity', 0);
         
         const margin = { top: 90, right: 20, bottom: 80, left: 20 };
         const calendarWidth = width - margin.left - margin.right;
@@ -155,15 +156,41 @@
                     currentMonth = monthInfo.month;
                     currentYear = monthInfo.year;
                     drawCalendar();
+                })
+                .on('mouseover', function() {
+                    if (currentSeasonMonthIndex !== idx) {
+                        d3.select(this).select('rect')
+                            .transition()
+                            .duration(200)
+                            .attr('fill', '#666')
+                            .attr('transform', 'translate(0, -2)');
+                    }
+                })
+                .on('mouseout', function() {
+                    if (currentSeasonMonthIndex !== idx) {
+                        d3.select(this).select('rect')
+                            .transition()
+                            .duration(200)
+                            .attr('fill', '#555')
+                            .attr('transform', 'translate(0, 0)');
+                    }
                 });
             
-            monthButton.append('rect')
+            const buttonRect = monthButton.append('rect')
                 .attr('width', buttonWidth)
                 .attr('height', buttonHeight)
                 .attr('rx', 3)
                 .attr('fill', currentSeasonMonthIndex === idx ? '#3498db' : '#555')
                 .attr('stroke', '#fff')
                 .attr('stroke-width', 1);
+            
+            // Add transition for active state
+            if (currentSeasonMonthIndex === idx) {
+                buttonRect
+                    .transition()
+                    .duration(300)
+                    .attr('fill', '#3498db');
+            }
             
             monthButton.append('text')
                 .attr('x', buttonWidth / 2)
@@ -243,7 +270,14 @@
             }
             
             const cellGroup = g.append('g')
-                .style('cursor', gameData ? 'pointer' : 'default');
+                .style('cursor', gameData ? 'pointer' : 'default')
+                .style('opacity', 0);
+            
+            // Animate cell appearance with staggered delay
+            cellGroup.transition()
+                .delay(i * 15) // Stagger animation: 15ms per cell
+                .duration(400)
+                .style('opacity', 1);
             
             cellGroup.append('rect')
                 .attr('x', x)
@@ -280,8 +314,17 @@
                 
                 // Tooltip on hover
                 cellGroup.on('mouseover', function(event) {
+                    // Scale up the cell on hover
+                    d3.select(this).select('rect')
+                        .transition()
+                        .duration(200)
+                        .attr('transform', `translate(${(cellSize - 2) * -0.05}, ${(cellSize - 2) * -0.05})`)
+                        .attr('width', (cellSize - 2) * 1.1)
+                        .attr('height', (cellSize - 2) * 1.1);
+                    
                     const tooltip = svg.append('g')
-                        .attr('class', 'calendar-tooltip');
+                        .attr('class', 'calendar-tooltip')
+                        .style('opacity', 0);
                     
                     const homeAway = gameData.home ? 'vs' : '@';
                     const tooltipText = [
@@ -312,9 +355,27 @@
                             .style('fill', '#fff')
                             .text(text);
                     });
+                    
+                    // Fade in tooltip
+                    tooltip.transition()
+                        .duration(200)
+                        .style('opacity', 1);
                 })
                 .on('mouseout', function() {
-                    svg.selectAll('.calendar-tooltip').remove();
+                    // Reset cell scale
+                    d3.select(this).select('rect')
+                        .transition()
+                        .duration(200)
+                        .attr('transform', 'translate(0, 0)')
+                        .attr('width', cellSize - 2)
+                        .attr('height', cellSize - 2);
+                    
+                    // Fade out and remove tooltip
+                    svg.selectAll('.calendar-tooltip')
+                        .transition()
+                        .duration(150)
+                        .style('opacity', 0)
+                        .remove();
                 });
             }
         }
@@ -327,7 +388,14 @@
         // Winning streak
         if (streaks.longestWinStreak.length > 0) {
             const winStreakGroup = svg.append('g')
-                .attr('transform', `translate(${margin.left + 20}, ${streaksY})`);
+                .attr('transform', `translate(${margin.left + 20}, ${streaksY})`)
+                .style('opacity', 0);
+            
+            // Animate streak appearance
+            winStreakGroup.transition()
+                .delay(600)
+                .duration(400)
+                .style('opacity', 1);
             
             winStreakGroup.append('rect')
                 .attr('width', 14)
@@ -366,7 +434,14 @@
         // Losing streak
         if (streaks.longestLoseStreak.length > 0) {
             const loseStreakGroup = svg.append('g')
-                .attr('transform', `translate(${width / 2 + 40}, ${streaksY})`);
+                .attr('transform', `translate(${width / 2 + 40}, ${streaksY})`)
+                .style('opacity', 0);
+            
+            // Animate streak appearance with slight delay after win streak
+            loseStreakGroup.transition()
+                .delay(650)
+                .duration(400)
+                .style('opacity', 1);
             
             loseStreakGroup.append('rect')
                 .attr('width', 14)
@@ -405,7 +480,14 @@
         // Legend
         const legendY = height - 22;
         const legendGroup = svg.append('g')
-            .attr('transform', `translate(${width / 2 - 150}, ${legendY})`);
+            .attr('transform', `translate(${width / 2 - 150}, ${legendY})`)
+            .style('opacity', 0);
+        
+        // Animate legend appearance
+        legendGroup.transition()
+            .delay(700)
+            .duration(400)
+            .style('opacity', 1);
         
         const legendData = [
             { label: 'Victoire', color: '#28a745' },
@@ -444,6 +526,11 @@
                 .style('fill', '#fff')
                 .text(`Ce mois: ${monthRecord.wins}-${monthRecord.losses}`);
         }
+        
+        // Fade in the new calendar
+        svg.transition()
+            .duration(400)
+            .style('opacity', 1);
     }
     
     function calculateMonthRecord() {
@@ -609,8 +696,21 @@
         currentTeam = teamAbb;
         
         if (allTeamSchedules && allTeamSchedules[teamAbb]) {
-            teamSchedule = processTeamSchedule(allTeamSchedules[teamAbb]);
-            drawCalendar();
+            const container = d3.select('#graph-cell-5');
+            
+            // Fade out current calendar
+            container.selectAll('svg')
+                .transition()
+                .duration(300)
+                .style('opacity', 0)
+                .on('end', function() {
+                    // Remove old calendar
+                    d3.select(this).remove();
+                    
+                    // Draw new calendar after fade out completes
+                    teamSchedule = processTeamSchedule(allTeamSchedules[teamAbb]);
+                    drawCalendar();
+                });
         } else if (allTeamSchedules) {
             console.error('[calendar] team not found:', teamAbb);
             drawError('Équipe non trouvée: ' + teamAbb);
