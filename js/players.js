@@ -489,7 +489,7 @@
                 .style('font-size', '16px')
                 .style('font-weight', 'bold')
                 .style('fill', '#fff')
-                .text('🏀 Playoff Bracket');
+                .text('Playoff');
             
             const roundSpacing = 80;
             const matchupHeight = 40;

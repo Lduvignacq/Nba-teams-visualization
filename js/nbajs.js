@@ -14,7 +14,9 @@ const ctx = {
     linePlot: false,
     crossSeriesTempExtent: [0, 0],
     season : "2024-25",
-    team: "ATL"
+    team: "ATL",
+    shotFilter: "all", // all, 3pt, paint, midrange
+    selectedPlayer: "all" // all or specific player name
 };
 const config = {
     margin: { top: 60, right: 60, bottom: 80, left: 80 },
@@ -92,6 +94,21 @@ function createCourt(svg, color) {
     .attr("x2", 30).attr("y2", 40)
     .attr("stroke", color).attr("stroke-width", 2);
 }
+function getShotType(d) {
+    const distance = +d.SHOT_DISTANCE || 0;
+    const locX = Math.abs(+d.LOC_X || 0);
+    const locY = +d.LOC_Y || 0;
+    
+    // 3-pointer: distance >= 22 feet (approximately)
+    if (distance >= 22) return "3pt";
+    
+    // Paint: within 8 feet from basket (inside the key)
+    if (distance <= 8) return "paint";
+    
+    // Mid-range: everything else
+    return "midrange";
+}
+
 async function drawShotChart(courtGroup, season, opts = {}, team = "ATL") {
     const path = `data/nba_api/shot_per_season/shot_chart_team_${season}.csv`;
     console.log("Loading shot data from:", path);
@@ -107,6 +124,20 @@ async function drawShotChart(courtGroup, season, opts = {}, team = "ATL") {
     if (team && team !== "All teams") {
         data = data.filter(d => d.TEAM_NAME === team);
     }
+    
+    // Store all players for filter
+    ctx.shotPlayers = Array.from(new Set(data.map(d => d.PLAYER_NAME))).sort();
+    
+    // Apply shot type filter
+    if (ctx.shotFilter !== "all") {
+        data = data.filter(d => getShotType(d) === ctx.shotFilter);
+    }
+    
+    // Apply player filter
+    if (ctx.selectedPlayer !== "all") {
+        data = data.filter(d => d.PLAYER_NAME === ctx.selectedPlayer);
+    }
+    
     console.log(`Loaded ${data.length} shots for season ${season}` + (team && team !== "All teams" ? ` and team ${team}` : ""));
     // remove previous points layer and create a new one
     courtGroup.selectAll(".shots-layer").remove();
@@ -166,7 +197,7 @@ function drawShotsPoints(g, data) {
         .delay((d, i) => i * 2)
         .attr("opacity", 0.6);
 }
-function drawShotsHex(g, data, width, height, { gridsize = 25, mincount = 1 } = {}) {
+function drawShotsHex(g, data, width, height, { gridsize = 25, mincount = 2 } = {}) {
     // remove previous layer
     g.selectAll(".hex-layer").remove();
 
@@ -406,24 +437,48 @@ async function createPassingChordInSvg(svgEl, csvPath, teamnameabbr, opts = {}) 
             return `${a} ↔ ${b}\nTotal: ${total}\n${a}→${b}: ${aToB} (${(aToB/total*100).toFixed(1)}%)\n${b}→${a}: ${bToA} (${(bToA/total*100).toFixed(1)}%)`;
         });
 
-    // --- Labels ---
+    // --- Labels with curved text ---
+    const labelRadius = outerRadius + 35;
+    
+    // Create paths for text to follow
+    const defs2 = gRoot.append("defs");
+    defs2.selectAll("path.label-path")
+        .data(chord.groups)
+        .join("path")
+        .attr("class", "label-path")
+        .attr("id", (d, i) => `label-path-${i}`)
+        .attr("d", d => {
+            const startAngle = d.startAngle;
+            const endAngle = d.endAngle;
+            const midAngle = (startAngle + endAngle) / 2;
+            
+            // Create a circular arc path
+            const x1 = Math.cos(startAngle - Math.PI / 2) * labelRadius;
+            const y1 = Math.sin(startAngle - Math.PI / 2) * labelRadius;
+            const x2 = Math.cos(endAngle - Math.PI / 2) * labelRadius;
+            const y2 = Math.sin(endAngle - Math.PI / 2) * labelRadius;
+            
+            const largeArc = (endAngle - startAngle) > Math.PI ? 1 : 0;
+            
+            return `M ${x1} ${y1} A ${labelRadius} ${labelRadius} 0 ${largeArc} 1 ${x2} ${y2}`;
+        });
+    
+    // Add text following the curves
     gRoot.append("g")
         .selectAll("text")
         .data(chord.groups)
         .join("text")
-        .attr("dy", "0.35em")
-        .attr("transform", d => {
-            const angle = (d.startAngle + d.endAngle) / 2;
-            const rotate = angle * 180 / Math.PI - 90;
-            const flip = angle > Math.PI ? "rotate(180)" : "";
-            return `rotate(${rotate}) translate(${outerRadius + 22}) ${flip}`;
-        })
-        .attr("text-anchor", d => {
-            const angle = (d.startAngle + d.endAngle) / 2;
-            return angle > Math.PI ? "end" : "start";
-        })
-        .text(d => players[d.index])
-        .style("font-size", "11px");
+        .style("font-size", "20px")
+        .style("font-weight", "500")
+        .style("fill", "#e0e0e0")
+        .style("letter-spacing", "0.5px")
+        .style("pointer-events", "none")
+        .append("textPath")
+        .attr("xlink:href", (d, i) => `#label-path-${i}`)
+        .attr("startOffset", "50%")
+        .attr("text-anchor", "middle")
+        .attr("dominant-baseline", "middle")
+        .text(d => players[d.index]);
 }
 
 function setupSeasonteamSelector(defaultSeason = "2024-25") {
@@ -502,7 +557,70 @@ function createViz() {
     
     // Create SVG for shot chart in its cell
     const shotCell = d3.select("#shot-chart-cell");
-    shotCell.selectAll("svg").remove(); // Clear any existing
+    shotCell.selectAll("*").remove(); // Clear everything including controls
+    
+    // Add filter controls inside the cell
+    const controlsDiv = shotCell.append("div")
+        .style("position", "absolute")
+        .style("top", "10px")
+        .style("left", "10px")
+        .style("z-index", "10")
+        .style("background", "rgba(0, 0, 0, 0.7)")
+        .style("padding", "8px 12px")
+        .style("border-radius", "8px")
+        .style("border", "1px solid rgba(102, 126, 234, 0.4)")
+        .style("box-shadow", "0 2px 8px rgba(0, 0, 0, 0.4)")
+        .style("display", "flex")
+        .style("flex-direction", "column")
+        .style("gap", "6px");
+    
+    // Shot type filter buttons
+    const shotTypeDiv = controlsDiv.append("div")
+        .style("display", "flex")
+        .style("gap", "4px")
+        .style("flex-wrap", "wrap");
+    
+    shotTypeDiv.append("label")
+        .style("color", "#fff")
+        .style("font-size", "11px")
+        .style("width", "100%")
+        .style("margin-bottom", "2px")
+        .text("Shot Type:");
+    
+    const shotTypes = [
+        { value: "all", label: "All" },
+        { value: "3pt", label: "3-Pointers" },
+        { value: "paint", label: "Paint" },
+        { value: "midrange", label: "Mid-Range" }
+    ];
+    
+    shotTypes.forEach(type => {
+        shotTypeDiv.append("button")
+            .text(type.label)
+            .style("padding", "4px 8px")
+            .style("font-size", "10px")
+            .style("border", "1px solid rgba(102, 126, 234, 0.5)")
+            .style("border-radius", "4px")
+            .style("cursor", "pointer")
+            .style("background", ctx.shotFilter === type.value ? "#667eea" : "rgba(255, 255, 255, 0.1)")
+            .style("color", "#fff")
+            .style("transition", "all 0.2s")
+            .on("click", function() {
+                ctx.shotFilter = type.value;
+                applyControls();
+            })
+            .on("mouseenter", function() {
+                if (ctx.shotFilter !== type.value) {
+                    d3.select(this).style("background", "rgba(102, 126, 234, 0.3)");
+                }
+            })
+            .on("mouseleave", function() {
+                if (ctx.shotFilter !== type.value) {
+                    d3.select(this).style("background", "rgba(255, 255, 255, 0.1)");
+                }
+            });
+    });
+    
     const shotSvg = shotCell.append("svg")
         .attr("width", "100%")
         .attr("height", "100%")
@@ -531,11 +649,11 @@ function createViz() {
 
     // draw points for season (change season string as needed)
     drawShotChart(courtGroup, ctx.season, {
-        mincount: ctx.hexMinCount || 10 }, ctx.team);
+        mincount: ctx.hexMinCount || 2 }, ctx.team);
      // draw passing chord inside the same SVG (uses separate reusable function)
     if (typeof createPassingChordInSvg === "function") {
         createPassingChordInSvg(ctx.passGroup, `data/nba_api/passing_data/team${ctx.season}.csv`, ctx.team, {
-            width: 800, height: 800, cx: 1*ctx.w / 2, cy: 250
+            width: 1000, height: 1000, cx: 1*ctx.w / 2, cy: 250
         });
     }
     // loadData(svgEl);
@@ -547,29 +665,60 @@ function applyControls() {
     const sel = d3.select("#season-select");
     const season = sel.empty() ? ctx.season : sel.node().value;
     const minInput = d3.select("#minbins");
-    const mincount = !minInput.empty() ? Math.max(0, parseInt(minInput.node().value) || 0) : (ctx.hexMinCount || 10);
+    const mincount = !minInput.empty() ? Math.max(0, parseInt(minInput.node().value) || 0) : (ctx.hexMinCount || 2);
     ctx.hexMinCount = mincount;
     team = ctx.team || "ATL";
-    console.log("Applying controls: season =", season, ", mincount =", mincount, ", team =", team);
+    console.log("Applying controls: season =", season, ", mincount =", mincount, ", team =", team, ", shotFilter =", ctx.shotFilter, ", player =", ctx.selectedPlayer);
     ctx.season = season;
     drawShotChart(ctx.courtGroup, ctx.season, {
-        mincount: ctx.hexMinCount || 10 }, ctx.team);
+        mincount: ctx.hexMinCount || 2 }, ctx.team).then(() => {
+        // Update player dropdown after data is loaded
+        updatePlayerFilterDropdown();
+        // Update button states
+        updateShotFilterButtons();
+    });
     // console.log(`data\\nba_api\\passing_data\\${ctx.season}\\team${ctx.season}.csv`)
     if (typeof createPassingChordInSvg === "function") {
         createPassingChordInSvg(ctx.passGroup, `data/nba_api/passing_data/team${ctx.season}.csv`, ctx.team, {
-            width: 800, height: 800, cx: 1*ctx.w / 2, cy: 250
+            width: 900, height: 800, cx: 1*ctx.w / 2, cy: 250
         });
     }
+}
+
+function updatePlayerFilterDropdown() {
+    const playerSelect = d3.select("#player-filter-select");
+    if (playerSelect.empty()) return;
+    
+    // Clear existing options except "All Players"
+    playerSelect.selectAll("option:not([value='all'])").remove();
+    
+    // Add player options
+    if (ctx.shotPlayers && ctx.shotPlayers.length > 0) {
+        playerSelect.selectAll("option.player-option")
+            .data(ctx.shotPlayers)
+            .join("option")
+            .attr("class", "player-option")
+            .attr("value", d => d)
+            .text(d => d);
     }
+    
+    // Set current selection
+    playerSelect.property("value", ctx.selectedPlayer);
+}
 
-// function loadData(svgEl) {
-//     // data source: https://www.kaggle.com/datasets/garrickhague/temp-data-of-prominent-us-CITY_NAMES-from-1948-to-2022
-//     d3.csv("data/US_City_Temp_Data.csv").then(function (data) {
-//         createStrips(transformData(data), svgEl);
-//     }).catch(function (error) { console.log(error) });
-// };
-
-/* ---- utilities ---- */
+function updateShotFilterButtons() {
+    const shotCell = d3.select("#shot-chart-cell");
+    shotCell.selectAll("button").each(function() {
+        const button = d3.select(this);
+        const text = button.text();
+        let value = "all";
+        if (text === "3-Pointers") value = "3pt";
+        else if (text === "Paint") value = "paint";
+        else if (text === "Mid-Range") value = "midrange";
+        
+        button.style("background", ctx.shotFilter === value ? "#667eea" : "rgba(255, 255, 255, 0.1)");
+    });
+}
 
 function formatCity(cityName) {
     let tokens = cityName.split("_");
@@ -612,6 +761,11 @@ window.setTeamSelection = function(teamName) {
         if (teamName && typeof teamName === 'string') {
             ctx.team = teamName;
             applyControls();
+            
+            // Highlight team on map
+            if (window.highlightTeamOnMap) {
+                window.highlightTeamOnMap(teamName);
+            }
             
             // Update scatter plot if available
             if (window.updateTeamStatsScatter) {

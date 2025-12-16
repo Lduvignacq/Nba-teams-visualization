@@ -42,6 +42,42 @@
       .style('opacity',0);
     const EAST_COLOR='#3a7bd5';
     const WEST_COLOR='#e94e77';
+    let selectedTeamAbb = null;
+    
+    // Function to highlight selected team
+    function highlightSelectedTeam(teamAbb) {
+      selectedTeamAbb = teamAbb;
+      
+      // Remove all highlights first
+      g.selectAll('.team .highlight-ring').attr('opacity', 0);
+      g.selectAll('.team .team-circle')
+        .attr('stroke', '#222')
+        .attr('stroke-width', 1);
+      g.selectAll('.team text')
+        .attr('fill', '#ddd')
+        .style('font-size', '11px');
+      
+      // Apply highlight to selected team
+      if (teamAbb) {
+        const selectedTeam = g.select(`.team-${teamAbb.toLowerCase()}`);
+        selectedTeam.select('.highlight-ring')
+          .transition().duration(300)
+          .attr('opacity', 0.9);
+        selectedTeam.select('.team-circle')
+          .transition().duration(300)
+          .attr('stroke', '#ffeb3b')
+          .attr('stroke-width', 2.5);
+        selectedTeam.select('text')
+          .transition().duration(300)
+          .attr('fill', '#ffeb3b')
+          .style('font-size', '13px')
+          .style('font-weight', '700');
+      }
+    }
+    
+    // Expose function for external updates
+    window.highlightTeamOnMap = highlightSelectedTeam;
+    
     const isFileProtocol = location.protocol==='file:';
     if (isFileProtocol){
       console.warn('[team-map] file:// detected. Use a local server for data loading.');
@@ -106,8 +142,23 @@
           tip.style('opacity',0);
           g.selectAll('image.hover-logo').remove();
         })
-        .on('click',(event,d)=>{const name = d.abb; if(window.setTeamSelection){window.setTeamSelection(name);}});
+        .on('click',(event,d)=>{
+          const name = d.abb;
+          if(window.setTeamSelection){window.setTeamSelection(name);}
+          highlightSelectedTeam(d.abb);
+        });
+      // Highlight ring (drawn first, under the circle)
       nodes.append('circle')
+        .attr('class', 'highlight-ring')
+        .attr('r', d=>{const r=+d.winrate||0; return d3.scaleLinear().domain([0,d3.max(winrates)||1]).range([4,16])(r) + 6;})
+        .attr('fill', 'none')
+        .attr('stroke', '#ffeb3b')
+        .attr('stroke-width', 3)
+        .attr('opacity', 0)
+        .style('filter', 'drop-shadow(0 0 8px #ffeb3b)');
+      
+      nodes.append('circle')
+        .attr('class', 'team-circle')
         .attr('r', d=>{const r=+d.winrate||0; return d3.scaleLinear().domain([0,d3.max(winrates)||1]).range([4,16])(r);})
         .attr('fill', d=> (d.EASTorWEST==='East'?EAST_COLOR:WEST_COLOR))
         .attr('opacity', d=> opacityScale(+d.winrate||0))
