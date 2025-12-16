@@ -686,6 +686,12 @@ function createViz() {
             width: 1000, height: 1000, cx: 1*ctx.w / 2, cy: 250
         });
     }
+    
+    // Initialize calendar visualization
+    if (typeof window.initCalendar === "function") {
+        window.initCalendar();
+    }
+    
     // loadData(svgEl);
     // tu peux decommenter si tu veux scaler le terrain
     // courtGroup.attr("transform", `translate(${ctx.w / 2},60) scale(0.5)`);
@@ -805,6 +811,11 @@ window.setTeamSelection = function(teamName) {
             // Update scatter plot if available
             if (window.updateTeamStatsScatter) {
                 window.updateTeamStatsScatter();
+            }
+            
+            // Update calendar if available
+            if (window.updateCalendarTeam) {
+                window.updateCalendarTeam(teamName);
             }
         }
     } catch (e) {

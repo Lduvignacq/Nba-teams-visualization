@@ -1,0 +1,2461 @@
+team,team_name,date,result,opponent,home,points
+ATL,Atlanta Hawks,2025-04-13,W,ORL,True,117
+ATL,Atlanta Hawks,2025-04-11,W,PHI,False,124
+ATL,Atlanta Hawks,2025-04-10,W,BKN,False,133
+ATL,Atlanta Hawks,2025-04-08,L,ORL,False,112
+ATL,Atlanta Hawks,2025-04-06,W,UTA,True,147
+ATL,Atlanta Hawks,2025-04-05,L,NYK,True,105
+ATL,Atlanta Hawks,2025-04-02,L,DAL,False,118
+ATL,Atlanta Hawks,2025-04-01,L,POR,True,113
+ATL,Atlanta Hawks,2025-03-30,W,MIL,False,145
+ATL,Atlanta Hawks,2025-03-27,L,MIA,False,112
+ATL,Atlanta Hawks,2025-03-25,L,HOU,False,114
+ATL,Atlanta Hawks,2025-03-23,W,PHI,True,132
+ATL,Atlanta Hawks,2025-03-22,W,GSW,True,124
+ATL,Atlanta Hawks,2025-03-18,W,CHA,False,134
+ATL,Atlanta Hawks,2025-03-16,L,BKN,False,114
+ATL,Atlanta Hawks,2025-03-14,L,LAC,True,98
+ATL,Atlanta Hawks,2025-03-12,W,CHA,True,123
+ATL,Atlanta Hawks,2025-03-10,W,PHI,True,132
+ATL,Atlanta Hawks,2025-03-08,W,IND,True,120
+ATL,Atlanta Hawks,2025-03-06,W,IND,True,124
+ATL,Atlanta Hawks,2025-03-04,L,MIL,True,121
+ATL,Atlanta Hawks,2025-03-03,W,MEM,False,132
+ATL,Atlanta Hawks,2025-02-28,L,OKC,True,119
+ATL,Atlanta Hawks,2025-02-26,L,MIA,False,109
+ATL,Atlanta Hawks,2025-02-24,W,MIA,True,98
+ATL,Atlanta Hawks,2025-02-23,L,DET,True,143
+ATL,Atlanta Hawks,2025-02-20,L,ORL,True,108
+ATL,Atlanta Hawks,2025-02-12,L,NYK,False,148
+ATL,Atlanta Hawks,2025-02-10,W,ORL,False,112
+ATL,Atlanta Hawks,2025-02-08,W,WAS,False,125
+ATL,Atlanta Hawks,2025-02-07,W,MIL,True,115
+ATL,Atlanta Hawks,2025-02-05,L,SAS,True,125
+ATL,Atlanta Hawks,2025-02-03,W,DET,False,132
+ATL,Atlanta Hawks,2025-02-01,L,IND,False,127
+ATL,Atlanta Hawks,2025-01-30,L,CLE,False,115
+ATL,Atlanta Hawks,2025-01-28,L,HOU,True,96
+ATL,Atlanta Hawks,2025-01-27,L,MIN,False,92
+ATL,Atlanta Hawks,2025-01-25,L,TOR,True,94
+ATL,Atlanta Hawks,2025-01-23,L,TOR,True,119
+ATL,Atlanta Hawks,2025-01-22,L,DET,True,104
+ATL,Atlanta Hawks,2025-01-20,L,NYK,False,110
+ATL,Atlanta Hawks,2025-01-18,W,BOS,False,119
+ATL,Atlanta Hawks,2025-01-15,W,CHI,False,110
+ATL,Atlanta Hawks,2025-01-14,W,PHX,True,122
+ATL,Atlanta Hawks,2025-01-09,L,PHX,False,115
+ATL,Atlanta Hawks,2025-01-07,W,UTA,False,124
+ATL,Atlanta Hawks,2025-01-04,L,LAC,False,105
+ATL,Atlanta Hawks,2025-01-03,L,LAL,False,102
+ATL,Atlanta Hawks,2025-01-01,L,DEN,False,120
+ATL,Atlanta Hawks,2024-12-29,W,TOR,False,136
+ATL,Atlanta Hawks,2024-12-28,W,MIA,True,120
+ATL,Atlanta Hawks,2024-12-26,W,CHI,True,141
+ATL,Atlanta Hawks,2024-12-23,W,MIN,True,117
+ATL,Atlanta Hawks,2024-12-21,L,MEM,True,112
+ATL,Atlanta Hawks,2024-12-19,L,SAS,False,126
+ATL,Atlanta Hawks,2024-12-14,L,MIL,False,102
+ATL,Atlanta Hawks,2024-12-11,W,NYK,False,108
+ATL,Atlanta Hawks,2024-12-08,L,DEN,True,111
+ATL,Atlanta Hawks,2024-12-06,W,LAL,True,134
+ATL,Atlanta Hawks,2024-12-04,W,MIL,False,119
+ATL,Atlanta Hawks,2024-12-02,W,NOP,True,124
+ATL,Atlanta Hawks,2024-11-30,W,CHA,False,107
+ATL,Atlanta Hawks,2024-11-29,W,CLE,True,117
+ATL,Atlanta Hawks,2024-11-27,W,CLE,False,135
+ATL,Atlanta Hawks,2024-11-25,L,DAL,True,119
+ATL,Atlanta Hawks,2024-11-22,L,CHI,False,122
+ATL,Atlanta Hawks,2024-11-20,L,GSW,False,97
+ATL,Atlanta Hawks,2024-11-18,W,SAC,False,109
+ATL,Atlanta Hawks,2024-11-17,L,POR,False,110
+ATL,Atlanta Hawks,2024-11-15,W,WAS,True,129
+ATL,Atlanta Hawks,2024-11-12,W,BOS,False,117
+ATL,Atlanta Hawks,2024-11-09,L,CHI,True,113
+ATL,Atlanta Hawks,2024-11-08,L,DET,False,121
+ATL,Atlanta Hawks,2024-11-06,W,NYK,True,121
+ATL,Atlanta Hawks,2024-11-04,L,BOS,True,93
+ATL,Atlanta Hawks,2024-11-03,W,NOP,False,126
+ATL,Atlanta Hawks,2024-11-01,L,SAC,True,115
+ATL,Atlanta Hawks,2024-10-30,L,WAS,False,120
+ATL,Atlanta Hawks,2024-10-28,L,WAS,True,119
+ATL,Atlanta Hawks,2024-10-27,L,OKC,False,104
+ATL,Atlanta Hawks,2024-10-25,W,CHA,True,125
+ATL,Atlanta Hawks,2024-10-23,W,BKN,True,120
+BOS,Boston Celtics,2025-04-13,W,CHA,True,93
+BOS,Boston Celtics,2025-04-11,W,CHA,True,130
+BOS,Boston Celtics,2025-04-09,L,ORL,False,76
+BOS,Boston Celtics,2025-04-08,W,NYK,False,119
+BOS,Boston Celtics,2025-04-06,W,WAS,True,124
+BOS,Boston Celtics,2025-04-04,W,PHX,True,123
+BOS,Boston Celtics,2025-04-02,L,MIA,True,103
+BOS,Boston Celtics,2025-03-31,W,MEM,False,117
+BOS,Boston Celtics,2025-03-29,W,SAS,False,121
+BOS,Boston Celtics,2025-03-26,W,PHX,False,132
+BOS,Boston Celtics,2025-03-24,W,SAC,False,113
+BOS,Boston Celtics,2025-03-23,W,POR,False,129
+BOS,Boston Celtics,2025-03-21,W,UTA,False,121
+BOS,Boston Celtics,2025-03-18,W,BKN,True,104
+BOS,Boston Celtics,2025-03-15,W,BKN,False,115
+BOS,Boston Celtics,2025-03-14,W,MIA,False,103
+BOS,Boston Celtics,2025-03-12,L,OKC,True,112
+BOS,Boston Celtics,2025-03-10,W,UTA,True,114
+BOS,Boston Celtics,2025-03-08,W,LAL,True,111
+BOS,Boston Celtics,2025-03-06,W,PHI,True,123
+BOS,Boston Celtics,2025-03-05,W,POR,True,128
+BOS,Boston Celtics,2025-03-02,W,DEN,True,110
+BOS,Boston Celtics,2025-02-28,L,CLE,True,116
+BOS,Boston Celtics,2025-02-26,L,DET,False,97
+BOS,Boston Celtics,2025-02-25,W,TOR,False,111
+BOS,Boston Celtics,2025-02-23,W,NYK,True,118
+BOS,Boston Celtics,2025-02-20,W,PHI,False,124
+BOS,Boston Celtics,2025-02-12,W,SAS,True,116
+BOS,Boston Celtics,2025-02-10,W,MIA,False,103
+BOS,Boston Celtics,2025-02-08,W,NYK,False,131
+BOS,Boston Celtics,2025-02-06,L,DAL,True,120
+BOS,Boston Celtics,2025-02-04,W,CLE,False,112
+BOS,Boston Celtics,2025-02-02,W,PHI,False,118
+BOS,Boston Celtics,2025-01-31,W,NOP,False,118
+BOS,Boston Celtics,2025-01-29,W,CHI,True,122
+BOS,Boston Celtics,2025-01-27,L,HOU,True,112
+BOS,Boston Celtics,2025-01-25,W,DAL,False,122
+BOS,Boston Celtics,2025-01-23,L,LAL,False,96
+BOS,Boston Celtics,2025-01-22,W,LAC,False,117
+BOS,Boston Celtics,2025-01-20,W,GSW,False,125
+BOS,Boston Celtics,2025-01-18,L,ATL,True,115
+BOS,Boston Celtics,2025-01-17,W,ORL,True,121
+BOS,Boston Celtics,2025-01-15,L,TOR,False,97
+BOS,Boston Celtics,2025-01-12,W,NOP,True,120
+BOS,Boston Celtics,2025-01-10,L,SAC,True,97
+BOS,Boston Celtics,2025-01-07,W,DEN,False,118
+BOS,Boston Celtics,2025-01-05,L,OKC,False,92
+BOS,Boston Celtics,2025-01-03,W,HOU,False,109
+BOS,Boston Celtics,2025-01-02,W,MIN,False,118
+BOS,Boston Celtics,2024-12-31,W,TOR,True,125
+BOS,Boston Celtics,2024-12-29,L,IND,True,114
+BOS,Boston Celtics,2024-12-27,W,IND,True,142
+BOS,Boston Celtics,2024-12-25,L,PHI,True,114
+BOS,Boston Celtics,2024-12-23,L,ORL,False,104
+BOS,Boston Celtics,2024-12-21,W,CHI,False,123
+BOS,Boston Celtics,2024-12-19,L,CHI,True,108
+BOS,Boston Celtics,2024-12-15,W,WAS,False,112
+BOS,Boston Celtics,2024-12-12,W,DET,True,123
+BOS,Boston Celtics,2024-12-07,L,MEM,True,121
+BOS,Boston Celtics,2024-12-06,W,MIL,True,111
+BOS,Boston Celtics,2024-12-04,W,DET,True,130
+BOS,Boston Celtics,2024-12-02,W,MIA,True,108
+BOS,Boston Celtics,2024-12-01,L,CLE,False,111
+BOS,Boston Celtics,2024-11-29,W,CHI,False,138
+BOS,Boston Celtics,2024-11-25,W,LAC,True,126
+BOS,Boston Celtics,2024-11-24,W,MIN,True,107
+BOS,Boston Celtics,2024-11-22,W,WAS,False,108
+BOS,Boston Celtics,2024-11-19,W,CLE,True,120
+BOS,Boston Celtics,2024-11-16,W,TOR,True,126
+BOS,Boston Celtics,2024-11-13,W,BKN,False,139
+BOS,Boston Celtics,2024-11-12,L,ATL,True,116
+BOS,Boston Celtics,2024-11-10,W,MIL,False,113
+BOS,Boston Celtics,2024-11-08,W,BKN,True,108
+BOS,Boston Celtics,2024-11-06,L,GSW,True,112
+BOS,Boston Celtics,2024-11-04,W,ATL,False,123
+BOS,Boston Celtics,2024-11-02,W,CHA,False,113
+BOS,Boston Celtics,2024-11-01,W,CHA,False,124
+BOS,Boston Celtics,2024-10-30,L,IND,False,132
+BOS,Boston Celtics,2024-10-28,W,MIL,True,119
+BOS,Boston Celtics,2024-10-26,W,DET,False,124
+BOS,Boston Celtics,2024-10-24,W,WAS,False,122
+BOS,Boston Celtics,2024-10-22,W,NYK,True,132
+CLE,Cleveland Cavaliers,2025-04-13,L,IND,True,118
+CLE,Cleveland Cavaliers,2025-04-11,W,NYK,False,108
+CLE,Cleveland Cavaliers,2025-04-10,L,IND,False,112
+CLE,Cleveland Cavaliers,2025-04-08,W,CHI,True,135
+CLE,Cleveland Cavaliers,2025-04-06,L,SAC,True,113
+CLE,Cleveland Cavaliers,2025-04-04,W,SAS,False,114
+CLE,Cleveland Cavaliers,2025-04-02,W,NYK,True,124
+CLE,Cleveland Cavaliers,2025-03-30,W,LAC,True,127
+CLE,Cleveland Cavaliers,2025-03-28,L,DET,False,122
+CLE,Cleveland Cavaliers,2025-03-27,W,SAS,True,124
+CLE,Cleveland Cavaliers,2025-03-25,W,POR,False,122
+CLE,Cleveland Cavaliers,2025-03-23,W,UTA,False,120
+CLE,Cleveland Cavaliers,2025-03-21,L,PHX,False,112
+CLE,Cleveland Cavaliers,2025-03-19,L,SAC,False,119
+CLE,Cleveland Cavaliers,2025-03-18,L,LAC,False,119
+CLE,Cleveland Cavaliers,2025-03-16,L,ORL,True,103
+CLE,Cleveland Cavaliers,2025-03-14,W,MEM,False,133
+CLE,Cleveland Cavaliers,2025-03-11,W,BKN,True,109
+CLE,Cleveland Cavaliers,2025-03-09,W,MIL,False,112
+CLE,Cleveland Cavaliers,2025-03-07,W,CHA,False,118
+CLE,Cleveland Cavaliers,2025-03-05,W,MIA,True,112
+CLE,Cleveland Cavaliers,2025-03-04,W,CHI,False,139
+CLE,Cleveland Cavaliers,2025-03-02,W,POR,True,133
+CLE,Cleveland Cavaliers,2025-02-28,W,BOS,False,123
+CLE,Cleveland Cavaliers,2025-02-25,W,ORL,False,122
+CLE,Cleveland Cavaliers,2025-02-23,W,MEM,True,129
+CLE,Cleveland Cavaliers,2025-02-21,W,NYK,True,142
+CLE,Cleveland Cavaliers,2025-02-20,W,BKN,False,110
+CLE,Cleveland Cavaliers,2025-02-12,W,TOR,False,131
+CLE,Cleveland Cavaliers,2025-02-10,W,MIN,True,128
+CLE,Cleveland Cavaliers,2025-02-07,W,WAS,False,134
+CLE,Cleveland Cavaliers,2025-02-05,W,DET,False,118
+CLE,Cleveland Cavaliers,2025-02-04,L,BOS,True,105
+CLE,Cleveland Cavaliers,2025-02-02,W,DAL,True,144
+CLE,Cleveland Cavaliers,2025-01-30,W,ATL,True,137
+CLE,Cleveland Cavaliers,2025-01-29,W,MIA,False,126
+CLE,Cleveland Cavaliers,2025-01-27,W,DET,True,110
+CLE,Cleveland Cavaliers,2025-01-25,L,HOU,True,131
+CLE,Cleveland Cavaliers,2025-01-24,L,PHI,False,129
+CLE,Cleveland Cavaliers,2025-01-22,L,HOU,False,108
+CLE,Cleveland Cavaliers,2025-01-20,W,PHX,True,118
+CLE,Cleveland Cavaliers,2025-01-18,W,MIN,False,124
+CLE,Cleveland Cavaliers,2025-01-16,L,OKC,False,114
+CLE,Cleveland Cavaliers,2025-01-14,W,IND,False,127
+CLE,Cleveland Cavaliers,2025-01-12,L,IND,True,93
+CLE,Cleveland Cavaliers,2025-01-09,W,TOR,True,132
+CLE,Cleveland Cavaliers,2025-01-08,W,OKC,True,129
+CLE,Cleveland Cavaliers,2025-01-05,W,CHA,True,115
+CLE,Cleveland Cavaliers,2025-01-03,W,DAL,False,134
+CLE,Cleveland Cavaliers,2024-12-31,W,LAL,False,122
+CLE,Cleveland Cavaliers,2024-12-30,W,GSW,False,113
+CLE,Cleveland Cavaliers,2024-12-27,W,DEN,False,149
+CLE,Cleveland Cavaliers,2024-12-23,W,UTA,True,124
+CLE,Cleveland Cavaliers,2024-12-21,W,PHI,True,126
+CLE,Cleveland Cavaliers,2024-12-20,W,MIL,True,124
+CLE,Cleveland Cavaliers,2024-12-16,W,BKN,False,130
+CLE,Cleveland Cavaliers,2024-12-13,W,WAS,True,115
+CLE,Cleveland Cavaliers,2024-12-08,L,MIA,False,113
+CLE,Cleveland Cavaliers,2024-12-07,W,CHA,False,116
+CLE,Cleveland Cavaliers,2024-12-05,W,DEN,True,126
+CLE,Cleveland Cavaliers,2024-12-03,W,WAS,True,118
+CLE,Cleveland Cavaliers,2024-12-01,W,BOS,True,115
+CLE,Cleveland Cavaliers,2024-11-29,L,ATL,False,101
+CLE,Cleveland Cavaliers,2024-11-27,L,ATL,True,124
+CLE,Cleveland Cavaliers,2024-11-24,W,TOR,True,122
+CLE,Cleveland Cavaliers,2024-11-20,W,NOP,True,128
+CLE,Cleveland Cavaliers,2024-11-19,L,BOS,False,117
+CLE,Cleveland Cavaliers,2024-11-17,W,CHA,True,128
+CLE,Cleveland Cavaliers,2024-11-15,W,CHI,True,144
+CLE,Cleveland Cavaliers,2024-11-13,W,PHI,False,114
+CLE,Cleveland Cavaliers,2024-11-11,W,CHI,False,119
+CLE,Cleveland Cavaliers,2024-11-09,W,BKN,True,105
+CLE,Cleveland Cavaliers,2024-11-08,W,GSW,True,136
+CLE,Cleveland Cavaliers,2024-11-06,W,NOP,False,131
+CLE,Cleveland Cavaliers,2024-11-04,W,MIL,True,116
+CLE,Cleveland Cavaliers,2024-11-02,W,MIL,False,114
+CLE,Cleveland Cavaliers,2024-11-01,W,ORL,True,120
+CLE,Cleveland Cavaliers,2024-10-30,W,LAL,True,134
+CLE,Cleveland Cavaliers,2024-10-28,W,NYK,False,110
+CLE,Cleveland Cavaliers,2024-10-26,W,WAS,False,135
+CLE,Cleveland Cavaliers,2024-10-25,W,DET,True,113
+CLE,Cleveland Cavaliers,2024-10-23,W,TOR,False,136
+NOP,New Orleans Pelicans,2025-04-13,L,OKC,True,100
+NOP,New Orleans Pelicans,2025-04-11,L,MIA,True,104
+NOP,New Orleans Pelicans,2025-04-10,L,MIL,False,111
+NOP,New Orleans Pelicans,2025-04-08,L,BKN,False,114
+NOP,New Orleans Pelicans,2025-04-06,L,MIL,True,107
+NOP,New Orleans Pelicans,2025-04-04,L,LAL,False,108
+NOP,New Orleans Pelicans,2025-04-02,L,LAC,False,98
+NOP,New Orleans Pelicans,2025-03-30,W,CHA,True,98
+NOP,New Orleans Pelicans,2025-03-28,L,GSW,True,95
+NOP,New Orleans Pelicans,2025-03-24,W,PHI,True,112
+NOP,New Orleans Pelicans,2025-03-23,L,DET,False,130
+NOP,New Orleans Pelicans,2025-03-21,L,MIN,False,93
+NOP,New Orleans Pelicans,2025-03-19,W,MIN,False,119
+NOP,New Orleans Pelicans,2025-03-17,L,DET,True,81
+NOP,New Orleans Pelicans,2025-03-15,L,SAS,False,115
+NOP,New Orleans Pelicans,2025-03-13,L,ORL,True,93
+NOP,New Orleans Pelicans,2025-03-11,W,LAC,True,127
+NOP,New Orleans Pelicans,2025-03-09,L,MEM,True,104
+NOP,New Orleans Pelicans,2025-03-08,L,HOU,False,117
+NOP,New Orleans Pelicans,2025-03-06,L,HOU,True,97
+NOP,New Orleans Pelicans,2025-03-04,L,LAL,False,115
+NOP,New Orleans Pelicans,2025-03-02,W,UTA,False,128
+NOP,New Orleans Pelicans,2025-02-28,L,PHX,False,108
+NOP,New Orleans Pelicans,2025-02-27,W,PHX,False,124
+NOP,New Orleans Pelicans,2025-02-25,W,SAS,True,109
+NOP,New Orleans Pelicans,2025-02-23,W,SAS,True,114
+NOP,New Orleans Pelicans,2025-02-21,L,DAL,False,103
+NOP,New Orleans Pelicans,2025-02-13,W,SAC,True,140
+NOP,New Orleans Pelicans,2025-02-12,L,SAC,True,111
+NOP,New Orleans Pelicans,2025-02-10,L,OKC,False,101
+NOP,New Orleans Pelicans,2025-02-08,L,SAC,False,118
+NOP,New Orleans Pelicans,2025-02-05,L,DEN,False,119
+NOP,New Orleans Pelicans,2025-02-03,L,DEN,False,113
+NOP,New Orleans Pelicans,2025-01-31,L,BOS,True,116
+NOP,New Orleans Pelicans,2025-01-29,L,DAL,True,136
+NOP,New Orleans Pelicans,2025-01-27,L,TOR,False,104
+NOP,New Orleans Pelicans,2025-01-25,L,CHA,False,92
+NOP,New Orleans Pelicans,2025-01-24,L,MEM,False,126
+NOP,New Orleans Pelicans,2025-01-20,W,UTA,True,123
+NOP,New Orleans Pelicans,2025-01-17,W,UTA,True,136
+NOP,New Orleans Pelicans,2025-01-15,W,DAL,True,119
+NOP,New Orleans Pelicans,2025-01-14,W,CHI,False,119
+NOP,New Orleans Pelicans,2025-01-12,L,BOS,False,119
+NOP,New Orleans Pelicans,2025-01-10,W,PHI,False,123
+NOP,New Orleans Pelicans,2025-01-08,L,POR,True,100
+NOP,New Orleans Pelicans,2025-01-07,L,MIN,True,97
+NOP,New Orleans Pelicans,2025-01-05,W,WAS,False,110
+NOP,New Orleans Pelicans,2025-01-03,W,WAS,True,132
+NOP,New Orleans Pelicans,2025-01-01,L,MIA,False,108
+NOP,New Orleans Pelicans,2024-12-30,L,LAC,True,113
+NOP,New Orleans Pelicans,2024-12-27,L,MEM,True,124
+NOP,New Orleans Pelicans,2024-12-26,L,HOU,True,111
+NOP,New Orleans Pelicans,2024-12-22,L,DEN,True,129
+NOP,New Orleans Pelicans,2024-12-21,L,NYK,True,93
+NOP,New Orleans Pelicans,2024-12-19,L,HOU,False,113
+NOP,New Orleans Pelicans,2024-12-15,L,IND,False,104
+NOP,New Orleans Pelicans,2024-12-12,L,SAC,True,109
+NOP,New Orleans Pelicans,2024-12-08,L,SAS,False,116
+NOP,New Orleans Pelicans,2024-12-07,L,OKC,True,109
+NOP,New Orleans Pelicans,2024-12-05,W,PHX,True,126
+NOP,New Orleans Pelicans,2024-12-02,L,ATL,False,112
+NOP,New Orleans Pelicans,2024-12-01,L,NYK,False,85
+NOP,New Orleans Pelicans,2024-11-29,L,MEM,False,109
+NOP,New Orleans Pelicans,2024-11-27,L,TOR,True,93
+NOP,New Orleans Pelicans,2024-11-25,L,IND,False,110
+NOP,New Orleans Pelicans,2024-11-22,L,GSW,True,108
+NOP,New Orleans Pelicans,2024-11-20,L,CLE,False,100
+NOP,New Orleans Pelicans,2024-11-19,L,DAL,False,91
+NOP,New Orleans Pelicans,2024-11-16,L,LAL,True,99
+NOP,New Orleans Pelicans,2024-11-15,W,DEN,True,101
+NOP,New Orleans Pelicans,2024-11-13,L,OKC,False,88
+NOP,New Orleans Pelicans,2024-11-11,L,BKN,True,105
+NOP,New Orleans Pelicans,2024-11-08,L,ORL,False,88
+NOP,New Orleans Pelicans,2024-11-06,L,CLE,True,122
+NOP,New Orleans Pelicans,2024-11-04,L,POR,True,100
+NOP,New Orleans Pelicans,2024-11-03,L,ATL,True,111
+NOP,New Orleans Pelicans,2024-11-01,W,IND,True,125
+NOP,New Orleans Pelicans,2024-10-30,L,GSW,False,89
+NOP,New Orleans Pelicans,2024-10-29,L,GSW,False,106
+NOP,New Orleans Pelicans,2024-10-27,L,POR,False,103
+NOP,New Orleans Pelicans,2024-10-25,W,POR,False,105
+NOP,New Orleans Pelicans,2024-10-23,W,CHI,True,123
+CHI,Chicago Bulls,2025-04-13,W,PHI,False,122
+CHI,Chicago Bulls,2025-04-11,W,WAS,True,119
+CHI,Chicago Bulls,2025-04-09,W,MIA,True,119
+CHI,Chicago Bulls,2025-04-08,L,CLE,False,113
+CHI,Chicago Bulls,2025-04-06,W,CHA,False,131
+CHI,Chicago Bulls,2025-04-04,W,POR,True,118
+CHI,Chicago Bulls,2025-04-01,W,TOR,True,137
+CHI,Chicago Bulls,2025-03-31,L,OKC,False,117
+CHI,Chicago Bulls,2025-03-29,L,DAL,True,119
+CHI,Chicago Bulls,2025-03-27,W,LAL,True,119
+CHI,Chicago Bulls,2025-03-24,W,DEN,False,129
+CHI,Chicago Bulls,2025-03-22,W,LAL,False,146
+CHI,Chicago Bulls,2025-03-20,W,SAC,False,128
+CHI,Chicago Bulls,2025-03-19,L,PHX,False,121
+CHI,Chicago Bulls,2025-03-17,W,UTA,False,111
+CHI,Chicago Bulls,2025-03-15,L,HOU,False,114
+CHI,Chicago Bulls,2025-03-13,W,BKN,True,116
+CHI,Chicago Bulls,2025-03-10,W,IND,True,121
+CHI,Chicago Bulls,2025-03-08,W,MIA,False,114
+CHI,Chicago Bulls,2025-03-06,W,ORL,False,125
+CHI,Chicago Bulls,2025-03-04,L,CLE,True,117
+CHI,Chicago Bulls,2025-03-02,L,IND,False,112
+CHI,Chicago Bulls,2025-02-28,W,TOR,True,125
+CHI,Chicago Bulls,2025-02-26,L,LAC,True,117
+CHI,Chicago Bulls,2025-02-24,W,PHI,False,142
+CHI,Chicago Bulls,2025-02-22,L,PHX,True,117
+CHI,Chicago Bulls,2025-02-20,L,NYK,False,111
+CHI,Chicago Bulls,2025-02-12,L,DET,True,110
+CHI,Chicago Bulls,2025-02-11,L,DET,True,92
+CHI,Chicago Bulls,2025-02-08,L,GSW,True,111
+CHI,Chicago Bulls,2025-02-05,L,MIN,False,108
+CHI,Chicago Bulls,2025-02-04,W,MIA,True,133
+CHI,Chicago Bulls,2025-02-02,L,DET,False,119
+CHI,Chicago Bulls,2025-01-31,W,TOR,False,122
+CHI,Chicago Bulls,2025-01-29,L,BOS,False,100
+CHI,Chicago Bulls,2025-01-27,W,DEN,True,129
+CHI,Chicago Bulls,2025-01-25,L,PHI,True,97
+CHI,Chicago Bulls,2025-01-23,L,GSW,False,106
+CHI,Chicago Bulls,2025-01-20,W,LAC,False,112
+CHI,Chicago Bulls,2025-01-19,L,POR,False,102
+CHI,Chicago Bulls,2025-01-17,L,CHA,True,123
+CHI,Chicago Bulls,2025-01-15,L,ATL,True,94
+CHI,Chicago Bulls,2025-01-14,L,NOP,True,113
+CHI,Chicago Bulls,2025-01-12,L,SAC,True,119
+CHI,Chicago Bulls,2025-01-10,W,WAS,True,138
+CHI,Chicago Bulls,2025-01-08,L,IND,False,113
+CHI,Chicago Bulls,2025-01-06,W,SAS,True,114
+CHI,Chicago Bulls,2025-01-04,W,NYK,True,139
+CHI,Chicago Bulls,2025-01-01,L,WAS,False,107
+CHI,Chicago Bulls,2024-12-30,W,CHA,False,115
+CHI,Chicago Bulls,2024-12-28,W,MIL,True,116
+CHI,Chicago Bulls,2024-12-26,L,ATL,False,133
+CHI,Chicago Bulls,2024-12-23,L,MIL,True,91
+CHI,Chicago Bulls,2024-12-21,L,BOS,True,98
+CHI,Chicago Bulls,2024-12-19,W,BOS,False,117
+CHI,Chicago Bulls,2024-12-16,W,TOR,False,122
+CHI,Chicago Bulls,2024-12-13,W,CHA,True,109
+CHI,Chicago Bulls,2024-12-08,L,PHI,True,100
+CHI,Chicago Bulls,2024-12-06,L,IND,True,123
+CHI,Chicago Bulls,2024-12-05,W,SAS,False,139
+CHI,Chicago Bulls,2024-12-02,W,BKN,True,128
+CHI,Chicago Bulls,2024-11-29,L,BOS,True,129
+CHI,Chicago Bulls,2024-11-27,L,ORL,False,119
+CHI,Chicago Bulls,2024-11-26,W,WAS,False,127
+CHI,Chicago Bulls,2024-11-23,L,MEM,True,131
+CHI,Chicago Bulls,2024-11-22,W,ATL,True,136
+CHI,Chicago Bulls,2024-11-20,L,MIL,False,106
+CHI,Chicago Bulls,2024-11-18,W,DET,False,122
+CHI,Chicago Bulls,2024-11-17,L,HOU,True,107
+CHI,Chicago Bulls,2024-11-15,L,CLE,False,126
+CHI,Chicago Bulls,2024-11-13,W,NYK,False,124
+CHI,Chicago Bulls,2024-11-11,L,CLE,True,113
+CHI,Chicago Bulls,2024-11-09,W,ATL,False,125
+CHI,Chicago Bulls,2024-11-07,L,MIN,True,119
+CHI,Chicago Bulls,2024-11-06,L,DAL,False,99
+CHI,Chicago Bulls,2024-11-04,L,UTA,True,126
+CHI,Chicago Bulls,2024-11-01,L,BKN,False,112
+CHI,Chicago Bulls,2024-10-30,W,ORL,True,102
+CHI,Chicago Bulls,2024-10-28,W,MEM,False,126
+CHI,Chicago Bulls,2024-10-26,L,OKC,True,95
+CHI,Chicago Bulls,2024-10-25,W,MIL,False,133
+CHI,Chicago Bulls,2024-10-23,L,NOP,False,111
+DAL,Dallas Mavericks,2025-04-13,L,MEM,False,97
+DAL,Dallas Mavericks,2025-04-11,W,TOR,True,124
+DAL,Dallas Mavericks,2025-04-09,L,LAL,True,97
+DAL,Dallas Mavericks,2025-04-05,L,LAC,False,104
+DAL,Dallas Mavericks,2025-04-04,L,LAC,False,91
+DAL,Dallas Mavericks,2025-04-02,W,ATL,True,120
+DAL,Dallas Mavericks,2025-03-31,L,BKN,True,109
+DAL,Dallas Mavericks,2025-03-29,W,CHI,False,120
+DAL,Dallas Mavericks,2025-03-27,W,ORL,False,101
+DAL,Dallas Mavericks,2025-03-25,L,NYK,False,113
+DAL,Dallas Mavericks,2025-03-24,W,BKN,False,120
+DAL,Dallas Mavericks,2025-03-21,W,DET,True,123
+DAL,Dallas Mavericks,2025-03-19,L,IND,False,131
+DAL,Dallas Mavericks,2025-03-16,L,PHI,True,125
+DAL,Dallas Mavericks,2025-03-14,L,HOU,False,96
+DAL,Dallas Mavericks,2025-03-12,L,SAS,False,116
+DAL,Dallas Mavericks,2025-03-10,W,SAS,False,133
+DAL,Dallas Mavericks,2025-03-09,L,PHX,True,116
+DAL,Dallas Mavericks,2025-03-07,L,MEM,True,111
+DAL,Dallas Mavericks,2025-03-05,L,MIL,False,107
+DAL,Dallas Mavericks,2025-03-03,L,SAC,True,98
+DAL,Dallas Mavericks,2025-03-01,L,MIL,True,117
+DAL,Dallas Mavericks,2025-02-27,W,CHA,True,103
+DAL,Dallas Mavericks,2025-02-25,L,LAL,False,99
+DAL,Dallas Mavericks,2025-02-23,L,GSW,False,102
+DAL,Dallas Mavericks,2025-02-21,W,NOP,True,111
+DAL,Dallas Mavericks,2025-02-13,W,MIA,True,118
+DAL,Dallas Mavericks,2025-02-12,W,GSW,True,111
+DAL,Dallas Mavericks,2025-02-10,L,SAC,True,128
+DAL,Dallas Mavericks,2025-02-08,W,HOU,True,116
+DAL,Dallas Mavericks,2025-02-06,W,BOS,False,127
+DAL,Dallas Mavericks,2025-02-04,L,PHI,False,116
+DAL,Dallas Mavericks,2025-02-02,L,CLE,False,101
+DAL,Dallas Mavericks,2025-01-31,L,DET,False,102
+DAL,Dallas Mavericks,2025-01-29,W,NOP,False,137
+DAL,Dallas Mavericks,2025-01-27,W,WAS,True,130
+DAL,Dallas Mavericks,2025-01-25,L,BOS,True,107
+DAL,Dallas Mavericks,2025-01-23,W,OKC,False,121
+DAL,Dallas Mavericks,2025-01-22,L,MIN,True,114
+DAL,Dallas Mavericks,2025-01-20,L,CHA,False,105
+DAL,Dallas Mavericks,2025-01-17,W,OKC,True,106
+DAL,Dallas Mavericks,2025-01-15,L,NOP,False,116
+DAL,Dallas Mavericks,2025-01-14,L,DEN,True,99
+DAL,Dallas Mavericks,2025-01-12,L,DEN,True,101
+DAL,Dallas Mavericks,2025-01-09,W,POR,True,117
+DAL,Dallas Mavericks,2025-01-07,W,LAL,True,118
+DAL,Dallas Mavericks,2025-01-06,L,MEM,False,104
+DAL,Dallas Mavericks,2025-01-03,L,CLE,True,122
+DAL,Dallas Mavericks,2025-01-01,L,HOU,False,99
+DAL,Dallas Mavericks,2024-12-30,L,SAC,False,100
+DAL,Dallas Mavericks,2024-12-28,L,POR,False,122
+DAL,Dallas Mavericks,2024-12-27,W,PHX,False,98
+DAL,Dallas Mavericks,2024-12-25,L,MIN,True,99
+DAL,Dallas Mavericks,2024-12-23,W,POR,True,132
+DAL,Dallas Mavericks,2024-12-21,W,LAC,True,113
+DAL,Dallas Mavericks,2024-12-19,L,LAC,True,95
+DAL,Dallas Mavericks,2024-12-15,W,GSW,False,143
+DAL,Dallas Mavericks,2024-12-10,L,OKC,False,104
+DAL,Dallas Mavericks,2024-12-07,W,TOR,False,125
+DAL,Dallas Mavericks,2024-12-05,W,WAS,False,137
+DAL,Dallas Mavericks,2024-12-03,W,MEM,True,121
+DAL,Dallas Mavericks,2024-12-01,W,POR,False,137
+DAL,Dallas Mavericks,2024-11-30,W,UTA,False,106
+DAL,Dallas Mavericks,2024-11-27,W,NYK,True,129
+DAL,Dallas Mavericks,2024-11-25,W,ATL,False,129
+DAL,Dallas Mavericks,2024-11-24,L,MIA,False,118
+DAL,Dallas Mavericks,2024-11-22,W,DEN,False,123
+DAL,Dallas Mavericks,2024-11-19,W,NOP,True,132
+DAL,Dallas Mavericks,2024-11-17,W,OKC,False,121
+DAL,Dallas Mavericks,2024-11-16,W,SAS,True,110
+DAL,Dallas Mavericks,2024-11-14,L,UTA,False,113
+DAL,Dallas Mavericks,2024-11-12,L,GSW,False,117
+DAL,Dallas Mavericks,2024-11-10,L,DEN,False,120
+DAL,Dallas Mavericks,2024-11-08,L,PHX,True,113
+DAL,Dallas Mavericks,2024-11-06,W,CHI,True,119
+DAL,Dallas Mavericks,2024-11-04,L,IND,True,127
+DAL,Dallas Mavericks,2024-11-03,W,ORL,True,108
+DAL,Dallas Mavericks,2024-10-31,L,HOU,True,102
+DAL,Dallas Mavericks,2024-10-29,W,MIN,False,120
+DAL,Dallas Mavericks,2024-10-28,W,UTA,True,110
+DAL,Dallas Mavericks,2024-10-26,L,PHX,False,102
+DAL,Dallas Mavericks,2024-10-24,W,SAS,True,120
+DEN,Denver Nuggets,2025-04-13,W,HOU,False,126
+DEN,Denver Nuggets,2025-04-11,W,MEM,True,117
+DEN,Denver Nuggets,2025-04-09,W,SAC,False,124
+DEN,Denver Nuggets,2025-04-06,L,IND,True,120
+DEN,Denver Nuggets,2025-04-04,L,GSW,False,104
+DEN,Denver Nuggets,2025-04-02,L,SAS,True,106
+DEN,Denver Nuggets,2025-04-01,L,MIN,True,139
+DEN,Denver Nuggets,2025-03-28,W,UTA,True,129
+DEN,Denver Nuggets,2025-03-26,W,MIL,True,127
+DEN,Denver Nuggets,2025-03-24,L,CHI,True,119
+DEN,Denver Nuggets,2025-03-23,W,HOU,False,116
+DEN,Denver Nuggets,2025-03-21,L,POR,False,109
+DEN,Denver Nuggets,2025-03-19,L,LAL,False,108
+DEN,Denver Nuggets,2025-03-17,W,GSW,False,114
+DEN,Denver Nuggets,2025-03-15,L,WAS,True,123
+DEN,Denver Nuggets,2025-03-14,W,LAL,True,131
+DEN,Denver Nuggets,2025-03-12,L,MIN,True,95
+DEN,Denver Nuggets,2025-03-10,W,OKC,False,140
+DEN,Denver Nuggets,2025-03-09,L,OKC,False,103
+DEN,Denver Nuggets,2025-03-07,W,PHX,True,149
+DEN,Denver Nuggets,2025-03-05,W,SAC,True,116
+DEN,Denver Nuggets,2025-03-02,L,BOS,False,103
+DEN,Denver Nuggets,2025-02-28,W,DET,False,134
+DEN,Denver Nuggets,2025-02-27,L,MIL,False,112
+DEN,Denver Nuggets,2025-02-24,W,IND,False,125
+DEN,Denver Nuggets,2025-02-22,L,LAL,True,100
+DEN,Denver Nuggets,2025-02-20,W,CHA,True,129
+DEN,Denver Nuggets,2025-02-12,W,POR,True,132
+DEN,Denver Nuggets,2025-02-10,W,POR,True,146
+DEN,Denver Nuggets,2025-02-08,W,PHX,False,122
+DEN,Denver Nuggets,2025-02-06,W,ORL,True,112
+DEN,Denver Nuggets,2025-02-05,W,NOP,True,144
+DEN,Denver Nuggets,2025-02-03,W,NOP,True,125
+DEN,Denver Nuggets,2025-02-01,W,CHA,False,107
+DEN,Denver Nuggets,2025-01-31,W,PHI,False,137
+DEN,Denver Nuggets,2025-01-29,L,NYK,False,112
+DEN,Denver Nuggets,2025-01-27,L,CHI,False,121
+DEN,Denver Nuggets,2025-01-25,L,MIN,False,104
+DEN,Denver Nuggets,2025-01-23,W,SAC,True,132
+DEN,Denver Nuggets,2025-01-21,W,PHI,True,144
+DEN,Denver Nuggets,2025-01-19,W,ORL,False,113
+DEN,Denver Nuggets,2025-01-17,W,MIA,False,133
+DEN,Denver Nuggets,2025-01-15,L,HOU,True,108
+DEN,Denver Nuggets,2025-01-14,W,DAL,False,118
+DEN,Denver Nuggets,2025-01-12,W,DAL,False,112
+DEN,Denver Nuggets,2025-01-10,W,BKN,True,124
+DEN,Denver Nuggets,2025-01-08,W,LAC,True,126
+DEN,Denver Nuggets,2025-01-07,L,BOS,True,106
+DEN,Denver Nuggets,2025-01-04,W,SAS,False,122
+DEN,Denver Nuggets,2025-01-03,L,SAS,True,110
+DEN,Denver Nuggets,2025-01-01,W,ATL,True,139
+DEN,Denver Nuggets,2024-12-30,W,UTA,False,132
+DEN,Denver Nuggets,2024-12-28,W,DET,True,134
+DEN,Denver Nuggets,2024-12-27,L,CLE,True,135
+DEN,Denver Nuggets,2024-12-25,L,PHX,False,100
+DEN,Denver Nuggets,2024-12-23,W,PHX,True,117
+DEN,Denver Nuggets,2024-12-22,W,NOP,False,132
+DEN,Denver Nuggets,2024-12-19,L,POR,False,124
+DEN,Denver Nuggets,2024-12-16,W,SAC,False,130
+DEN,Denver Nuggets,2024-12-13,W,LAC,True,120
+DEN,Denver Nuggets,2024-12-08,W,ATL,False,141
+DEN,Denver Nuggets,2024-12-07,L,WAS,False,113
+DEN,Denver Nuggets,2024-12-05,L,CLE,False,114
+DEN,Denver Nuggets,2024-12-03,W,GSW,True,119
+DEN,Denver Nuggets,2024-12-01,L,LAC,False,122
+DEN,Denver Nuggets,2024-11-27,W,UTA,False,122
+DEN,Denver Nuggets,2024-11-25,L,NYK,True,118
+DEN,Denver Nuggets,2024-11-23,W,LAL,False,127
+DEN,Denver Nuggets,2024-11-22,L,DAL,True,120
+DEN,Denver Nuggets,2024-11-19,W,MEM,False,122
+DEN,Denver Nuggets,2024-11-17,L,MEM,False,90
+DEN,Denver Nuggets,2024-11-15,L,NOP,False,94
+DEN,Denver Nuggets,2024-11-10,W,DAL,True,122
+DEN,Denver Nuggets,2024-11-08,W,MIA,True,135
+DEN,Denver Nuggets,2024-11-06,W,OKC,True,124
+DEN,Denver Nuggets,2024-11-04,W,TOR,True,121
+DEN,Denver Nuggets,2024-11-02,W,UTA,True,129
+DEN,Denver Nuggets,2024-11-01,L,MIN,False,116
+DEN,Denver Nuggets,2024-10-29,W,BKN,False,144
+DEN,Denver Nuggets,2024-10-28,W,TOR,False,127
+DEN,Denver Nuggets,2024-10-26,L,LAC,True,104
+DEN,Denver Nuggets,2024-10-24,L,OKC,True,87
+GSW,Golden State Warriors,2025-04-13,L,LAC,True,119
+GSW,Golden State Warriors,2025-04-11,W,POR,False,103
+GSW,Golden State Warriors,2025-04-09,L,SAS,True,111
+GSW,Golden State Warriors,2025-04-08,W,PHX,False,133
+GSW,Golden State Warriors,2025-04-06,L,HOU,True,96
+GSW,Golden State Warriors,2025-04-04,W,DEN,True,118
+GSW,Golden State Warriors,2025-04-03,W,LAL,False,123
+GSW,Golden State Warriors,2025-04-01,W,MEM,False,134
+GSW,Golden State Warriors,2025-03-30,W,SAS,False,148
+GSW,Golden State Warriors,2025-03-28,W,NOP,False,111
+GSW,Golden State Warriors,2025-03-25,L,MIA,False,86
+GSW,Golden State Warriors,2025-03-22,L,ATL,False,115
+GSW,Golden State Warriors,2025-03-20,W,TOR,True,117
+GSW,Golden State Warriors,2025-03-18,W,MIL,True,104
+GSW,Golden State Warriors,2025-03-17,L,DEN,True,105
+GSW,Golden State Warriors,2025-03-15,W,NYK,True,97
+GSW,Golden State Warriors,2025-03-13,W,SAC,True,130
+GSW,Golden State Warriors,2025-03-10,W,POR,True,130
+GSW,Golden State Warriors,2025-03-08,W,DET,True,115
+GSW,Golden State Warriors,2025-03-06,W,BKN,False,121
+GSW,Golden State Warriors,2025-03-04,W,NYK,False,114
+GSW,Golden State Warriors,2025-03-03,W,CHA,False,119
+GSW,Golden State Warriors,2025-03-01,L,PHI,False,119
+GSW,Golden State Warriors,2025-02-27,W,ORL,False,121
+GSW,Golden State Warriors,2025-02-25,W,CHA,True,128
+GSW,Golden State Warriors,2025-02-23,W,DAL,True,126
+GSW,Golden State Warriors,2025-02-21,W,SAC,False,132
+GSW,Golden State Warriors,2025-02-13,W,HOU,False,105
+GSW,Golden State Warriors,2025-02-12,L,DAL,False,107
+GSW,Golden State Warriors,2025-02-10,W,MIL,False,125
+GSW,Golden State Warriors,2025-02-08,W,CHI,False,132
+GSW,Golden State Warriors,2025-02-06,L,LAL,False,112
+GSW,Golden State Warriors,2025-02-05,L,UTA,False,128
+GSW,Golden State Warriors,2025-02-03,W,ORL,True,104
+GSW,Golden State Warriors,2025-01-31,L,PHX,True,105
+GSW,Golden State Warriors,2025-01-29,W,OKC,True,116
+GSW,Golden State Warriors,2025-01-28,W,UTA,True,114
+GSW,Golden State Warriors,2025-01-25,L,LAL,True,108
+GSW,Golden State Warriors,2025-01-23,W,CHI,True,131
+GSW,Golden State Warriors,2025-01-22,L,SAC,False,117
+GSW,Golden State Warriors,2025-01-20,L,BOS,True,85
+GSW,Golden State Warriors,2025-01-18,W,WAS,True,122
+GSW,Golden State Warriors,2025-01-15,W,MIN,False,116
+GSW,Golden State Warriors,2025-01-13,L,TOR,False,101
+GSW,Golden State Warriors,2025-01-10,L,IND,False,96
+GSW,Golden State Warriors,2025-01-09,W,DET,False,107
+GSW,Golden State Warriors,2025-01-07,L,MIA,True,98
+GSW,Golden State Warriors,2025-01-05,L,SAC,True,99
+GSW,Golden State Warriors,2025-01-04,W,MEM,True,121
+GSW,Golden State Warriors,2025-01-02,W,PHI,True,139
+GSW,Golden State Warriors,2024-12-30,L,CLE,True,95
+GSW,Golden State Warriors,2024-12-28,W,PHX,True,109
+GSW,Golden State Warriors,2024-12-27,L,LAC,False,92
+GSW,Golden State Warriors,2024-12-25,L,LAL,True,113
+GSW,Golden State Warriors,2024-12-23,L,IND,True,105
+GSW,Golden State Warriors,2024-12-21,W,MIN,False,113
+GSW,Golden State Warriors,2024-12-19,L,MEM,False,93
+GSW,Golden State Warriors,2024-12-15,L,DAL,True,133
+GSW,Golden State Warriors,2024-12-11,L,HOU,False,90
+GSW,Golden State Warriors,2024-12-08,W,MIN,True,114
+GSW,Golden State Warriors,2024-12-06,L,MIN,True,90
+GSW,Golden State Warriors,2024-12-05,W,HOU,True,99
+GSW,Golden State Warriors,2024-12-03,L,DEN,False,115
+GSW,Golden State Warriors,2024-11-30,L,PHX,False,105
+GSW,Golden State Warriors,2024-11-27,L,OKC,True,101
+GSW,Golden State Warriors,2024-11-25,L,BKN,True,120
+GSW,Golden State Warriors,2024-11-23,L,SAS,False,94
+GSW,Golden State Warriors,2024-11-22,W,NOP,False,112
+GSW,Golden State Warriors,2024-11-20,W,ATL,True,120
+GSW,Golden State Warriors,2024-11-18,L,LAC,False,99
+GSW,Golden State Warriors,2024-11-15,W,MEM,True,123
+GSW,Golden State Warriors,2024-11-12,W,DAL,True,120
+GSW,Golden State Warriors,2024-11-10,W,OKC,False,127
+GSW,Golden State Warriors,2024-11-08,L,CLE,False,117
+GSW,Golden State Warriors,2024-11-06,W,BOS,False,118
+GSW,Golden State Warriors,2024-11-04,W,WAS,False,125
+GSW,Golden State Warriors,2024-11-02,W,HOU,False,127
+GSW,Golden State Warriors,2024-10-30,W,NOP,True,104
+GSW,Golden State Warriors,2024-10-29,W,NOP,True,124
+GSW,Golden State Warriors,2024-10-27,L,LAC,True,104
+GSW,Golden State Warriors,2024-10-25,W,UTA,False,127
+GSW,Golden State Warriors,2024-10-23,W,POR,False,140
+HOU,Houston Rockets,2025-04-13,L,DEN,True,111
+HOU,Houston Rockets,2025-04-11,L,LAL,False,109
+HOU,Houston Rockets,2025-04-09,L,LAC,False,117
+HOU,Houston Rockets,2025-04-06,W,GSW,False,106
+HOU,Houston Rockets,2025-04-04,W,OKC,True,125
+HOU,Houston Rockets,2025-04-02,W,UTA,True,143
+HOU,Houston Rockets,2025-03-31,L,LAL,False,98
+HOU,Houston Rockets,2025-03-30,W,PHX,False,148
+HOU,Houston Rockets,2025-03-27,W,UTA,False,121
+HOU,Houston Rockets,2025-03-25,W,ATL,True,121
+HOU,Houston Rockets,2025-03-23,L,DEN,True,111
+HOU,Houston Rockets,2025-03-21,W,MIA,False,102
+HOU,Houston Rockets,2025-03-19,W,ORL,False,116
+HOU,Houston Rockets,2025-03-17,W,PHI,True,144
+HOU,Houston Rockets,2025-03-15,W,CHI,True,117
+HOU,Houston Rockets,2025-03-14,W,DAL,True,133
+HOU,Houston Rockets,2025-03-12,W,PHX,True,111
+HOU,Houston Rockets,2025-03-10,W,ORL,True,97
+HOU,Houston Rockets,2025-03-08,W,NOP,True,146
+HOU,Houston Rockets,2025-03-06,W,NOP,False,109
+HOU,Houston Rockets,2025-03-04,L,IND,False,102
+HOU,Houston Rockets,2025-03-03,L,OKC,False,128
+HOU,Houston Rockets,2025-03-01,L,SAC,True,103
+HOU,Houston Rockets,2025-02-26,W,SAS,True,118
+HOU,Houston Rockets,2025-02-25,W,MIL,True,100
+HOU,Houston Rockets,2025-02-22,L,UTA,False,115
+HOU,Houston Rockets,2025-02-21,W,MIN,True,121
+HOU,Houston Rockets,2025-02-13,L,GSW,True,98
+HOU,Houston Rockets,2025-02-12,W,PHX,True,119
+HOU,Houston Rockets,2025-02-09,W,TOR,True,94
+HOU,Houston Rockets,2025-02-08,L,DAL,False,105
+HOU,Houston Rockets,2025-02-06,L,MIN,False,114
+HOU,Houston Rockets,2025-02-04,L,BKN,False,97
+HOU,Houston Rockets,2025-02-03,L,NYK,False,118
+HOU,Houston Rockets,2025-02-01,L,BKN,True,98
+HOU,Houston Rockets,2025-01-30,L,MEM,False,119
+HOU,Houston Rockets,2025-01-28,W,ATL,False,100
+HOU,Houston Rockets,2025-01-27,W,BOS,False,114
+HOU,Houston Rockets,2025-01-25,W,CLE,False,135
+HOU,Houston Rockets,2025-01-22,W,CLE,True,109
+HOU,Houston Rockets,2025-01-20,L,DET,True,96
+HOU,Houston Rockets,2025-01-18,W,POR,False,125
+HOU,Houston Rockets,2025-01-16,L,SAC,False,127
+HOU,Houston Rockets,2025-01-15,W,DEN,False,128
+HOU,Houston Rockets,2025-01-13,W,MEM,True,120
+HOU,Houston Rockets,2025-01-09,W,MEM,False,119
+HOU,Houston Rockets,2025-01-07,W,WAS,False,135
+HOU,Houston Rockets,2025-01-05,W,LAL,True,119
+HOU,Houston Rockets,2025-01-03,L,BOS,True,86
+HOU,Houston Rockets,2025-01-01,W,DAL,True,110
+HOU,Houston Rockets,2024-12-29,L,MIA,True,100
+HOU,Houston Rockets,2024-12-27,L,MIN,True,112
+HOU,Houston Rockets,2024-12-26,W,NOP,False,128
+HOU,Houston Rockets,2024-12-23,W,CHA,False,114
+HOU,Houston Rockets,2024-12-22,W,TOR,False,114
+HOU,Houston Rockets,2024-12-19,W,NOP,True,133
+HOU,Houston Rockets,2024-12-14,L,OKC,False,96
+HOU,Houston Rockets,2024-12-11,W,GSW,True,91
+HOU,Houston Rockets,2024-12-08,W,LAC,False,117
+HOU,Houston Rockets,2024-12-05,L,GSW,False,93
+HOU,Houston Rockets,2024-12-03,L,SAC,False,111
+HOU,Houston Rockets,2024-12-01,W,OKC,True,119
+HOU,Houston Rockets,2024-11-27,W,PHI,False,122
+HOU,Houston Rockets,2024-11-26,W,MIN,False,117
+HOU,Houston Rockets,2024-11-23,L,POR,True,98
+HOU,Houston Rockets,2024-11-22,W,POR,True,116
+HOU,Houston Rockets,2024-11-20,W,IND,True,130
+HOU,Houston Rockets,2024-11-18,L,MIL,False,100
+HOU,Houston Rockets,2024-11-17,W,CHI,False,143
+HOU,Houston Rockets,2024-11-15,W,LAC,True,125
+HOU,Houston Rockets,2024-11-13,W,LAC,True,111
+HOU,Houston Rockets,2024-11-11,W,WAS,True,107
+HOU,Houston Rockets,2024-11-10,W,DET,False,101
+HOU,Houston Rockets,2024-11-08,L,OKC,False,107
+HOU,Houston Rockets,2024-11-06,W,SAS,True,127
+HOU,Houston Rockets,2024-11-04,W,NYK,True,109
+HOU,Houston Rockets,2024-11-02,L,GSW,True,121
+HOU,Houston Rockets,2024-10-31,W,DAL,False,108
+HOU,Houston Rockets,2024-10-28,W,SAS,False,106
+HOU,Houston Rockets,2024-10-26,L,SAS,False,106
+HOU,Houston Rockets,2024-10-25,W,MEM,True,128
+HOU,Houston Rockets,2024-10-23,L,CHA,True,105
+LAC,Los Angeles Clippers,2025-04-13,W,GSW,False,124
+LAC,Los Angeles Clippers,2025-04-11,W,SAC,False,101
+LAC,Los Angeles Clippers,2025-04-09,W,HOU,True,134
+LAC,Los Angeles Clippers,2025-04-08,W,SAS,True,122
+LAC,Los Angeles Clippers,2025-04-05,W,DAL,True,135
+LAC,Los Angeles Clippers,2025-04-04,W,DAL,True,114
+LAC,Los Angeles Clippers,2025-04-02,W,NOP,True,114
+LAC,Los Angeles Clippers,2025-03-31,W,ORL,False,96
+LAC,Los Angeles Clippers,2025-03-30,L,CLE,False,122
+LAC,Los Angeles Clippers,2025-03-28,W,BKN,False,132
+LAC,Los Angeles Clippers,2025-03-26,W,NYK,False,126
+LAC,Los Angeles Clippers,2025-03-23,L,OKC,True,101
+LAC,Los Angeles Clippers,2025-03-21,W,MEM,True,128
+LAC,Los Angeles Clippers,2025-03-18,W,CLE,True,132
+LAC,Los Angeles Clippers,2025-03-16,W,CHA,True,123
+LAC,Los Angeles Clippers,2025-03-14,W,ATL,False,121
+LAC,Los Angeles Clippers,2025-03-12,W,MIA,False,119
+LAC,Los Angeles Clippers,2025-03-11,L,NOP,False,120
+LAC,Los Angeles Clippers,2025-03-09,W,SAC,True,111
+LAC,Los Angeles Clippers,2025-03-07,W,NYK,True,105
+LAC,Los Angeles Clippers,2025-03-05,W,DET,True,123
+LAC,Los Angeles Clippers,2025-03-04,L,PHX,False,117
+LAC,Los Angeles Clippers,2025-03-02,L,LAL,False,102
+LAC,Los Angeles Clippers,2025-02-28,L,LAL,False,102
+LAC,Los Angeles Clippers,2025-02-26,W,CHI,False,122
+LAC,Los Angeles Clippers,2025-02-24,L,DET,False,97
+LAC,Los Angeles Clippers,2025-02-23,L,IND,False,111
+LAC,Los Angeles Clippers,2025-02-20,L,MIL,False,110
+LAC,Los Angeles Clippers,2025-02-13,W,UTA,False,120
+LAC,Los Angeles Clippers,2025-02-12,W,MEM,True,128
+LAC,Los Angeles Clippers,2025-02-08,W,UTA,True,130
+LAC,Los Angeles Clippers,2025-02-06,L,IND,True,112
+LAC,Los Angeles Clippers,2025-02-04,L,LAL,True,97
+LAC,Los Angeles Clippers,2025-02-02,L,TOR,False,108
+LAC,Los Angeles Clippers,2025-01-31,W,CHA,False,112
+LAC,Los Angeles Clippers,2025-01-29,W,SAS,False,128
+LAC,Los Angeles Clippers,2025-01-27,L,PHX,False,109
+LAC,Los Angeles Clippers,2025-01-25,W,MIL,True,127
+LAC,Los Angeles Clippers,2025-01-23,W,WAS,True,110
+LAC,Los Angeles Clippers,2025-01-22,L,BOS,True,113
+LAC,Los Angeles Clippers,2025-01-20,L,CHI,True,99
+LAC,Los Angeles Clippers,2025-01-19,W,LAL,True,116
+LAC,Los Angeles Clippers,2025-01-16,W,POR,False,118
+LAC,Los Angeles Clippers,2025-01-15,W,BKN,True,126
+LAC,Los Angeles Clippers,2025-01-13,W,MIA,True,109
+LAC,Los Angeles Clippers,2025-01-08,L,DEN,False,103
+LAC,Los Angeles Clippers,2025-01-06,L,MIN,False,106
+LAC,Los Angeles Clippers,2025-01-04,W,ATL,True,131
+LAC,Los Angeles Clippers,2025-01-02,L,OKC,False,98
+LAC,Los Angeles Clippers,2024-12-31,L,SAS,False,86
+LAC,Los Angeles Clippers,2024-12-30,W,NOP,False,116
+LAC,Los Angeles Clippers,2024-12-27,W,GSW,True,102
+LAC,Los Angeles Clippers,2024-12-23,W,MEM,False,114
+LAC,Los Angeles Clippers,2024-12-21,L,DAL,False,97
+LAC,Los Angeles Clippers,2024-12-19,W,DAL,False,118
+LAC,Los Angeles Clippers,2024-12-16,W,UTA,True,144
+LAC,Los Angeles Clippers,2024-12-13,L,DEN,False,98
+LAC,Los Angeles Clippers,2024-12-08,L,HOU,True,106
+LAC,Los Angeles Clippers,2024-12-04,L,MIN,True,80
+LAC,Los Angeles Clippers,2024-12-03,W,POR,True,127
+LAC,Los Angeles Clippers,2024-12-01,W,DEN,True,126
+LAC,Los Angeles Clippers,2024-11-29,L,MIN,False,92
+LAC,Los Angeles Clippers,2024-11-27,W,WAS,False,121
+LAC,Los Angeles Clippers,2024-11-25,L,BOS,False,94
+LAC,Los Angeles Clippers,2024-11-24,W,PHI,False,125
+LAC,Los Angeles Clippers,2024-11-22,W,SAC,True,104
+LAC,Los Angeles Clippers,2024-11-20,W,ORL,True,104
+LAC,Los Angeles Clippers,2024-11-18,W,GSW,True,102
+LAC,Los Angeles Clippers,2024-11-17,W,UTA,True,116
+LAC,Los Angeles Clippers,2024-11-15,L,HOU,False,104
+LAC,Los Angeles Clippers,2024-11-13,L,HOU,False,103
+LAC,Los Angeles Clippers,2024-11-11,L,OKC,False,128
+LAC,Los Angeles Clippers,2024-11-09,W,TOR,True,105
+LAC,Los Angeles Clippers,2024-11-08,W,SAC,False,107
+LAC,Los Angeles Clippers,2024-11-06,W,PHI,True,110
+LAC,Los Angeles Clippers,2024-11-04,W,SAS,True,113
+LAC,Los Angeles Clippers,2024-11-02,L,OKC,True,92
+LAC,Los Angeles Clippers,2024-10-31,L,PHX,True,119
+LAC,Los Angeles Clippers,2024-10-30,L,POR,True,105
+LAC,Los Angeles Clippers,2024-10-27,W,GSW,False,112
+LAC,Los Angeles Clippers,2024-10-26,W,DEN,False,109
+LAC,Los Angeles Clippers,2024-10-23,L,PHX,True,113
+LAL,Los Angeles Lakers,2025-04-13,L,POR,False,81
+LAL,Los Angeles Lakers,2025-04-11,W,HOU,True,140
+LAL,Los Angeles Lakers,2025-04-09,W,DAL,False,112
+LAL,Los Angeles Lakers,2025-04-08,L,OKC,False,120
+LAL,Los Angeles Lakers,2025-04-06,W,OKC,False,126
+LAL,Los Angeles Lakers,2025-04-04,W,NOP,True,124
+LAL,Los Angeles Lakers,2025-04-03,L,GSW,True,116
+LAL,Los Angeles Lakers,2025-03-31,W,HOU,True,104
+LAL,Los Angeles Lakers,2025-03-29,W,MEM,False,134
+LAL,Los Angeles Lakers,2025-03-27,L,CHI,False,117
+LAL,Los Angeles Lakers,2025-03-26,W,IND,False,120
+LAL,Los Angeles Lakers,2025-03-24,L,ORL,False,106
+LAL,Los Angeles Lakers,2025-03-22,L,CHI,True,115
+LAL,Los Angeles Lakers,2025-03-20,L,MIL,True,89
+LAL,Los Angeles Lakers,2025-03-19,W,DEN,True,120
+LAL,Los Angeles Lakers,2025-03-17,W,SAS,True,125
+LAL,Los Angeles Lakers,2025-03-16,W,PHX,True,107
+LAL,Los Angeles Lakers,2025-03-14,L,DEN,False,126
+LAL,Los Angeles Lakers,2025-03-13,L,MIL,False,106
+LAL,Los Angeles Lakers,2025-03-10,L,BKN,False,108
+LAL,Los Angeles Lakers,2025-03-08,L,BOS,False,101
+LAL,Los Angeles Lakers,2025-03-06,W,NYK,True,113
+LAL,Los Angeles Lakers,2025-03-04,W,NOP,True,136
+LAL,Los Angeles Lakers,2025-03-02,W,LAC,True,108
+LAL,Los Angeles Lakers,2025-02-28,W,LAC,True,106
+LAL,Los Angeles Lakers,2025-02-27,W,MIN,True,111
+LAL,Los Angeles Lakers,2025-02-25,W,DAL,True,107
+LAL,Los Angeles Lakers,2025-02-22,W,DEN,False,123
+LAL,Los Angeles Lakers,2025-02-20,W,POR,False,110
+LAL,Los Angeles Lakers,2025-02-19,L,CHA,True,97
+LAL,Los Angeles Lakers,2025-02-12,L,UTA,False,119
+LAL,Los Angeles Lakers,2025-02-10,W,UTA,True,132
+LAL,Los Angeles Lakers,2025-02-08,W,IND,True,124
+LAL,Los Angeles Lakers,2025-02-06,W,GSW,True,120
+LAL,Los Angeles Lakers,2025-02-04,W,LAC,False,122
+LAL,Los Angeles Lakers,2025-02-01,W,NYK,False,128
+LAL,Los Angeles Lakers,2025-01-30,W,WAS,False,134
+LAL,Los Angeles Lakers,2025-01-28,L,PHI,False,104
+LAL,Los Angeles Lakers,2025-01-27,W,CHA,False,112
+LAL,Los Angeles Lakers,2025-01-25,W,GSW,False,118
+LAL,Los Angeles Lakers,2025-01-23,W,BOS,True,117
+LAL,Los Angeles Lakers,2025-01-21,W,WAS,True,111
+LAL,Los Angeles Lakers,2025-01-19,L,LAC,False,102
+LAL,Los Angeles Lakers,2025-01-17,W,BKN,True,102
+LAL,Los Angeles Lakers,2025-01-15,W,MIA,True,117
+LAL,Los Angeles Lakers,2025-01-13,L,SAS,True,102
+LAL,Los Angeles Lakers,2025-01-07,L,DAL,False,97
+LAL,Los Angeles Lakers,2025-01-05,L,HOU,False,115
+LAL,Los Angeles Lakers,2025-01-03,W,ATL,True,119
+LAL,Los Angeles Lakers,2025-01-02,W,POR,True,114
+LAL,Los Angeles Lakers,2024-12-31,L,CLE,True,110
+LAL,Los Angeles Lakers,2024-12-28,W,SAC,True,132
+LAL,Los Angeles Lakers,2024-12-25,W,GSW,False,115
+LAL,Los Angeles Lakers,2024-12-23,L,DET,True,114
+LAL,Los Angeles Lakers,2024-12-21,W,SAC,False,103
+LAL,Los Angeles Lakers,2024-12-19,W,SAC,False,113
+LAL,Los Angeles Lakers,2024-12-15,W,MEM,True,116
+LAL,Los Angeles Lakers,2024-12-13,L,MIN,False,87
+LAL,Los Angeles Lakers,2024-12-08,W,POR,True,107
+LAL,Los Angeles Lakers,2024-12-06,L,ATL,False,132
+LAL,Los Angeles Lakers,2024-12-04,L,MIA,False,93
+LAL,Los Angeles Lakers,2024-12-02,L,MIN,False,80
+LAL,Los Angeles Lakers,2024-12-01,W,UTA,False,105
+LAL,Los Angeles Lakers,2024-11-29,L,OKC,True,93
+LAL,Los Angeles Lakers,2024-11-27,W,SAS,False,119
+LAL,Los Angeles Lakers,2024-11-26,L,PHX,False,100
+LAL,Los Angeles Lakers,2024-11-23,L,DEN,True,102
+LAL,Los Angeles Lakers,2024-11-21,L,ORL,True,118
+LAL,Los Angeles Lakers,2024-11-19,W,UTA,True,124
+LAL,Los Angeles Lakers,2024-11-16,W,NOP,False,104
+LAL,Los Angeles Lakers,2024-11-15,W,SAS,False,120
+LAL,Los Angeles Lakers,2024-11-13,W,MEM,True,128
+LAL,Los Angeles Lakers,2024-11-10,W,TOR,True,123
+LAL,Los Angeles Lakers,2024-11-08,W,PHI,True,116
+LAL,Los Angeles Lakers,2024-11-06,L,MEM,False,114
+LAL,Los Angeles Lakers,2024-11-04,L,DET,False,103
+LAL,Los Angeles Lakers,2024-11-01,W,TOR,False,131
+LAL,Los Angeles Lakers,2024-10-30,L,CLE,False,110
+LAL,Los Angeles Lakers,2024-10-28,L,PHX,False,105
+LAL,Los Angeles Lakers,2024-10-26,W,SAC,True,131
+LAL,Los Angeles Lakers,2024-10-25,W,PHX,True,123
+LAL,Los Angeles Lakers,2024-10-22,W,MIN,True,110
+MIA,Miami Heat,2025-04-13,L,WAS,True,118
+MIA,Miami Heat,2025-04-11,W,NOP,False,153
+MIA,Miami Heat,2025-04-09,L,CHI,False,111
+MIA,Miami Heat,2025-04-07,W,PHI,True,117
+MIA,Miami Heat,2025-04-05,L,MIL,True,115
+MIA,Miami Heat,2025-04-03,L,MEM,True,108
+MIA,Miami Heat,2025-04-02,W,BOS,False,124
+MIA,Miami Heat,2025-03-31,W,WAS,False,120
+MIA,Miami Heat,2025-03-29,W,PHI,False,118
+MIA,Miami Heat,2025-03-27,W,ATL,True,122
+MIA,Miami Heat,2025-03-25,W,GSW,True,112
+MIA,Miami Heat,2025-03-23,W,CHA,True,122
+MIA,Miami Heat,2025-03-21,L,HOU,True,98
+MIA,Miami Heat,2025-03-19,L,DET,True,113
+MIA,Miami Heat,2025-03-17,L,NYK,False,95
+MIA,Miami Heat,2025-03-15,L,MEM,False,91
+MIA,Miami Heat,2025-03-14,L,BOS,True,91
+MIA,Miami Heat,2025-03-12,L,LAC,True,104
+MIA,Miami Heat,2025-03-10,L,CHA,True,102
+MIA,Miami Heat,2025-03-08,L,CHI,True,109
+MIA,Miami Heat,2025-03-07,L,MIN,True,104
+MIA,Miami Heat,2025-03-05,L,CLE,False,107
+MIA,Miami Heat,2025-03-03,W,WAS,True,106
+MIA,Miami Heat,2025-03-02,L,NYK,True,112
+MIA,Miami Heat,2025-02-28,W,IND,True,125
+MIA,Miami Heat,2025-02-26,W,ATL,True,131
+MIA,Miami Heat,2025-02-24,L,ATL,False,86
+MIA,Miami Heat,2025-02-23,L,MIL,False,113
+MIA,Miami Heat,2025-02-21,W,TOR,False,120
+MIA,Miami Heat,2025-02-13,L,DAL,False,113
+MIA,Miami Heat,2025-02-12,L,OKC,False,101
+MIA,Miami Heat,2025-02-10,L,BOS,True,85
+MIA,Miami Heat,2025-02-07,L,BKN,False,86
+MIA,Miami Heat,2025-02-05,W,PHI,False,108
+MIA,Miami Heat,2025-02-04,L,CHI,False,124
+MIA,Miami Heat,2025-02-01,W,SAS,False,105
+MIA,Miami Heat,2025-01-29,L,CLE,True,106
+MIA,Miami Heat,2025-01-27,W,ORL,True,125
+MIA,Miami Heat,2025-01-25,W,BKN,False,106
+MIA,Miami Heat,2025-01-23,L,MIL,False,96
+MIA,Miami Heat,2025-01-21,L,POR,True,107
+MIA,Miami Heat,2025-01-19,W,SAS,True,128
+MIA,Miami Heat,2025-01-17,L,DEN,True,113
+MIA,Miami Heat,2025-01-15,L,LAL,False,108
+MIA,Miami Heat,2025-01-13,L,LAC,False,98
+MIA,Miami Heat,2025-01-11,W,POR,False,119
+MIA,Miami Heat,2025-01-09,W,UTA,False,97
+MIA,Miami Heat,2025-01-07,W,GSW,False,114
+MIA,Miami Heat,2025-01-06,L,SAC,False,118
+MIA,Miami Heat,2025-01-04,L,UTA,True,100
+MIA,Miami Heat,2025-01-02,L,IND,True,115
+MIA,Miami Heat,2025-01-01,W,NOP,True,119
+MIA,Miami Heat,2024-12-29,W,HOU,False,104
+MIA,Miami Heat,2024-12-28,L,ATL,False,110
+MIA,Miami Heat,2024-12-26,W,ORL,False,89
+MIA,Miami Heat,2024-12-23,W,BKN,True,110
+MIA,Miami Heat,2024-12-21,L,ORL,False,114
+MIA,Miami Heat,2024-12-20,L,OKC,True,97
+MIA,Miami Heat,2024-12-16,L,DET,False,124
+MIA,Miami Heat,2024-12-12,W,TOR,True,114
+MIA,Miami Heat,2024-12-08,W,CLE,True,122
+MIA,Miami Heat,2024-12-07,W,PHX,True,121
+MIA,Miami Heat,2024-12-04,W,LAL,True,134
+MIA,Miami Heat,2024-12-02,L,BOS,False,89
+MIA,Miami Heat,2024-12-01,L,TOR,False,116
+MIA,Miami Heat,2024-11-29,W,TOR,True,121
+MIA,Miami Heat,2024-11-27,W,CHA,False,98
+MIA,Miami Heat,2024-11-26,L,MIL,True,103
+MIA,Miami Heat,2024-11-24,W,DAL,True,123
+MIA,Miami Heat,2024-11-18,W,PHI,True,106
+MIA,Miami Heat,2024-11-17,L,IND,False,110
+MIA,Miami Heat,2024-11-15,W,IND,False,124
+MIA,Miami Heat,2024-11-12,L,DET,False,121
+MIA,Miami Heat,2024-11-10,W,MIN,False,95
+MIA,Miami Heat,2024-11-08,L,DEN,False,122
+MIA,Miami Heat,2024-11-06,L,PHX,False,112
+MIA,Miami Heat,2024-11-04,L,SAC,True,110
+MIA,Miami Heat,2024-11-02,W,WAS,False,118
+MIA,Miami Heat,2024-10-30,L,NYK,True,107
+MIA,Miami Heat,2024-10-28,W,DET,True,106
+MIA,Miami Heat,2024-10-26,W,CHA,False,114
+MIA,Miami Heat,2024-10-23,L,ORL,True,97
+MIL,Milwaukee Bucks,2025-04-13,W,DET,True,140
+MIL,Milwaukee Bucks,2025-04-11,W,DET,False,125
+MIL,Milwaukee Bucks,2025-04-10,W,NOP,True,136
+MIL,Milwaukee Bucks,2025-04-08,W,MIN,True,110
+MIL,Milwaukee Bucks,2025-04-06,W,NOP,False,111
+MIL,Milwaukee Bucks,2025-04-05,W,MIA,False,121
+MIL,Milwaukee Bucks,2025-04-03,W,PHI,False,126
+MIL,Milwaukee Bucks,2025-04-01,W,PHX,True,133
+MIL,Milwaukee Bucks,2025-03-30,L,ATL,True,124
+MIL,Milwaukee Bucks,2025-03-28,L,NYK,True,107
+MIL,Milwaukee Bucks,2025-03-26,L,DEN,False,117
+MIL,Milwaukee Bucks,2025-03-24,L,PHX,False,106
+MIL,Milwaukee Bucks,2025-03-22,W,SAC,False,114
+MIL,Milwaukee Bucks,2025-03-20,W,LAL,False,118
+MIL,Milwaukee Bucks,2025-03-18,L,GSW,False,93
+MIL,Milwaukee Bucks,2025-03-16,L,OKC,True,105
+MIL,Milwaukee Bucks,2025-03-15,W,IND,True,126
+MIL,Milwaukee Bucks,2025-03-13,W,LAL,True,126
+MIL,Milwaukee Bucks,2025-03-11,L,IND,False,114
+MIL,Milwaukee Bucks,2025-03-09,L,CLE,True,100
+MIL,Milwaukee Bucks,2025-03-08,L,ORL,True,109
+MIL,Milwaukee Bucks,2025-03-05,W,DAL,True,137
+MIL,Milwaukee Bucks,2025-03-04,W,ATL,False,127
+MIL,Milwaukee Bucks,2025-03-01,W,DAL,False,132
+MIL,Milwaukee Bucks,2025-02-27,W,DEN,True,121
+MIL,Milwaukee Bucks,2025-02-25,L,HOU,False,97
+MIL,Milwaukee Bucks,2025-02-23,W,MIA,True,120
+MIL,Milwaukee Bucks,2025-02-21,W,WAS,False,104
+MIL,Milwaukee Bucks,2025-02-20,W,LAC,True,116
+MIL,Milwaukee Bucks,2025-02-12,W,MIN,False,103
+MIL,Milwaukee Bucks,2025-02-10,L,GSW,True,111
+MIL,Milwaukee Bucks,2025-02-09,W,PHI,True,135
+MIL,Milwaukee Bucks,2025-02-07,L,ATL,False,110
+MIL,Milwaukee Bucks,2025-02-05,W,CHA,False,112
+MIL,Milwaukee Bucks,2025-02-03,L,OKC,False,96
+MIL,Milwaukee Bucks,2025-02-02,L,MEM,True,119
+MIL,Milwaukee Bucks,2025-01-31,L,SAS,False,118
+MIL,Milwaukee Bucks,2025-01-28,L,POR,False,112
+MIL,Milwaukee Bucks,2025-01-27,W,UTA,False,125
+MIL,Milwaukee Bucks,2025-01-25,L,LAC,False,117
+MIL,Milwaukee Bucks,2025-01-23,W,MIA,True,125
+MIL,Milwaukee Bucks,2025-01-19,W,PHI,True,123
+MIL,Milwaukee Bucks,2025-01-17,W,TOR,True,130
+MIL,Milwaukee Bucks,2025-01-15,W,ORL,True,122
+MIL,Milwaukee Bucks,2025-01-14,W,SAC,True,130
+MIL,Milwaukee Bucks,2025-01-12,L,NYK,False,106
+MIL,Milwaukee Bucks,2025-01-10,W,ORL,False,109
+MIL,Milwaukee Bucks,2025-01-08,W,SAS,True,121
+MIL,Milwaukee Bucks,2025-01-06,W,TOR,False,128
+MIL,Milwaukee Bucks,2025-01-04,L,POR,True,102
+MIL,Milwaukee Bucks,2025-01-02,L,BKN,True,110
+MIL,Milwaukee Bucks,2024-12-31,W,IND,False,120
+MIL,Milwaukee Bucks,2024-12-28,L,CHI,False,111
+MIL,Milwaukee Bucks,2024-12-26,L,BKN,True,105
+MIL,Milwaukee Bucks,2024-12-23,W,CHI,False,112
+MIL,Milwaukee Bucks,2024-12-21,W,WAS,True,112
+MIL,Milwaukee Bucks,2024-12-20,L,CLE,False,101
+MIL,Milwaukee Bucks,2024-12-14,W,ATL,True,110
+MIL,Milwaukee Bucks,2024-12-10,W,ORL,True,114
+MIL,Milwaukee Bucks,2024-12-08,W,BKN,False,118
+MIL,Milwaukee Bucks,2024-12-06,L,BOS,False,105
+MIL,Milwaukee Bucks,2024-12-04,L,ATL,True,104
+MIL,Milwaukee Bucks,2024-12-03,W,DET,False,128
+MIL,Milwaukee Bucks,2024-11-30,W,WAS,True,124
+MIL,Milwaukee Bucks,2024-11-26,W,MIA,False,106
+MIL,Milwaukee Bucks,2024-11-23,W,CHA,True,125
+MIL,Milwaukee Bucks,2024-11-22,W,IND,True,129
+MIL,Milwaukee Bucks,2024-11-20,W,CHI,True,122
+MIL,Milwaukee Bucks,2024-11-18,W,HOU,True,101
+MIL,Milwaukee Bucks,2024-11-16,L,CHA,False,114
+MIL,Milwaukee Bucks,2024-11-13,W,DET,True,127
+MIL,Milwaukee Bucks,2024-11-12,W,TOR,True,99
+MIL,Milwaukee Bucks,2024-11-10,L,BOS,True,107
+MIL,Milwaukee Bucks,2024-11-08,L,NYK,False,94
+MIL,Milwaukee Bucks,2024-11-07,W,UTA,True,123
+MIL,Milwaukee Bucks,2024-11-04,L,CLE,False,114
+MIL,Milwaukee Bucks,2024-11-02,L,CLE,True,113
+MIL,Milwaukee Bucks,2024-10-31,L,MEM,False,99
+MIL,Milwaukee Bucks,2024-10-28,L,BOS,False,108
+MIL,Milwaukee Bucks,2024-10-27,L,BKN,False,102
+MIL,Milwaukee Bucks,2024-10-25,L,CHI,True,122
+MIL,Milwaukee Bucks,2024-10-23,W,PHI,False,124
+MIN,Minnesota Timberwolves,2025-04-13,W,UTA,True,116
+MIN,Minnesota Timberwolves,2025-04-11,W,BKN,True,117
+MIN,Minnesota Timberwolves,2025-04-10,W,MEM,False,141
+MIN,Minnesota Timberwolves,2025-04-08,L,MIL,False,103
+MIN,Minnesota Timberwolves,2025-04-05,W,PHI,False,114
+MIN,Minnesota Timberwolves,2025-04-03,W,BKN,False,105
+MIN,Minnesota Timberwolves,2025-04-01,W,DEN,False,140
+MIN,Minnesota Timberwolves,2025-03-30,W,DET,True,123
+MIN,Minnesota Timberwolves,2025-03-28,W,PHX,True,124
+MIN,Minnesota Timberwolves,2025-03-24,L,IND,False,103
+MIN,Minnesota Timberwolves,2025-03-21,W,NOP,True,134
+MIN,Minnesota Timberwolves,2025-03-19,L,NOP,True,115
+MIN,Minnesota Timberwolves,2025-03-17,L,IND,True,130
+MIN,Minnesota Timberwolves,2025-03-16,W,UTA,True,128
+MIN,Minnesota Timberwolves,2025-03-14,W,ORL,True,118
+MIN,Minnesota Timberwolves,2025-03-12,W,DEN,False,115
+MIN,Minnesota Timberwolves,2025-03-09,W,SAS,True,141
+MIN,Minnesota Timberwolves,2025-03-07,W,MIA,False,106
+MIN,Minnesota Timberwolves,2025-03-05,W,CHA,False,125
+MIN,Minnesota Timberwolves,2025-03-04,W,PHI,True,126
+MIN,Minnesota Timberwolves,2025-03-02,W,PHX,False,116
+MIN,Minnesota Timberwolves,2025-02-28,L,UTA,False,116
+MIN,Minnesota Timberwolves,2025-02-27,L,LAL,False,102
+MIN,Minnesota Timberwolves,2025-02-24,W,OKC,False,131
+MIN,Minnesota Timberwolves,2025-02-23,L,OKC,True,123
+MIN,Minnesota Timberwolves,2025-02-21,L,HOU,False,115
+MIN,Minnesota Timberwolves,2025-02-13,W,OKC,True,116
+MIN,Minnesota Timberwolves,2025-02-12,L,MIL,True,101
+MIN,Minnesota Timberwolves,2025-02-10,L,CLE,False,107
+MIN,Minnesota Timberwolves,2025-02-08,W,POR,True,114
+MIN,Minnesota Timberwolves,2025-02-06,W,HOU,True,127
+MIN,Minnesota Timberwolves,2025-02-05,W,CHI,True,127
+MIN,Minnesota Timberwolves,2025-02-03,L,SAC,True,114
+MIN,Minnesota Timberwolves,2025-02-01,L,WAS,True,103
+MIN,Minnesota Timberwolves,2025-01-30,W,UTA,False,138
+MIN,Minnesota Timberwolves,2025-01-29,W,PHX,False,121
+MIN,Minnesota Timberwolves,2025-01-27,W,ATL,True,100
+MIN,Minnesota Timberwolves,2025-01-25,W,DEN,True,133
+MIN,Minnesota Timberwolves,2025-01-22,W,DAL,False,115
+MIN,Minnesota Timberwolves,2025-01-20,L,MEM,False,106
+MIN,Minnesota Timberwolves,2025-01-18,L,CLE,True,117
+MIN,Minnesota Timberwolves,2025-01-17,W,NYK,False,116
+MIN,Minnesota Timberwolves,2025-01-15,L,GSW,True,115
+MIN,Minnesota Timberwolves,2025-01-13,W,WAS,False,120
+MIN,Minnesota Timberwolves,2025-01-11,L,MEM,True,125
+MIN,Minnesota Timberwolves,2025-01-09,W,ORL,False,104
+MIN,Minnesota Timberwolves,2025-01-07,W,NOP,False,104
+MIN,Minnesota Timberwolves,2025-01-06,W,LAC,True,108
+MIN,Minnesota Timberwolves,2025-01-04,L,DET,False,105
+MIN,Minnesota Timberwolves,2025-01-02,L,BOS,True,115
+MIN,Minnesota Timberwolves,2024-12-31,L,OKC,False,105
+MIN,Minnesota Timberwolves,2024-12-29,W,SAS,True,112
+MIN,Minnesota Timberwolves,2024-12-27,W,HOU,False,113
+MIN,Minnesota Timberwolves,2024-12-25,W,DAL,False,105
+MIN,Minnesota Timberwolves,2024-12-23,L,ATL,False,104
+MIN,Minnesota Timberwolves,2024-12-21,L,GSW,True,103
+MIN,Minnesota Timberwolves,2024-12-19,L,NYK,True,107
+MIN,Minnesota Timberwolves,2024-12-15,W,SAS,False,106
+MIN,Minnesota Timberwolves,2024-12-13,W,LAL,True,97
+MIN,Minnesota Timberwolves,2024-12-08,L,GSW,False,106
+MIN,Minnesota Timberwolves,2024-12-06,W,GSW,False,107
+MIN,Minnesota Timberwolves,2024-12-04,W,LAC,False,108
+MIN,Minnesota Timberwolves,2024-12-02,W,LAL,True,109
+MIN,Minnesota Timberwolves,2024-11-29,W,LAC,True,93
+MIN,Minnesota Timberwolves,2024-11-27,L,SAC,True,104
+MIN,Minnesota Timberwolves,2024-11-26,L,HOU,True,111
+MIN,Minnesota Timberwolves,2024-11-24,L,BOS,False,105
+MIN,Minnesota Timberwolves,2024-11-21,L,TOR,False,105
+MIN,Minnesota Timberwolves,2024-11-17,W,PHX,True,120
+MIN,Minnesota Timberwolves,2024-11-15,W,SAC,False,130
+MIN,Minnesota Timberwolves,2024-11-13,L,POR,False,98
+MIN,Minnesota Timberwolves,2024-11-12,L,POR,False,108
+MIN,Minnesota Timberwolves,2024-11-10,L,MIA,True,94
+MIN,Minnesota Timberwolves,2024-11-08,W,POR,True,127
+MIN,Minnesota Timberwolves,2024-11-07,W,CHI,False,135
+MIN,Minnesota Timberwolves,2024-11-04,W,CHA,True,114
+MIN,Minnesota Timberwolves,2024-11-02,L,SAS,False,103
+MIN,Minnesota Timberwolves,2024-11-01,W,DEN,True,119
+MIN,Minnesota Timberwolves,2024-10-29,L,DAL,True,114
+MIN,Minnesota Timberwolves,2024-10-26,W,TOR,True,112
+MIN,Minnesota Timberwolves,2024-10-24,W,SAC,False,117
+MIN,Minnesota Timberwolves,2024-10-22,L,LAL,False,103
+BKN,Brooklyn Nets,2025-04-13,L,NYK,True,105
+BKN,Brooklyn Nets,2025-04-11,L,MIN,False,91
+BKN,Brooklyn Nets,2025-04-10,L,ATL,True,109
+BKN,Brooklyn Nets,2025-04-08,W,NOP,True,119
+BKN,Brooklyn Nets,2025-04-06,L,TOR,True,109
+BKN,Brooklyn Nets,2025-04-03,L,MIN,True,90
+BKN,Brooklyn Nets,2025-03-31,W,DAL,False,113
+BKN,Brooklyn Nets,2025-03-29,W,WAS,False,115
+BKN,Brooklyn Nets,2025-03-28,L,LAC,True,100
+BKN,Brooklyn Nets,2025-03-26,L,TOR,True,86
+BKN,Brooklyn Nets,2025-03-24,L,DAL,True,101
+BKN,Brooklyn Nets,2025-03-22,L,IND,False,103
+BKN,Brooklyn Nets,2025-03-20,L,IND,False,99
+BKN,Brooklyn Nets,2025-03-18,L,BOS,False,96
+BKN,Brooklyn Nets,2025-03-16,W,ATL,True,122
+BKN,Brooklyn Nets,2025-03-15,L,BOS,True,113
+BKN,Brooklyn Nets,2025-03-13,L,CHI,False,110
+BKN,Brooklyn Nets,2025-03-11,L,CLE,False,104
+BKN,Brooklyn Nets,2025-03-10,W,LAL,True,111
+BKN,Brooklyn Nets,2025-03-08,L,CHA,False,102
+BKN,Brooklyn Nets,2025-03-06,L,GSW,True,119
+BKN,Brooklyn Nets,2025-03-04,L,SAS,False,113
+BKN,Brooklyn Nets,2025-03-01,L,DET,False,94
+BKN,Brooklyn Nets,2025-02-28,L,POR,True,102
+BKN,Brooklyn Nets,2025-02-26,L,OKC,True,121
+BKN,Brooklyn Nets,2025-02-24,L,WAS,False,99
+BKN,Brooklyn Nets,2025-02-22,W,PHI,False,105
+BKN,Brooklyn Nets,2025-02-20,L,CLE,True,97
+BKN,Brooklyn Nets,2025-02-12,W,PHI,True,100
+BKN,Brooklyn Nets,2025-02-10,W,CHA,True,97
+BKN,Brooklyn Nets,2025-02-07,W,MIA,True,102
+BKN,Brooklyn Nets,2025-02-05,L,WAS,True,102
+BKN,Brooklyn Nets,2025-02-04,W,HOU,True,99
+BKN,Brooklyn Nets,2025-02-01,W,HOU,False,110
+BKN,Brooklyn Nets,2025-01-29,W,CHA,False,104
+BKN,Brooklyn Nets,2025-01-27,L,SAC,True,96
+BKN,Brooklyn Nets,2025-01-25,L,MIA,True,97
+BKN,Brooklyn Nets,2025-01-22,L,PHX,True,84
+BKN,Brooklyn Nets,2025-01-21,L,NYK,True,95
+BKN,Brooklyn Nets,2025-01-19,L,OKC,False,101
+BKN,Brooklyn Nets,2025-01-17,L,LAL,False,101
+BKN,Brooklyn Nets,2025-01-15,L,LAC,False,67
+BKN,Brooklyn Nets,2025-01-14,W,POR,False,132
+BKN,Brooklyn Nets,2025-01-12,L,UTA,False,111
+BKN,Brooklyn Nets,2025-01-10,L,DEN,False,105
+BKN,Brooklyn Nets,2025-01-08,L,DET,True,98
+BKN,Brooklyn Nets,2025-01-06,L,IND,True,99
+BKN,Brooklyn Nets,2025-01-04,L,PHI,True,94
+BKN,Brooklyn Nets,2025-01-02,W,MIL,False,113
+BKN,Brooklyn Nets,2025-01-01,L,TOR,False,113
+BKN,Brooklyn Nets,2024-12-29,L,ORL,False,101
+BKN,Brooklyn Nets,2024-12-27,L,SAS,True,87
+BKN,Brooklyn Nets,2024-12-26,W,MIL,False,111
+BKN,Brooklyn Nets,2024-12-23,L,MIA,False,95
+BKN,Brooklyn Nets,2024-12-21,L,UTA,True,94
+BKN,Brooklyn Nets,2024-12-19,W,TOR,False,101
+BKN,Brooklyn Nets,2024-12-16,L,CLE,True,101
+BKN,Brooklyn Nets,2024-12-13,L,MEM,False,119
+BKN,Brooklyn Nets,2024-12-08,L,MIL,True,113
+BKN,Brooklyn Nets,2024-12-04,W,IND,True,99
+BKN,Brooklyn Nets,2024-12-02,L,CHI,False,102
+BKN,Brooklyn Nets,2024-12-01,L,ORL,True,92
+BKN,Brooklyn Nets,2024-11-29,L,ORL,True,100
+BKN,Brooklyn Nets,2024-11-27,W,PHX,False,127
+BKN,Brooklyn Nets,2024-11-25,W,GSW,False,128
+BKN,Brooklyn Nets,2024-11-24,W,SAC,False,108
+BKN,Brooklyn Nets,2024-11-22,L,PHI,False,98
+BKN,Brooklyn Nets,2024-11-19,W,CHA,True,116
+BKN,Brooklyn Nets,2024-11-17,L,NYK,False,104
+BKN,Brooklyn Nets,2024-11-15,L,NYK,False,122
+BKN,Brooklyn Nets,2024-11-13,L,BOS,True,114
+BKN,Brooklyn Nets,2024-11-11,W,NOP,False,107
+BKN,Brooklyn Nets,2024-11-09,L,CLE,False,100
+BKN,Brooklyn Nets,2024-11-08,L,BOS,False,104
+BKN,Brooklyn Nets,2024-11-04,W,MEM,True,106
+BKN,Brooklyn Nets,2024-11-03,L,DET,True,92
+BKN,Brooklyn Nets,2024-11-01,W,CHI,True,120
+BKN,Brooklyn Nets,2024-10-30,W,MEM,False,119
+BKN,Brooklyn Nets,2024-10-29,L,DEN,True,139
+BKN,Brooklyn Nets,2024-10-27,W,MIL,True,115
+BKN,Brooklyn Nets,2024-10-25,L,ORL,False,101
+BKN,Brooklyn Nets,2024-10-23,L,ATL,False,116
+NYK,New York Knicks,2025-04-13,W,BKN,False,113
+NYK,New York Knicks,2025-04-11,L,CLE,True,102
+NYK,New York Knicks,2025-04-10,L,DET,False,106
+NYK,New York Knicks,2025-04-08,L,BOS,True,117
+NYK,New York Knicks,2025-04-06,W,PHX,True,112
+NYK,New York Knicks,2025-04-05,W,ATL,False,121
+NYK,New York Knicks,2025-04-02,L,CLE,False,105
+NYK,New York Knicks,2025-04-01,W,PHI,True,105
+NYK,New York Knicks,2025-03-30,W,POR,True,110
+NYK,New York Knicks,2025-03-28,W,MIL,False,116
+NYK,New York Knicks,2025-03-26,L,LAC,True,113
+NYK,New York Knicks,2025-03-25,W,DAL,True,128
+NYK,New York Knicks,2025-03-22,W,WAS,True,122
+NYK,New York Knicks,2025-03-20,L,CHA,False,98
+NYK,New York Knicks,2025-03-19,L,SAS,False,105
+NYK,New York Knicks,2025-03-17,W,MIA,True,116
+NYK,New York Knicks,2025-03-15,L,GSW,False,94
+NYK,New York Knicks,2025-03-12,W,POR,False,114
+NYK,New York Knicks,2025-03-10,W,SAC,False,133
+NYK,New York Knicks,2025-03-07,L,LAC,False,95
+NYK,New York Knicks,2025-03-06,L,LAL,False,109
+NYK,New York Knicks,2025-03-04,L,GSW,True,102
+NYK,New York Knicks,2025-03-02,W,MIA,False,116
+NYK,New York Knicks,2025-02-28,W,MEM,False,114
+NYK,New York Knicks,2025-02-26,W,PHI,True,110
+NYK,New York Knicks,2025-02-23,L,BOS,False,105
+NYK,New York Knicks,2025-02-21,L,CLE,False,105
+NYK,New York Knicks,2025-02-20,W,CHI,True,113
+NYK,New York Knicks,2025-02-12,W,ATL,True,149
+NYK,New York Knicks,2025-02-11,W,IND,False,128
+NYK,New York Knicks,2025-02-08,L,BOS,True,104
+NYK,New York Knicks,2025-02-04,W,TOR,False,121
+NYK,New York Knicks,2025-02-03,W,HOU,True,124
+NYK,New York Knicks,2025-02-01,L,LAL,True,112
+NYK,New York Knicks,2025-01-29,W,DEN,True,122
+NYK,New York Knicks,2025-01-27,W,MEM,True,143
+NYK,New York Knicks,2025-01-25,W,SAC,True,143
+NYK,New York Knicks,2025-01-21,W,BKN,False,99
+NYK,New York Knicks,2025-01-20,W,ATL,True,119
+NYK,New York Knicks,2025-01-17,L,MIN,True,99
+NYK,New York Knicks,2025-01-15,W,PHI,False,125
+NYK,New York Knicks,2025-01-13,L,DET,True,119
+NYK,New York Knicks,2025-01-12,W,MIL,True,140
+NYK,New York Knicks,2025-01-10,L,OKC,True,101
+NYK,New York Knicks,2025-01-08,W,TOR,True,112
+NYK,New York Knicks,2025-01-06,L,ORL,True,94
+NYK,New York Knicks,2025-01-04,L,CHI,False,126
+NYK,New York Knicks,2025-01-03,L,OKC,False,107
+NYK,New York Knicks,2025-01-01,W,UTA,True,119
+NYK,New York Knicks,2024-12-30,W,WAS,False,126
+NYK,New York Knicks,2024-12-28,W,WAS,False,136
+NYK,New York Knicks,2024-12-27,W,ORL,False,108
+NYK,New York Knicks,2024-12-25,W,SAS,True,117
+NYK,New York Knicks,2024-12-23,W,TOR,True,139
+NYK,New York Knicks,2024-12-21,W,NOP,False,104
+NYK,New York Knicks,2024-12-19,W,MIN,False,133
+NYK,New York Knicks,2024-12-15,W,ORL,False,100
+NYK,New York Knicks,2024-12-11,L,ATL,True,100
+NYK,New York Knicks,2024-12-09,W,TOR,False,113
+NYK,New York Knicks,2024-12-07,L,DET,True,111
+NYK,New York Knicks,2024-12-05,W,CHA,True,125
+NYK,New York Knicks,2024-12-03,W,ORL,True,121
+NYK,New York Knicks,2024-12-01,W,NOP,True,118
+NYK,New York Knicks,2024-11-29,W,CHA,False,99
+NYK,New York Knicks,2024-11-27,L,DAL,False,114
+NYK,New York Knicks,2024-11-25,W,DEN,False,145
+NYK,New York Knicks,2024-11-23,L,UTA,False,106
+NYK,New York Knicks,2024-11-20,W,PHX,False,138
+NYK,New York Knicks,2024-11-18,W,WAS,True,134
+NYK,New York Knicks,2024-11-17,W,BKN,True,114
+NYK,New York Knicks,2024-11-15,W,BKN,True,124
+NYK,New York Knicks,2024-11-13,L,CHI,True,123
+NYK,New York Knicks,2024-11-12,W,PHI,False,111
+NYK,New York Knicks,2024-11-10,L,IND,False,121
+NYK,New York Knicks,2024-11-08,W,MIL,True,116
+NYK,New York Knicks,2024-11-06,L,ATL,False,116
+NYK,New York Knicks,2024-11-04,L,HOU,False,97
+NYK,New York Knicks,2024-11-01,W,DET,False,128
+NYK,New York Knicks,2024-10-30,W,MIA,False,116
+NYK,New York Knicks,2024-10-28,L,CLE,True,104
+NYK,New York Knicks,2024-10-25,W,IND,True,123
+NYK,New York Knicks,2024-10-22,L,BOS,False,109
+ORL,Orlando Magic,2025-04-13,L,ATL,False,105
+ORL,Orlando Magic,2025-04-11,W,IND,False,129
+ORL,Orlando Magic,2025-04-09,W,BOS,True,96
+ORL,Orlando Magic,2025-04-08,W,ATL,True,119
+ORL,Orlando Magic,2025-04-03,W,WAS,False,109
+ORL,Orlando Magic,2025-04-01,W,SAS,False,116
+ORL,Orlando Magic,2025-03-31,L,LAC,True,87
+ORL,Orlando Magic,2025-03-29,W,SAC,True,121
+ORL,Orlando Magic,2025-03-27,L,DAL,True,92
+ORL,Orlando Magic,2025-03-25,W,CHA,False,111
+ORL,Orlando Magic,2025-03-24,W,LAL,True,118
+ORL,Orlando Magic,2025-03-21,W,WAS,False,120
+ORL,Orlando Magic,2025-03-19,L,HOU,True,108
+ORL,Orlando Magic,2025-03-16,W,CLE,False,108
+ORL,Orlando Magic,2025-03-14,L,MIN,False,111
+ORL,Orlando Magic,2025-03-13,W,NOP,False,113
+ORL,Orlando Magic,2025-03-10,L,HOU,False,84
+ORL,Orlando Magic,2025-03-08,W,MIL,False,111
+ORL,Orlando Magic,2025-03-06,L,CHI,True,123
+ORL,Orlando Magic,2025-03-04,L,TOR,True,113
+ORL,Orlando Magic,2025-03-02,L,TOR,True,102
+ORL,Orlando Magic,2025-02-27,L,GSW,True,115
+ORL,Orlando Magic,2025-02-25,L,CLE,True,82
+ORL,Orlando Magic,2025-02-23,W,WAS,True,110
+ORL,Orlando Magic,2025-02-21,L,MEM,True,104
+ORL,Orlando Magic,2025-02-20,W,ATL,False,114
+ORL,Orlando Magic,2025-02-12,W,CHA,True,102
+ORL,Orlando Magic,2025-02-10,L,ATL,True,106
+ORL,Orlando Magic,2025-02-08,W,SAS,True,112
+ORL,Orlando Magic,2025-02-06,L,DEN,False,90
+ORL,Orlando Magic,2025-02-05,W,SAC,False,130
+ORL,Orlando Magic,2025-02-03,L,GSW,False,99
+ORL,Orlando Magic,2025-02-01,L,UTA,False,99
+ORL,Orlando Magic,2025-01-30,L,POR,False,90
+ORL,Orlando Magic,2025-01-27,L,MIA,False,119
+ORL,Orlando Magic,2025-01-25,W,DET,True,121
+ORL,Orlando Magic,2025-01-23,L,POR,True,79
+ORL,Orlando Magic,2025-01-21,L,TOR,False,93
+ORL,Orlando Magic,2025-01-19,L,DEN,True,100
+ORL,Orlando Magic,2025-01-17,L,BOS,False,94
+ORL,Orlando Magic,2025-01-15,L,MIL,False,93
+ORL,Orlando Magic,2025-01-12,W,PHI,True,104
+ORL,Orlando Magic,2025-01-10,L,MIL,True,106
+ORL,Orlando Magic,2025-01-09,L,MIN,True,89
+ORL,Orlando Magic,2025-01-06,W,NYK,False,103
+ORL,Orlando Magic,2025-01-05,L,UTA,True,92
+ORL,Orlando Magic,2025-01-03,W,TOR,False,106
+ORL,Orlando Magic,2025-01-01,L,DET,False,96
+ORL,Orlando Magic,2024-12-29,W,BKN,True,102
+ORL,Orlando Magic,2024-12-27,L,NYK,True,85
+ORL,Orlando Magic,2024-12-26,L,MIA,True,88
+ORL,Orlando Magic,2024-12-23,W,BOS,True,108
+ORL,Orlando Magic,2024-12-21,W,MIA,True,121
+ORL,Orlando Magic,2024-12-19,L,OKC,True,99
+ORL,Orlando Magic,2024-12-15,L,NYK,True,91
+ORL,Orlando Magic,2024-12-10,L,MIL,False,109
+ORL,Orlando Magic,2024-12-08,W,PHX,True,115
+ORL,Orlando Magic,2024-12-06,L,PHI,False,94
+ORL,Orlando Magic,2024-12-04,W,PHI,False,106
+ORL,Orlando Magic,2024-12-03,L,NYK,False,106
+ORL,Orlando Magic,2024-12-01,W,BKN,False,100
+ORL,Orlando Magic,2024-11-29,W,BKN,False,123
+ORL,Orlando Magic,2024-11-27,W,CHI,True,133
+ORL,Orlando Magic,2024-11-25,W,CHA,False,95
+ORL,Orlando Magic,2024-11-23,W,DET,True,111
+ORL,Orlando Magic,2024-11-21,W,LAL,False,119
+ORL,Orlando Magic,2024-11-20,L,LAC,False,93
+ORL,Orlando Magic,2024-11-18,W,PHX,False,109
+ORL,Orlando Magic,2024-11-15,W,PHI,True,98
+ORL,Orlando Magic,2024-11-13,W,IND,True,94
+ORL,Orlando Magic,2024-11-12,W,CHA,True,114
+ORL,Orlando Magic,2024-11-10,W,WAS,True,121
+ORL,Orlando Magic,2024-11-08,W,NOP,True,115
+ORL,Orlando Magic,2024-11-06,L,IND,False,111
+ORL,Orlando Magic,2024-11-04,L,OKC,False,86
+ORL,Orlando Magic,2024-11-03,L,DAL,False,85
+ORL,Orlando Magic,2024-11-01,L,CLE,False,109
+ORL,Orlando Magic,2024-10-30,L,CHI,False,99
+ORL,Orlando Magic,2024-10-28,W,IND,True,119
+ORL,Orlando Magic,2024-10-26,L,MEM,False,111
+ORL,Orlando Magic,2024-10-25,W,BKN,True,116
+ORL,Orlando Magic,2024-10-23,W,MIA,False,116
+IND,Indiana Pacers,2025-04-13,W,CLE,False,126
+IND,Indiana Pacers,2025-04-11,L,ORL,True,115
+IND,Indiana Pacers,2025-04-10,W,CLE,True,114
+IND,Indiana Pacers,2025-04-08,W,WAS,True,104
+IND,Indiana Pacers,2025-04-06,W,DEN,False,125
+IND,Indiana Pacers,2025-04-04,W,UTA,True,140
+IND,Indiana Pacers,2025-04-02,W,CHA,True,119
+IND,Indiana Pacers,2025-03-31,W,SAC,True,111
+IND,Indiana Pacers,2025-03-29,L,OKC,False,111
+IND,Indiana Pacers,2025-03-27,W,WAS,False,162
+IND,Indiana Pacers,2025-03-26,L,LAL,True,119
+IND,Indiana Pacers,2025-03-24,W,MIN,True,119
+IND,Indiana Pacers,2025-03-22,W,BKN,True,108
+IND,Indiana Pacers,2025-03-20,W,BKN,True,105
+IND,Indiana Pacers,2025-03-19,W,DAL,True,135
+IND,Indiana Pacers,2025-03-17,W,MIN,False,132
+IND,Indiana Pacers,2025-03-15,L,MIL,False,119
+IND,Indiana Pacers,2025-03-14,W,PHI,False,112
+IND,Indiana Pacers,2025-03-11,W,MIL,True,115
+IND,Indiana Pacers,2025-03-10,L,CHI,False,103
+IND,Indiana Pacers,2025-03-08,L,ATL,False,118
+IND,Indiana Pacers,2025-03-06,L,ATL,False,118
+IND,Indiana Pacers,2025-03-04,W,HOU,True,115
+IND,Indiana Pacers,2025-03-02,W,CHI,True,127
+IND,Indiana Pacers,2025-02-28,L,MIA,False,120
+IND,Indiana Pacers,2025-02-26,W,TOR,True,111
+IND,Indiana Pacers,2025-02-24,L,DEN,True,116
+IND,Indiana Pacers,2025-02-23,W,LAC,True,129
+IND,Indiana Pacers,2025-02-20,W,MEM,True,127
+IND,Indiana Pacers,2025-02-12,W,WAS,False,134
+IND,Indiana Pacers,2025-02-11,L,NYK,True,115
+IND,Indiana Pacers,2025-02-08,L,LAL,False,117
+IND,Indiana Pacers,2025-02-06,W,LAC,False,119
+IND,Indiana Pacers,2025-02-04,L,POR,False,89
+IND,Indiana Pacers,2025-02-03,W,UTA,False,112
+IND,Indiana Pacers,2025-02-01,W,ATL,True,132
+IND,Indiana Pacers,2025-01-29,W,DET,True,133
+IND,Indiana Pacers,2025-01-25,W,SAS,False,136
+IND,Indiana Pacers,2025-01-23,L,SAS,True,110
+IND,Indiana Pacers,2025-01-18,W,PHI,True,115
+IND,Indiana Pacers,2025-01-16,W,DET,False,111
+IND,Indiana Pacers,2025-01-14,L,CLE,True,117
+IND,Indiana Pacers,2025-01-12,W,CLE,False,108
+IND,Indiana Pacers,2025-01-10,W,GSW,True,108
+IND,Indiana Pacers,2025-01-08,W,CHI,True,129
+IND,Indiana Pacers,2025-01-06,W,BKN,False,113
+IND,Indiana Pacers,2025-01-04,W,PHX,True,126
+IND,Indiana Pacers,2025-01-02,W,MIA,False,128
+IND,Indiana Pacers,2024-12-31,L,MIL,True,112
+IND,Indiana Pacers,2024-12-29,W,BOS,False,123
+IND,Indiana Pacers,2024-12-27,L,BOS,False,105
+IND,Indiana Pacers,2024-12-26,L,OKC,True,114
+IND,Indiana Pacers,2024-12-23,W,GSW,False,111
+IND,Indiana Pacers,2024-12-22,W,SAC,False,122
+IND,Indiana Pacers,2024-12-19,W,PHX,False,120
+IND,Indiana Pacers,2024-12-15,W,NOP,True,119
+IND,Indiana Pacers,2024-12-13,W,PHI,False,121
+IND,Indiana Pacers,2024-12-08,L,CHA,True,109
+IND,Indiana Pacers,2024-12-06,W,CHI,False,132
+IND,Indiana Pacers,2024-12-04,L,BKN,False,90
+IND,Indiana Pacers,2024-12-03,L,TOR,False,111
+IND,Indiana Pacers,2024-12-01,L,MEM,False,121
+IND,Indiana Pacers,2024-11-29,L,DET,True,106
+IND,Indiana Pacers,2024-11-27,W,POR,True,121
+IND,Indiana Pacers,2024-11-25,W,NOP,True,114
+IND,Indiana Pacers,2024-11-24,W,WAS,True,115
+IND,Indiana Pacers,2024-11-22,L,MIL,False,117
+IND,Indiana Pacers,2024-11-20,L,HOU,False,113
+IND,Indiana Pacers,2024-11-18,L,TOR,False,119
+IND,Indiana Pacers,2024-11-17,W,MIA,True,119
+IND,Indiana Pacers,2024-11-15,L,MIA,True,111
+IND,Indiana Pacers,2024-11-13,L,ORL,False,90
+IND,Indiana Pacers,2024-11-10,W,NYK,True,132
+IND,Indiana Pacers,2024-11-08,L,CHA,False,83
+IND,Indiana Pacers,2024-11-06,W,ORL,True,118
+IND,Indiana Pacers,2024-11-04,W,DAL,False,134
+IND,Indiana Pacers,2024-11-01,L,NOP,False,118
+IND,Indiana Pacers,2024-10-30,W,BOS,True,135
+IND,Indiana Pacers,2024-10-28,L,ORL,False,115
+IND,Indiana Pacers,2024-10-27,L,PHI,True,114
+IND,Indiana Pacers,2024-10-25,L,NYK,False,98
+IND,Indiana Pacers,2024-10-23,W,DET,False,115
+PHI,Philadelphia 76ers,2025-04-13,L,CHI,True,102
+PHI,Philadelphia 76ers,2025-04-11,L,ATL,True,110
+PHI,Philadelphia 76ers,2025-04-09,W,WAS,False,122
+PHI,Philadelphia 76ers,2025-04-07,L,MIA,False,105
+PHI,Philadelphia 76ers,2025-04-05,L,MIN,True,109
+PHI,Philadelphia 76ers,2025-04-03,L,MIL,True,113
+PHI,Philadelphia 76ers,2025-04-01,L,NYK,False,91
+PHI,Philadelphia 76ers,2025-03-30,L,TOR,True,109
+PHI,Philadelphia 76ers,2025-03-29,L,MIA,True,95
+PHI,Philadelphia 76ers,2025-03-26,L,WAS,True,114
+PHI,Philadelphia 76ers,2025-03-24,L,NOP,False,99
+PHI,Philadelphia 76ers,2025-03-23,L,ATL,False,119
+PHI,Philadelphia 76ers,2025-03-21,L,SAS,False,120
+PHI,Philadelphia 76ers,2025-03-19,L,OKC,False,100
+PHI,Philadelphia 76ers,2025-03-17,L,HOU,False,137
+PHI,Philadelphia 76ers,2025-03-16,W,DAL,False,130
+PHI,Philadelphia 76ers,2025-03-14,L,IND,True,100
+PHI,Philadelphia 76ers,2025-03-12,L,TOR,False,105
+PHI,Philadelphia 76ers,2025-03-10,L,ATL,False,123
+PHI,Philadelphia 76ers,2025-03-09,W,UTA,True,126
+PHI,Philadelphia 76ers,2025-03-06,L,BOS,False,105
+PHI,Philadelphia 76ers,2025-03-04,L,MIN,False,112
+PHI,Philadelphia 76ers,2025-03-03,L,POR,True,102
+PHI,Philadelphia 76ers,2025-03-01,W,GSW,True,126
+PHI,Philadelphia 76ers,2025-02-26,L,NYK,False,105
+PHI,Philadelphia 76ers,2025-02-24,L,CHI,True,110
+PHI,Philadelphia 76ers,2025-02-22,L,BKN,True,103
+PHI,Philadelphia 76ers,2025-02-20,L,BOS,True,104
+PHI,Philadelphia 76ers,2025-02-12,L,BKN,False,96
+PHI,Philadelphia 76ers,2025-02-11,L,TOR,True,103
+PHI,Philadelphia 76ers,2025-02-09,L,MIL,False,127
+PHI,Philadelphia 76ers,2025-02-07,L,DET,False,112
+PHI,Philadelphia 76ers,2025-02-05,L,MIA,True,101
+PHI,Philadelphia 76ers,2025-02-04,W,DAL,True,118
+PHI,Philadelphia 76ers,2025-02-02,L,BOS,True,110
+PHI,Philadelphia 76ers,2025-01-31,L,DEN,True,134
+PHI,Philadelphia 76ers,2025-01-29,W,SAC,True,117
+PHI,Philadelphia 76ers,2025-01-28,W,LAL,True,118
+PHI,Philadelphia 76ers,2025-01-25,W,CHI,False,109
+PHI,Philadelphia 76ers,2025-01-24,W,CLE,True,132
+PHI,Philadelphia 76ers,2025-01-21,L,DEN,False,109
+PHI,Philadelphia 76ers,2025-01-19,L,MIL,False,109
+PHI,Philadelphia 76ers,2025-01-18,L,IND,False,102
+PHI,Philadelphia 76ers,2025-01-15,L,NYK,True,119
+PHI,Philadelphia 76ers,2025-01-14,L,OKC,True,102
+PHI,Philadelphia 76ers,2025-01-12,L,ORL,False,99
+PHI,Philadelphia 76ers,2025-01-10,L,NOP,True,115
+PHI,Philadelphia 76ers,2025-01-08,W,WAS,True,109
+PHI,Philadelphia 76ers,2025-01-06,L,PHX,True,99
+PHI,Philadelphia 76ers,2025-01-04,W,BKN,False,123
+PHI,Philadelphia 76ers,2025-01-02,L,GSW,False,105
+PHI,Philadelphia 76ers,2025-01-01,L,SAC,False,107
+PHI,Philadelphia 76ers,2024-12-30,W,POR,False,125
+PHI,Philadelphia 76ers,2024-12-28,W,UTA,False,114
+PHI,Philadelphia 76ers,2024-12-25,W,BOS,False,118
+PHI,Philadelphia 76ers,2024-12-23,W,SAS,True,111
+PHI,Philadelphia 76ers,2024-12-21,L,CLE,False,99
+PHI,Philadelphia 76ers,2024-12-20,W,CHA,True,108
+PHI,Philadelphia 76ers,2024-12-16,W,CHA,False,121
+PHI,Philadelphia 76ers,2024-12-13,L,IND,True,107
+PHI,Philadelphia 76ers,2024-12-08,W,CHI,False,108
+PHI,Philadelphia 76ers,2024-12-06,W,ORL,True,102
+PHI,Philadelphia 76ers,2024-12-04,L,ORL,True,102
+PHI,Philadelphia 76ers,2024-12-03,W,CHA,False,110
+PHI,Philadelphia 76ers,2024-11-30,W,DET,False,111
+PHI,Philadelphia 76ers,2024-11-27,L,HOU,True,115
+PHI,Philadelphia 76ers,2024-11-24,L,LAC,True,99
+PHI,Philadelphia 76ers,2024-11-22,W,BKN,True,113
+PHI,Philadelphia 76ers,2024-11-20,L,MEM,False,111
+PHI,Philadelphia 76ers,2024-11-18,L,MIA,False,89
+PHI,Philadelphia 76ers,2024-11-15,L,ORL,False,86
+PHI,Philadelphia 76ers,2024-11-13,L,CLE,True,106
+PHI,Philadelphia 76ers,2024-11-12,L,NYK,True,99
+PHI,Philadelphia 76ers,2024-11-10,W,CHA,True,107
+PHI,Philadelphia 76ers,2024-11-08,L,LAL,False,106
+PHI,Philadelphia 76ers,2024-11-06,L,LAC,False,98
+PHI,Philadelphia 76ers,2024-11-04,L,PHX,False,116
+PHI,Philadelphia 76ers,2024-11-02,L,MEM,True,107
+PHI,Philadelphia 76ers,2024-10-30,L,DET,True,95
+PHI,Philadelphia 76ers,2024-10-27,W,IND,False,118
+PHI,Philadelphia 76ers,2024-10-25,L,TOR,False,107
+PHI,Philadelphia 76ers,2024-10-23,L,MIL,True,109
+PHX,Phoenix Suns,2025-04-13,L,SAC,False,98
+PHX,Phoenix Suns,2025-04-11,W,SAS,True,117
+PHX,Phoenix Suns,2025-04-09,L,OKC,True,112
+PHX,Phoenix Suns,2025-04-08,L,GSW,True,95
+PHX,Phoenix Suns,2025-04-06,L,NYK,False,98
+PHX,Phoenix Suns,2025-04-04,L,BOS,False,103
+PHX,Phoenix Suns,2025-04-01,L,MIL,False,123
+PHX,Phoenix Suns,2025-03-30,L,HOU,True,109
+PHX,Phoenix Suns,2025-03-28,L,MIN,False,109
+PHX,Phoenix Suns,2025-03-26,L,BOS,True,102
+PHX,Phoenix Suns,2025-03-24,W,MIL,True,108
+PHX,Phoenix Suns,2025-03-21,W,CLE,True,123
+PHX,Phoenix Suns,2025-03-19,W,CHI,True,127
+PHX,Phoenix Suns,2025-03-17,W,TOR,True,129
+PHX,Phoenix Suns,2025-03-16,L,LAL,False,96
+PHX,Phoenix Suns,2025-03-14,W,SAC,True,122
+PHX,Phoenix Suns,2025-03-12,L,HOU,False,104
+PHX,Phoenix Suns,2025-03-10,L,MEM,False,118
+PHX,Phoenix Suns,2025-03-09,W,DAL,False,125
+PHX,Phoenix Suns,2025-03-07,L,DEN,False,141
+PHX,Phoenix Suns,2025-03-04,W,LAC,True,119
+PHX,Phoenix Suns,2025-03-02,L,MIN,True,98
+PHX,Phoenix Suns,2025-02-28,W,NOP,True,125
+PHX,Phoenix Suns,2025-02-27,L,NOP,True,116
+PHX,Phoenix Suns,2025-02-25,L,MEM,False,148
+PHX,Phoenix Suns,2025-02-23,L,TOR,False,109
+PHX,Phoenix Suns,2025-02-22,W,CHI,False,121
+PHX,Phoenix Suns,2025-02-20,L,SAS,False,109
+PHX,Phoenix Suns,2025-02-12,L,HOU,False,111
+PHX,Phoenix Suns,2025-02-11,L,MEM,True,112
+PHX,Phoenix Suns,2025-02-08,L,DEN,True,105
+PHX,Phoenix Suns,2025-02-07,W,UTA,True,135
+PHX,Phoenix Suns,2025-02-05,L,OKC,False,109
+PHX,Phoenix Suns,2025-02-03,L,POR,False,119
+PHX,Phoenix Suns,2025-02-01,L,POR,False,108
+PHX,Phoenix Suns,2025-01-31,W,GSW,False,130
+PHX,Phoenix Suns,2025-01-29,L,MIN,True,113
+PHX,Phoenix Suns,2025-01-27,W,LAC,True,111
+PHX,Phoenix Suns,2025-01-25,W,WAS,True,119
+PHX,Phoenix Suns,2025-01-22,W,BKN,False,108
+PHX,Phoenix Suns,2025-01-20,L,CLE,False,92
+PHX,Phoenix Suns,2025-01-18,W,DET,False,125
+PHX,Phoenix Suns,2025-01-16,W,WAS,False,130
+PHX,Phoenix Suns,2025-01-14,L,ATL,False,117
+PHX,Phoenix Suns,2025-01-12,W,CHA,True,120
+PHX,Phoenix Suns,2025-01-11,W,UTA,True,114
+PHX,Phoenix Suns,2025-01-09,W,ATL,True,123
+PHX,Phoenix Suns,2025-01-07,L,CHA,False,104
+PHX,Phoenix Suns,2025-01-06,W,PHI,False,109
+PHX,Phoenix Suns,2025-01-04,L,IND,False,108
+PHX,Phoenix Suns,2024-12-31,L,MEM,True,112
+PHX,Phoenix Suns,2024-12-28,L,GSW,False,105
+PHX,Phoenix Suns,2024-12-27,L,DAL,True,89
+PHX,Phoenix Suns,2024-12-25,W,DEN,True,110
+PHX,Phoenix Suns,2024-12-23,L,DEN,False,90
+PHX,Phoenix Suns,2024-12-21,L,DET,True,125
+PHX,Phoenix Suns,2024-12-19,L,IND,True,111
+PHX,Phoenix Suns,2024-12-15,W,POR,True,116
+PHX,Phoenix Suns,2024-12-13,W,UTA,False,134
+PHX,Phoenix Suns,2024-12-08,L,ORL,False,110
+PHX,Phoenix Suns,2024-12-07,L,MIA,False,111
+PHX,Phoenix Suns,2024-12-05,L,NOP,False,124
+PHX,Phoenix Suns,2024-12-03,W,SAS,True,104
+PHX,Phoenix Suns,2024-11-30,W,GSW,True,113
+PHX,Phoenix Suns,2024-11-27,L,BKN,True,117
+PHX,Phoenix Suns,2024-11-26,W,LAL,True,127
+PHX,Phoenix Suns,2024-11-20,L,NYK,True,122
+PHX,Phoenix Suns,2024-11-18,L,ORL,True,99
+PHX,Phoenix Suns,2024-11-17,L,MIN,False,117
+PHX,Phoenix Suns,2024-11-15,L,OKC,False,83
+PHX,Phoenix Suns,2024-11-13,L,SAC,False,104
+PHX,Phoenix Suns,2024-11-12,W,UTA,False,120
+PHX,Phoenix Suns,2024-11-10,L,SAC,True,118
+PHX,Phoenix Suns,2024-11-08,W,DAL,False,114
+PHX,Phoenix Suns,2024-11-06,W,MIA,True,115
+PHX,Phoenix Suns,2024-11-04,W,PHI,True,118
+PHX,Phoenix Suns,2024-11-02,W,POR,True,103
+PHX,Phoenix Suns,2024-10-31,W,LAC,False,125
+PHX,Phoenix Suns,2024-10-28,W,LAL,True,109
+PHX,Phoenix Suns,2024-10-26,W,DAL,True,114
+PHX,Phoenix Suns,2024-10-25,L,LAL,False,116
+PHX,Phoenix Suns,2024-10-23,W,LAC,False,116
+POR,Portland Trail Blazers,2025-04-13,W,LAL,True,109
+POR,Portland Trail Blazers,2025-04-11,L,GSW,True,86
+POR,Portland Trail Blazers,2025-04-09,L,UTA,False,126
+POR,Portland Trail Blazers,2025-04-06,W,SAS,True,120
+POR,Portland Trail Blazers,2025-04-04,L,CHI,False,113
+POR,Portland Trail Blazers,2025-04-03,W,TOR,False,112
+POR,Portland Trail Blazers,2025-04-01,W,ATL,False,127
+POR,Portland Trail Blazers,2025-03-30,L,NYK,False,93
+POR,Portland Trail Blazers,2025-03-27,L,SAC,False,107
+POR,Portland Trail Blazers,2025-03-25,L,CLE,True,111
+POR,Portland Trail Blazers,2025-03-23,L,BOS,True,116
+POR,Portland Trail Blazers,2025-03-21,W,DEN,True,128
+POR,Portland Trail Blazers,2025-03-19,W,MEM,True,115
+POR,Portland Trail Blazers,2025-03-17,W,WAS,True,112
+POR,Portland Trail Blazers,2025-03-16,W,TOR,True,105
+POR,Portland Trail Blazers,2025-03-12,L,NYK,True,113
+POR,Portland Trail Blazers,2025-03-10,L,GSW,False,120
+POR,Portland Trail Blazers,2025-03-09,L,DET,True,112
+POR,Portland Trail Blazers,2025-03-07,L,OKC,False,89
+POR,Portland Trail Blazers,2025-03-05,L,BOS,False,118
+POR,Portland Trail Blazers,2025-03-03,W,PHI,False,119
+POR,Portland Trail Blazers,2025-03-02,L,CLE,False,129
+POR,Portland Trail Blazers,2025-02-28,W,BKN,False,121
+POR,Portland Trail Blazers,2025-02-26,W,WAS,False,129
+POR,Portland Trail Blazers,2025-02-24,W,UTA,False,114
+POR,Portland Trail Blazers,2025-02-22,W,CHA,True,141
+POR,Portland Trail Blazers,2025-02-20,L,LAL,True,102
+POR,Portland Trail Blazers,2025-02-12,L,DEN,False,121
+POR,Portland Trail Blazers,2025-02-10,L,DEN,False,117
+POR,Portland Trail Blazers,2025-02-08,L,MIN,False,98
+POR,Portland Trail Blazers,2025-02-06,W,SAC,True,108
+POR,Portland Trail Blazers,2025-02-04,W,IND,True,112
+POR,Portland Trail Blazers,2025-02-03,W,PHX,True,121
+POR,Portland Trail Blazers,2025-02-01,W,PHX,True,127
+POR,Portland Trail Blazers,2025-01-30,W,ORL,True,119
+POR,Portland Trail Blazers,2025-01-28,W,MIL,True,125
+POR,Portland Trail Blazers,2025-01-26,L,OKC,True,108
+POR,Portland Trail Blazers,2025-01-24,W,CHA,False,102
+POR,Portland Trail Blazers,2025-01-23,W,ORL,False,101
+POR,Portland Trail Blazers,2025-01-21,W,MIA,False,116
+POR,Portland Trail Blazers,2025-01-19,W,CHI,True,113
+POR,Portland Trail Blazers,2025-01-18,L,HOU,True,103
+POR,Portland Trail Blazers,2025-01-16,L,LAC,True,89
+POR,Portland Trail Blazers,2025-01-14,L,BKN,True,114
+POR,Portland Trail Blazers,2025-01-11,L,MIA,True,98
+POR,Portland Trail Blazers,2025-01-09,L,DAL,False,111
+POR,Portland Trail Blazers,2025-01-08,W,NOP,False,119
+POR,Portland Trail Blazers,2025-01-06,L,DET,False,115
+POR,Portland Trail Blazers,2025-01-04,W,MIL,False,105
+POR,Portland Trail Blazers,2025-01-02,L,LAL,False,106
+POR,Portland Trail Blazers,2024-12-30,L,PHI,True,103
+POR,Portland Trail Blazers,2024-12-28,W,DAL,True,126
+POR,Portland Trail Blazers,2024-12-26,W,UTA,True,122
+POR,Portland Trail Blazers,2024-12-23,L,DAL,False,108
+POR,Portland Trail Blazers,2024-12-21,L,SAS,False,94
+POR,Portland Trail Blazers,2024-12-19,W,DEN,True,126
+POR,Portland Trail Blazers,2024-12-15,L,PHX,False,109
+POR,Portland Trail Blazers,2024-12-13,L,SAS,True,116
+POR,Portland Trail Blazers,2024-12-08,L,LAL,False,98
+POR,Portland Trail Blazers,2024-12-06,L,UTA,True,99
+POR,Portland Trail Blazers,2024-12-03,L,LAC,False,105
+POR,Portland Trail Blazers,2024-12-01,L,DAL,True,131
+POR,Portland Trail Blazers,2024-11-29,W,SAC,True,115
+POR,Portland Trail Blazers,2024-11-27,L,IND,False,114
+POR,Portland Trail Blazers,2024-11-25,L,MEM,False,98
+POR,Portland Trail Blazers,2024-11-23,W,HOU,False,104
+POR,Portland Trail Blazers,2024-11-22,L,HOU,False,88
+POR,Portland Trail Blazers,2024-11-20,L,OKC,False,99
+POR,Portland Trail Blazers,2024-11-17,W,ATL,True,114
+POR,Portland Trail Blazers,2024-11-13,W,MIN,True,106
+POR,Portland Trail Blazers,2024-11-12,W,MIN,True,122
+POR,Portland Trail Blazers,2024-11-10,L,MEM,True,89
+POR,Portland Trail Blazers,2024-11-08,L,MIN,False,102
+POR,Portland Trail Blazers,2024-11-07,L,SAS,False,105
+POR,Portland Trail Blazers,2024-11-04,W,NOP,False,118
+POR,Portland Trail Blazers,2024-11-02,L,PHX,False,97
+POR,Portland Trail Blazers,2024-11-01,L,OKC,True,114
+POR,Portland Trail Blazers,2024-10-30,W,LAC,False,106
+POR,Portland Trail Blazers,2024-10-28,L,SAC,False,98
+POR,Portland Trail Blazers,2024-10-27,W,NOP,True,125
+POR,Portland Trail Blazers,2024-10-25,L,NOP,True,103
+POR,Portland Trail Blazers,2024-10-23,L,GSW,True,104
+SAC,Sacramento Kings,2025-04-13,W,PHX,True,109
+SAC,Sacramento Kings,2025-04-11,L,LAC,True,100
+SAC,Sacramento Kings,2025-04-09,L,DEN,True,116
+SAC,Sacramento Kings,2025-04-07,W,DET,False,127
+SAC,Sacramento Kings,2025-04-06,W,CLE,False,120
+SAC,Sacramento Kings,2025-04-04,W,CHA,False,125
+SAC,Sacramento Kings,2025-04-02,L,WAS,False,111
+SAC,Sacramento Kings,2025-03-31,L,IND,False,109
+SAC,Sacramento Kings,2025-03-29,L,ORL,False,91
+SAC,Sacramento Kings,2025-03-27,W,POR,True,128
+SAC,Sacramento Kings,2025-03-25,L,OKC,True,105
+SAC,Sacramento Kings,2025-03-24,L,BOS,True,95
+SAC,Sacramento Kings,2025-03-22,L,MIL,True,108
+SAC,Sacramento Kings,2025-03-20,L,CHI,True,116
+SAC,Sacramento Kings,2025-03-19,W,CLE,True,123
+SAC,Sacramento Kings,2025-03-17,W,MEM,True,132
+SAC,Sacramento Kings,2025-03-14,L,PHX,False,106
+SAC,Sacramento Kings,2025-03-13,L,GSW,False,104
+SAC,Sacramento Kings,2025-03-10,L,NYK,True,104
+SAC,Sacramento Kings,2025-03-09,L,LAC,False,110
+SAC,Sacramento Kings,2025-03-07,W,SAS,True,127
+SAC,Sacramento Kings,2025-03-05,L,DEN,False,110
+SAC,Sacramento Kings,2025-03-03,W,DAL,False,122
+SAC,Sacramento Kings,2025-03-01,W,HOU,False,113
+SAC,Sacramento Kings,2025-02-26,W,UTA,False,118
+SAC,Sacramento Kings,2025-02-24,W,CHA,True,130
+SAC,Sacramento Kings,2025-02-21,L,GSW,True,108
+SAC,Sacramento Kings,2025-02-13,L,NOP,False,133
+SAC,Sacramento Kings,2025-02-12,W,NOP,False,119
+SAC,Sacramento Kings,2025-02-10,W,DAL,False,129
+SAC,Sacramento Kings,2025-02-08,W,NOP,True,123
+SAC,Sacramento Kings,2025-02-06,L,POR,False,102
+SAC,Sacramento Kings,2025-02-05,L,ORL,True,111
+SAC,Sacramento Kings,2025-02-03,W,MIN,False,116
+SAC,Sacramento Kings,2025-02-01,L,OKC,False,110
+SAC,Sacramento Kings,2025-01-29,L,PHI,False,104
+SAC,Sacramento Kings,2025-01-27,W,BKN,False,110
+SAC,Sacramento Kings,2025-01-25,L,NYK,False,120
+SAC,Sacramento Kings,2025-01-23,L,DEN,False,123
+SAC,Sacramento Kings,2025-01-22,W,GSW,True,123
+SAC,Sacramento Kings,2025-01-19,W,WAS,True,123
+SAC,Sacramento Kings,2025-01-16,W,HOU,True,132
+SAC,Sacramento Kings,2025-01-14,L,MIL,False,115
+SAC,Sacramento Kings,2025-01-12,W,CHI,False,124
+SAC,Sacramento Kings,2025-01-10,W,BOS,False,114
+SAC,Sacramento Kings,2025-01-06,W,MIA,True,123
+SAC,Sacramento Kings,2025-01-05,W,GSW,False,129
+SAC,Sacramento Kings,2025-01-03,W,MEM,True,138
+SAC,Sacramento Kings,2025-01-01,W,PHI,True,113
+SAC,Sacramento Kings,2024-12-30,W,DAL,True,110
+SAC,Sacramento Kings,2024-12-28,L,LAL,False,122
+SAC,Sacramento Kings,2024-12-26,L,DET,True,113
+SAC,Sacramento Kings,2024-12-22,L,IND,True,95
+SAC,Sacramento Kings,2024-12-21,L,LAL,True,99
+SAC,Sacramento Kings,2024-12-19,L,LAL,True,100
+SAC,Sacramento Kings,2024-12-16,L,DEN,True,129
+SAC,Sacramento Kings,2024-12-12,W,NOP,False,111
+SAC,Sacramento Kings,2024-12-08,W,UTA,True,141
+SAC,Sacramento Kings,2024-12-06,W,SAS,False,140
+SAC,Sacramento Kings,2024-12-05,L,MEM,False,110
+SAC,Sacramento Kings,2024-12-03,W,HOU,True,120
+SAC,Sacramento Kings,2024-12-01,L,SAS,True,125
+SAC,Sacramento Kings,2024-11-29,L,POR,False,106
+SAC,Sacramento Kings,2024-11-27,W,MIN,False,115
+SAC,Sacramento Kings,2024-11-25,L,OKC,True,109
+SAC,Sacramento Kings,2024-11-24,L,BKN,True,103
+SAC,Sacramento Kings,2024-11-22,L,LAC,False,88
+SAC,Sacramento Kings,2024-11-18,L,ATL,True,108
+SAC,Sacramento Kings,2024-11-16,W,UTA,True,121
+SAC,Sacramento Kings,2024-11-15,L,MIN,True,126
+SAC,Sacramento Kings,2024-11-13,W,PHX,True,127
+SAC,Sacramento Kings,2024-11-11,L,SAS,False,96
+SAC,Sacramento Kings,2024-11-10,W,PHX,False,127
+SAC,Sacramento Kings,2024-11-08,L,LAC,True,98
+SAC,Sacramento Kings,2024-11-06,W,TOR,True,122
+SAC,Sacramento Kings,2024-11-04,W,MIA,False,111
+SAC,Sacramento Kings,2024-11-02,L,TOR,False,128
+SAC,Sacramento Kings,2024-11-01,W,ATL,False,123
+SAC,Sacramento Kings,2024-10-29,W,UTA,False,113
+SAC,Sacramento Kings,2024-10-28,W,POR,True,111
+SAC,Sacramento Kings,2024-10-26,L,LAL,False,127
+SAC,Sacramento Kings,2024-10-24,L,MIN,True,115
+SAS,San Antonio Spurs,2025-04-13,W,TOR,True,125
+SAS,San Antonio Spurs,2025-04-11,L,PHX,False,98
+SAS,San Antonio Spurs,2025-04-09,W,GSW,False,114
+SAS,San Antonio Spurs,2025-04-08,L,LAC,False,117
+SAS,San Antonio Spurs,2025-04-06,L,POR,False,109
+SAS,San Antonio Spurs,2025-04-04,L,CLE,True,113
+SAS,San Antonio Spurs,2025-04-02,W,DEN,False,113
+SAS,San Antonio Spurs,2025-04-01,L,ORL,True,105
+SAS,San Antonio Spurs,2025-03-30,L,GSW,True,106
+SAS,San Antonio Spurs,2025-03-29,L,BOS,True,111
+SAS,San Antonio Spurs,2025-03-27,L,CLE,False,116
+SAS,San Antonio Spurs,2025-03-25,L,DET,False,96
+SAS,San Antonio Spurs,2025-03-23,W,TOR,False,123
+SAS,San Antonio Spurs,2025-03-21,W,PHI,True,128
+SAS,San Antonio Spurs,2025-03-19,W,NYK,True,120
+SAS,San Antonio Spurs,2025-03-17,L,LAL,False,109
+SAS,San Antonio Spurs,2025-03-15,W,NOP,True,119
+SAS,San Antonio Spurs,2025-03-14,L,CHA,True,134
+SAS,San Antonio Spurs,2025-03-12,W,DAL,True,126
+SAS,San Antonio Spurs,2025-03-10,L,DAL,True,129
+SAS,San Antonio Spurs,2025-03-09,L,MIN,False,124
+SAS,San Antonio Spurs,2025-03-07,L,SAC,False,109
+SAS,San Antonio Spurs,2025-03-04,W,BKN,True,127
+SAS,San Antonio Spurs,2025-03-02,L,OKC,True,132
+SAS,San Antonio Spurs,2025-03-01,W,MEM,False,130
+SAS,San Antonio Spurs,2025-02-26,L,HOU,False,106
+SAS,San Antonio Spurs,2025-02-25,L,NOP,False,103
+SAS,San Antonio Spurs,2025-02-23,L,NOP,False,96
+SAS,San Antonio Spurs,2025-02-21,L,DET,True,110
+SAS,San Antonio Spurs,2025-02-20,W,PHX,True,120
+SAS,San Antonio Spurs,2025-02-12,L,BOS,False,103
+SAS,San Antonio Spurs,2025-02-10,W,WAS,False,131
+SAS,San Antonio Spurs,2025-02-08,L,ORL,False,111
+SAS,San Antonio Spurs,2025-02-07,L,CHA,False,116
+SAS,San Antonio Spurs,2025-02-05,W,ATL,False,126
+SAS,San Antonio Spurs,2025-02-03,L,MEM,False,109
+SAS,San Antonio Spurs,2025-02-01,L,MIA,True,103
+SAS,San Antonio Spurs,2025-01-31,W,MIL,True,144
+SAS,San Antonio Spurs,2025-01-29,L,LAC,True,116
+SAS,San Antonio Spurs,2025-01-25,L,IND,True,98
+SAS,San Antonio Spurs,2025-01-23,W,IND,False,140
+SAS,San Antonio Spurs,2025-01-19,L,MIA,False,107
+SAS,San Antonio Spurs,2025-01-17,L,MEM,True,112
+SAS,San Antonio Spurs,2025-01-15,L,MEM,True,115
+SAS,San Antonio Spurs,2025-01-13,W,LAL,False,126
+SAS,San Antonio Spurs,2025-01-08,L,MIL,False,105
+SAS,San Antonio Spurs,2025-01-06,L,CHI,False,110
+SAS,San Antonio Spurs,2025-01-04,L,DEN,True,111
+SAS,San Antonio Spurs,2025-01-03,W,DEN,False,113
+SAS,San Antonio Spurs,2024-12-31,W,LAC,True,122
+SAS,San Antonio Spurs,2024-12-29,L,MIN,False,110
+SAS,San Antonio Spurs,2024-12-27,W,BKN,False,96
+SAS,San Antonio Spurs,2024-12-25,L,NYK,False,114
+SAS,San Antonio Spurs,2024-12-23,L,PHI,False,106
+SAS,San Antonio Spurs,2024-12-21,W,POR,True,114
+SAS,San Antonio Spurs,2024-12-19,W,ATL,True,133
+SAS,San Antonio Spurs,2024-12-15,L,MIN,True,92
+SAS,San Antonio Spurs,2024-12-13,W,POR,False,118
+SAS,San Antonio Spurs,2024-12-08,W,NOP,True,121
+SAS,San Antonio Spurs,2024-12-06,L,SAC,True,113
+SAS,San Antonio Spurs,2024-12-05,L,CHI,True,124
+SAS,San Antonio Spurs,2024-12-03,L,PHX,False,93
+SAS,San Antonio Spurs,2024-12-01,W,SAC,False,127
+SAS,San Antonio Spurs,2024-11-27,L,LAL,True,101
+SAS,San Antonio Spurs,2024-11-26,W,UTA,False,128
+SAS,San Antonio Spurs,2024-11-23,W,GSW,True,104
+SAS,San Antonio Spurs,2024-11-21,W,UTA,True,126
+SAS,San Antonio Spurs,2024-11-19,W,OKC,True,110
+SAS,San Antonio Spurs,2024-11-16,L,DAL,False,93
+SAS,San Antonio Spurs,2024-11-15,L,LAL,True,115
+SAS,San Antonio Spurs,2024-11-13,W,WAS,True,139
+SAS,San Antonio Spurs,2024-11-11,W,SAC,True,116
+SAS,San Antonio Spurs,2024-11-09,L,UTA,True,110
+SAS,San Antonio Spurs,2024-11-07,W,POR,True,118
+SAS,San Antonio Spurs,2024-11-06,L,HOU,False,100
+SAS,San Antonio Spurs,2024-11-04,L,LAC,False,104
+SAS,San Antonio Spurs,2024-11-02,W,MIN,True,113
+SAS,San Antonio Spurs,2024-10-31,W,UTA,False,106
+SAS,San Antonio Spurs,2024-10-30,L,OKC,False,93
+SAS,San Antonio Spurs,2024-10-28,L,HOU,True,101
+SAS,San Antonio Spurs,2024-10-26,W,HOU,True,109
+SAS,San Antonio Spurs,2024-10-24,L,DAL,False,109
+OKC,Oklahoma City Thunder,2025-04-13,W,NOP,False,115
+OKC,Oklahoma City Thunder,2025-04-11,W,UTA,False,145
+OKC,Oklahoma City Thunder,2025-04-09,W,PHX,False,125
+OKC,Oklahoma City Thunder,2025-04-08,W,LAL,True,136
+OKC,Oklahoma City Thunder,2025-04-06,L,LAL,True,99
+OKC,Oklahoma City Thunder,2025-04-04,L,HOU,False,111
+OKC,Oklahoma City Thunder,2025-04-02,W,DET,True,119
+OKC,Oklahoma City Thunder,2025-03-31,W,CHI,True,145
+OKC,Oklahoma City Thunder,2025-03-29,W,IND,True,132
+OKC,Oklahoma City Thunder,2025-03-27,W,MEM,True,125
+OKC,Oklahoma City Thunder,2025-03-25,W,SAC,False,121
+OKC,Oklahoma City Thunder,2025-03-23,W,LAC,False,103
+OKC,Oklahoma City Thunder,2025-03-21,W,CHA,True,141
+OKC,Oklahoma City Thunder,2025-03-19,W,PHI,True,133
+OKC,Oklahoma City Thunder,2025-03-16,W,MIL,False,121
+OKC,Oklahoma City Thunder,2025-03-15,W,DET,False,113
+OKC,Oklahoma City Thunder,2025-03-12,W,BOS,False,118
+OKC,Oklahoma City Thunder,2025-03-10,L,DEN,True,127
+OKC,Oklahoma City Thunder,2025-03-09,W,DEN,True,127
+OKC,Oklahoma City Thunder,2025-03-07,W,POR,True,107
+OKC,Oklahoma City Thunder,2025-03-05,W,MEM,False,120
+OKC,Oklahoma City Thunder,2025-03-03,W,HOU,True,137
+OKC,Oklahoma City Thunder,2025-03-02,W,SAS,False,146
+OKC,Oklahoma City Thunder,2025-02-28,W,ATL,False,135
+OKC,Oklahoma City Thunder,2025-02-26,W,BKN,False,129
+OKC,Oklahoma City Thunder,2025-02-24,L,MIN,True,128
+OKC,Oklahoma City Thunder,2025-02-23,W,MIN,False,130
+OKC,Oklahoma City Thunder,2025-02-21,W,UTA,False,130
+OKC,Oklahoma City Thunder,2025-02-13,L,MIN,False,101
+OKC,Oklahoma City Thunder,2025-02-12,W,MIA,True,115
+OKC,Oklahoma City Thunder,2025-02-10,W,NOP,True,137
+OKC,Oklahoma City Thunder,2025-02-08,W,MEM,False,125
+OKC,Oklahoma City Thunder,2025-02-07,W,TOR,True,121
+OKC,Oklahoma City Thunder,2025-02-05,W,PHX,True,140
+OKC,Oklahoma City Thunder,2025-02-03,W,MIL,True,125
+OKC,Oklahoma City Thunder,2025-02-01,W,SAC,True,144
+OKC,Oklahoma City Thunder,2025-01-29,L,GSW,False,109
+OKC,Oklahoma City Thunder,2025-01-26,W,POR,False,118
+OKC,Oklahoma City Thunder,2025-01-23,L,DAL,True,115
+OKC,Oklahoma City Thunder,2025-01-22,W,UTA,True,123
+OKC,Oklahoma City Thunder,2025-01-19,W,BKN,True,127
+OKC,Oklahoma City Thunder,2025-01-17,L,DAL,False,98
+OKC,Oklahoma City Thunder,2025-01-16,W,CLE,True,134
+OKC,Oklahoma City Thunder,2025-01-14,W,PHI,False,118
+OKC,Oklahoma City Thunder,2025-01-12,W,WAS,False,136
+OKC,Oklahoma City Thunder,2025-01-10,W,NYK,False,126
+OKC,Oklahoma City Thunder,2025-01-08,L,CLE,False,122
+OKC,Oklahoma City Thunder,2025-01-05,W,BOS,True,105
+OKC,Oklahoma City Thunder,2025-01-03,W,NYK,True,117
+OKC,Oklahoma City Thunder,2025-01-02,W,LAC,True,116
+OKC,Oklahoma City Thunder,2024-12-31,W,MIN,True,113
+OKC,Oklahoma City Thunder,2024-12-29,W,MEM,True,130
+OKC,Oklahoma City Thunder,2024-12-28,W,CHA,False,106
+OKC,Oklahoma City Thunder,2024-12-26,W,IND,False,120
+OKC,Oklahoma City Thunder,2024-12-23,W,WAS,True,123
+OKC,Oklahoma City Thunder,2024-12-20,W,MIA,False,104
+OKC,Oklahoma City Thunder,2024-12-19,W,ORL,False,105
+OKC,Oklahoma City Thunder,2024-12-14,W,HOU,True,111
+OKC,Oklahoma City Thunder,2024-12-10,W,DAL,True,118
+OKC,Oklahoma City Thunder,2024-12-07,W,NOP,False,119
+OKC,Oklahoma City Thunder,2024-12-05,W,TOR,False,129
+OKC,Oklahoma City Thunder,2024-12-03,W,UTA,True,133
+OKC,Oklahoma City Thunder,2024-12-01,L,HOU,False,116
+OKC,Oklahoma City Thunder,2024-11-29,W,LAL,False,101
+OKC,Oklahoma City Thunder,2024-11-27,W,GSW,False,105
+OKC,Oklahoma City Thunder,2024-11-25,W,SAC,False,130
+OKC,Oklahoma City Thunder,2024-11-20,W,POR,True,109
+OKC,Oklahoma City Thunder,2024-11-19,L,SAS,False,104
+OKC,Oklahoma City Thunder,2024-11-17,L,DAL,True,119
+OKC,Oklahoma City Thunder,2024-11-15,W,PHX,True,99
+OKC,Oklahoma City Thunder,2024-11-13,W,NOP,True,106
+OKC,Oklahoma City Thunder,2024-11-11,W,LAC,True,134
+OKC,Oklahoma City Thunder,2024-11-10,L,GSW,True,116
+OKC,Oklahoma City Thunder,2024-11-08,W,HOU,True,126
+OKC,Oklahoma City Thunder,2024-11-06,L,DEN,False,122
+OKC,Oklahoma City Thunder,2024-11-04,W,ORL,True,102
+OKC,Oklahoma City Thunder,2024-11-02,W,LAC,False,105
+OKC,Oklahoma City Thunder,2024-11-01,W,POR,False,137
+OKC,Oklahoma City Thunder,2024-10-30,W,SAS,True,105
+OKC,Oklahoma City Thunder,2024-10-27,W,ATL,True,128
+OKC,Oklahoma City Thunder,2024-10-26,W,CHI,False,114
+OKC,Oklahoma City Thunder,2024-10-24,W,DEN,False,102
+TOR,Toronto Raptors,2025-04-13,L,SAS,False,118
+TOR,Toronto Raptors,2025-04-11,L,DAL,False,102
+TOR,Toronto Raptors,2025-04-09,W,CHA,True,126
+TOR,Toronto Raptors,2025-04-06,W,BKN,False,120
+TOR,Toronto Raptors,2025-04-04,L,DET,True,105
+TOR,Toronto Raptors,2025-04-03,L,POR,True,103
+TOR,Toronto Raptors,2025-04-01,L,CHI,False,118
+TOR,Toronto Raptors,2025-03-30,W,PHI,False,127
+TOR,Toronto Raptors,2025-03-28,W,CHA,True,108
+TOR,Toronto Raptors,2025-03-26,W,BKN,False,116
+TOR,Toronto Raptors,2025-03-24,W,WAS,False,112
+TOR,Toronto Raptors,2025-03-23,L,SAS,True,89
+TOR,Toronto Raptors,2025-03-20,L,GSW,False,114
+TOR,Toronto Raptors,2025-03-17,L,PHX,False,89
+TOR,Toronto Raptors,2025-03-16,L,POR,False,102
+TOR,Toronto Raptors,2025-03-14,W,UTA,False,126
+TOR,Toronto Raptors,2025-03-12,W,PHI,True,118
+TOR,Toronto Raptors,2025-03-10,W,WAS,True,119
+TOR,Toronto Raptors,2025-03-08,L,WAS,True,117
+TOR,Toronto Raptors,2025-03-07,W,UTA,True,118
+TOR,Toronto Raptors,2025-03-04,W,ORL,False,114
+TOR,Toronto Raptors,2025-03-02,W,ORL,False,104
+TOR,Toronto Raptors,2025-02-28,L,CHI,False,115
+TOR,Toronto Raptors,2025-02-26,L,IND,False,91
+TOR,Toronto Raptors,2025-02-25,L,BOS,True,101
+TOR,Toronto Raptors,2025-02-23,W,PHX,True,127
+TOR,Toronto Raptors,2025-02-21,L,MIA,True,111
+TOR,Toronto Raptors,2025-02-12,L,CLE,True,108
+TOR,Toronto Raptors,2025-02-11,W,PHI,False,106
+TOR,Toronto Raptors,2025-02-09,L,HOU,False,87
+TOR,Toronto Raptors,2025-02-07,L,OKC,False,109
+TOR,Toronto Raptors,2025-02-05,L,MEM,True,107
+TOR,Toronto Raptors,2025-02-04,L,NYK,True,115
+TOR,Toronto Raptors,2025-02-02,W,LAC,True,115
+TOR,Toronto Raptors,2025-01-31,L,CHI,True,106
+TOR,Toronto Raptors,2025-01-29,W,WAS,False,106
+TOR,Toronto Raptors,2025-01-27,W,NOP,True,113
+TOR,Toronto Raptors,2025-01-25,W,ATL,False,117
+TOR,Toronto Raptors,2025-01-23,W,ATL,False,122
+TOR,Toronto Raptors,2025-01-21,W,ORL,True,109
+TOR,Toronto Raptors,2025-01-17,L,MIL,False,112
+TOR,Toronto Raptors,2025-01-15,W,BOS,True,110
+TOR,Toronto Raptors,2025-01-13,W,GSW,True,104
+TOR,Toronto Raptors,2025-01-11,L,DET,False,114
+TOR,Toronto Raptors,2025-01-09,L,CLE,False,126
+TOR,Toronto Raptors,2025-01-08,L,NYK,False,98
+TOR,Toronto Raptors,2025-01-06,L,MIL,True,104
+TOR,Toronto Raptors,2025-01-03,L,ORL,True,97
+TOR,Toronto Raptors,2025-01-01,W,BKN,True,130
+TOR,Toronto Raptors,2024-12-31,L,BOS,False,71
+TOR,Toronto Raptors,2024-12-29,L,ATL,True,107
+TOR,Toronto Raptors,2024-12-26,L,MEM,False,126
+TOR,Toronto Raptors,2024-12-23,L,NYK,False,125
+TOR,Toronto Raptors,2024-12-22,L,HOU,True,110
+TOR,Toronto Raptors,2024-12-19,L,BKN,True,94
+TOR,Toronto Raptors,2024-12-16,L,CHI,True,121
+TOR,Toronto Raptors,2024-12-12,L,MIA,False,104
+TOR,Toronto Raptors,2024-12-09,L,NYK,True,108
+TOR,Toronto Raptors,2024-12-07,L,DAL,True,118
+TOR,Toronto Raptors,2024-12-05,L,OKC,True,92
+TOR,Toronto Raptors,2024-12-03,W,IND,True,122
+TOR,Toronto Raptors,2024-12-01,W,MIA,True,119
+TOR,Toronto Raptors,2024-11-29,L,MIA,False,111
+TOR,Toronto Raptors,2024-11-27,W,NOP,False,119
+TOR,Toronto Raptors,2024-11-25,L,DET,False,100
+TOR,Toronto Raptors,2024-11-24,L,CLE,False,108
+TOR,Toronto Raptors,2024-11-21,W,MIN,True,110
+TOR,Toronto Raptors,2024-11-18,W,IND,True,130
+TOR,Toronto Raptors,2024-11-16,L,BOS,False,123
+TOR,Toronto Raptors,2024-11-15,L,DET,True,95
+TOR,Toronto Raptors,2024-11-12,L,MIL,False,85
+TOR,Toronto Raptors,2024-11-10,L,LAL,False,103
+TOR,Toronto Raptors,2024-11-09,L,LAC,False,103
+TOR,Toronto Raptors,2024-11-06,L,SAC,False,107
+TOR,Toronto Raptors,2024-11-04,L,DEN,False,119
+TOR,Toronto Raptors,2024-11-02,W,SAC,True,131
+TOR,Toronto Raptors,2024-11-01,L,LAL,True,125
+TOR,Toronto Raptors,2024-10-30,L,CHA,False,133
+TOR,Toronto Raptors,2024-10-28,L,DEN,True,125
+TOR,Toronto Raptors,2024-10-26,L,MIN,False,101
+TOR,Toronto Raptors,2024-10-25,W,PHI,True,115
+TOR,Toronto Raptors,2024-10-23,L,CLE,True,106
+UTA,Utah Jazz,2025-04-13,L,MIN,False,105
+UTA,Utah Jazz,2025-04-11,L,OKC,True,111
+UTA,Utah Jazz,2025-04-09,W,POR,True,133
+UTA,Utah Jazz,2025-04-06,L,ATL,False,134
+UTA,Utah Jazz,2025-04-04,L,IND,False,112
+UTA,Utah Jazz,2025-04-02,L,HOU,False,105
+UTA,Utah Jazz,2025-03-31,L,CHA,False,106
+UTA,Utah Jazz,2025-03-28,L,DEN,False,93
+UTA,Utah Jazz,2025-03-27,L,HOU,True,110
+UTA,Utah Jazz,2025-03-25,L,MEM,True,103
+UTA,Utah Jazz,2025-03-23,L,CLE,True,91
+UTA,Utah Jazz,2025-03-21,L,BOS,True,99
+UTA,Utah Jazz,2025-03-19,W,WAS,True,128
+UTA,Utah Jazz,2025-03-17,L,CHI,True,97
+UTA,Utah Jazz,2025-03-16,L,MIN,False,102
+UTA,Utah Jazz,2025-03-14,L,TOR,True,118
+UTA,Utah Jazz,2025-03-12,L,MEM,False,115
+UTA,Utah Jazz,2025-03-10,L,BOS,False,108
+UTA,Utah Jazz,2025-03-09,L,PHI,False,122
+UTA,Utah Jazz,2025-03-07,L,TOR,False,109
+UTA,Utah Jazz,2025-03-05,L,WAS,False,122
+UTA,Utah Jazz,2025-03-03,L,DET,True,106
+UTA,Utah Jazz,2025-03-02,L,NOP,True,121
+UTA,Utah Jazz,2025-02-28,W,MIN,True,117
+UTA,Utah Jazz,2025-02-26,L,SAC,True,101
+UTA,Utah Jazz,2025-02-24,L,POR,True,112
+UTA,Utah Jazz,2025-02-22,W,HOU,True,124
+UTA,Utah Jazz,2025-02-21,L,OKC,True,107
+UTA,Utah Jazz,2025-02-13,L,LAC,True,116
+UTA,Utah Jazz,2025-02-12,W,LAL,True,131
+UTA,Utah Jazz,2025-02-10,L,LAL,False,113
+UTA,Utah Jazz,2025-02-08,L,LAC,False,110
+UTA,Utah Jazz,2025-02-07,L,PHX,False,127
+UTA,Utah Jazz,2025-02-05,W,GSW,True,131
+UTA,Utah Jazz,2025-02-03,L,IND,True,111
+UTA,Utah Jazz,2025-02-01,W,ORL,True,113
+UTA,Utah Jazz,2025-01-30,L,MIN,True,113
+UTA,Utah Jazz,2025-01-28,L,GSW,False,103
+UTA,Utah Jazz,2025-01-27,L,MIL,True,110
+UTA,Utah Jazz,2025-01-25,L,MEM,False,103
+UTA,Utah Jazz,2025-01-22,L,OKC,False,114
+UTA,Utah Jazz,2025-01-20,L,NOP,False,119
+UTA,Utah Jazz,2025-01-17,L,NOP,False,123
+UTA,Utah Jazz,2025-01-15,L,CHA,True,112
+UTA,Utah Jazz,2025-01-12,W,BKN,True,112
+UTA,Utah Jazz,2025-01-11,L,PHX,False,106
+UTA,Utah Jazz,2025-01-09,L,MIA,True,92
+UTA,Utah Jazz,2025-01-07,L,ATL,True,121
+UTA,Utah Jazz,2025-01-05,W,ORL,False,105
+UTA,Utah Jazz,2025-01-04,W,MIA,False,136
+UTA,Utah Jazz,2025-01-01,L,NYK,False,103
+UTA,Utah Jazz,2024-12-30,L,DEN,True,121
+UTA,Utah Jazz,2024-12-28,L,PHI,True,111
+UTA,Utah Jazz,2024-12-26,L,POR,False,120
+UTA,Utah Jazz,2024-12-23,L,CLE,False,113
+UTA,Utah Jazz,2024-12-21,W,BKN,False,105
+UTA,Utah Jazz,2024-12-19,W,DET,False,126
+UTA,Utah Jazz,2024-12-16,L,LAC,False,107
+UTA,Utah Jazz,2024-12-13,L,PHX,True,126
+UTA,Utah Jazz,2024-12-08,L,SAC,False,97
+UTA,Utah Jazz,2024-12-06,W,POR,False,141
+UTA,Utah Jazz,2024-12-03,L,OKC,False,106
+UTA,Utah Jazz,2024-12-01,L,LAL,True,104
+UTA,Utah Jazz,2024-11-30,L,DAL,True,94
+UTA,Utah Jazz,2024-11-27,L,DEN,True,103
+UTA,Utah Jazz,2024-11-26,L,SAS,True,115
+UTA,Utah Jazz,2024-11-23,W,NYK,True,121
+UTA,Utah Jazz,2024-11-21,L,SAS,False,118
+UTA,Utah Jazz,2024-11-19,L,LAL,False,118
+UTA,Utah Jazz,2024-11-17,L,LAC,False,105
+UTA,Utah Jazz,2024-11-16,L,SAC,False,117
+UTA,Utah Jazz,2024-11-14,W,DAL,True,115
+UTA,Utah Jazz,2024-11-12,L,PHX,True,112
+UTA,Utah Jazz,2024-11-09,W,SAS,False,111
+UTA,Utah Jazz,2024-11-07,L,MIL,False,100
+UTA,Utah Jazz,2024-11-04,W,CHI,False,135
+UTA,Utah Jazz,2024-11-02,L,DEN,False,103
+UTA,Utah Jazz,2024-10-31,L,SAS,True,88
+UTA,Utah Jazz,2024-10-29,L,SAC,True,96
+UTA,Utah Jazz,2024-10-28,L,DAL,False,102
+UTA,Utah Jazz,2024-10-25,L,GSW,True,86
+UTA,Utah Jazz,2024-10-23,L,MEM,True,124
+MEM,Memphis Grizzlies,2025-04-13,W,DAL,True,132
+MEM,Memphis Grizzlies,2025-04-11,L,DEN,False,109
+MEM,Memphis Grizzlies,2025-04-10,L,MIN,True,125
+MEM,Memphis Grizzlies,2025-04-08,W,CHA,False,124
+MEM,Memphis Grizzlies,2025-04-05,W,DET,False,109
+MEM,Memphis Grizzlies,2025-04-03,W,MIA,False,110
+MEM,Memphis Grizzlies,2025-04-01,L,GSW,True,125
+MEM,Memphis Grizzlies,2025-03-31,L,BOS,True,103
+MEM,Memphis Grizzlies,2025-03-29,L,LAL,True,127
+MEM,Memphis Grizzlies,2025-03-27,L,OKC,False,104
+MEM,Memphis Grizzlies,2025-03-25,W,UTA,False,140
+MEM,Memphis Grizzlies,2025-03-21,L,LAC,False,108
+MEM,Memphis Grizzlies,2025-03-19,L,POR,False,99
+MEM,Memphis Grizzlies,2025-03-17,L,SAC,False,122
+MEM,Memphis Grizzlies,2025-03-15,W,MIA,True,125
+MEM,Memphis Grizzlies,2025-03-14,L,CLE,True,124
+MEM,Memphis Grizzlies,2025-03-12,W,UTA,True,122
+MEM,Memphis Grizzlies,2025-03-10,W,PHX,True,120
+MEM,Memphis Grizzlies,2025-03-09,W,NOP,False,107
+MEM,Memphis Grizzlies,2025-03-07,W,DAL,False,122
+MEM,Memphis Grizzlies,2025-03-05,L,OKC,True,103
+MEM,Memphis Grizzlies,2025-03-03,L,ATL,True,130
+MEM,Memphis Grizzlies,2025-03-01,L,SAS,True,128
+MEM,Memphis Grizzlies,2025-02-28,L,NYK,True,113
+MEM,Memphis Grizzlies,2025-02-25,W,PHX,True,151
+MEM,Memphis Grizzlies,2025-02-23,L,CLE,False,123
+MEM,Memphis Grizzlies,2025-02-21,W,ORL,False,105
+MEM,Memphis Grizzlies,2025-02-20,L,IND,False,113
+MEM,Memphis Grizzlies,2025-02-12,L,LAC,False,114
+MEM,Memphis Grizzlies,2025-02-11,W,PHX,False,119
+MEM,Memphis Grizzlies,2025-02-08,L,OKC,True,112
+MEM,Memphis Grizzlies,2025-02-05,W,TOR,False,138
+MEM,Memphis Grizzlies,2025-02-03,W,SAS,True,128
+MEM,Memphis Grizzlies,2025-02-02,W,MIL,False,132
+MEM,Memphis Grizzlies,2025-01-30,W,HOU,True,120
+MEM,Memphis Grizzlies,2025-01-27,L,NYK,False,106
+MEM,Memphis Grizzlies,2025-01-25,W,UTA,True,125
+MEM,Memphis Grizzlies,2025-01-24,W,NOP,True,139
+MEM,Memphis Grizzlies,2025-01-22,W,CHA,True,132
+MEM,Memphis Grizzlies,2025-01-20,W,MIN,True,108
+MEM,Memphis Grizzlies,2025-01-17,W,SAS,False,140
+MEM,Memphis Grizzlies,2025-01-15,W,SAS,False,129
+MEM,Memphis Grizzlies,2025-01-13,L,HOU,False,118
+MEM,Memphis Grizzlies,2025-01-11,W,MIN,False,127
+MEM,Memphis Grizzlies,2025-01-09,L,HOU,True,115
+MEM,Memphis Grizzlies,2025-01-06,W,DAL,True,119
+MEM,Memphis Grizzlies,2025-01-04,L,GSW,False,113
+MEM,Memphis Grizzlies,2025-01-03,L,SAC,False,133
+MEM,Memphis Grizzlies,2024-12-31,W,PHX,False,117
+MEM,Memphis Grizzlies,2024-12-29,L,OKC,False,106
+MEM,Memphis Grizzlies,2024-12-27,W,NOP,False,132
+MEM,Memphis Grizzlies,2024-12-26,W,TOR,True,155
+MEM,Memphis Grizzlies,2024-12-23,L,LAC,True,110
+MEM,Memphis Grizzlies,2024-12-21,W,ATL,False,128
+MEM,Memphis Grizzlies,2024-12-19,W,GSW,True,144
+MEM,Memphis Grizzlies,2024-12-15,L,LAL,False,110
+MEM,Memphis Grizzlies,2024-12-13,W,BKN,True,135
+MEM,Memphis Grizzlies,2024-12-08,W,WAS,False,140
+MEM,Memphis Grizzlies,2024-12-07,W,BOS,False,127
+MEM,Memphis Grizzlies,2024-12-05,W,SAC,True,115
+MEM,Memphis Grizzlies,2024-12-03,L,DAL,False,116
+MEM,Memphis Grizzlies,2024-12-01,W,IND,True,136
+MEM,Memphis Grizzlies,2024-11-29,W,NOP,True,120
+MEM,Memphis Grizzlies,2024-11-27,W,DET,True,131
+MEM,Memphis Grizzlies,2024-11-25,W,POR,True,123
+MEM,Memphis Grizzlies,2024-11-23,W,CHI,False,142
+MEM,Memphis Grizzlies,2024-11-20,W,PHI,True,117
+MEM,Memphis Grizzlies,2024-11-19,L,DEN,True,110
+MEM,Memphis Grizzlies,2024-11-17,W,DEN,True,105
+MEM,Memphis Grizzlies,2024-11-15,L,GSW,False,118
+MEM,Memphis Grizzlies,2024-11-13,L,LAL,False,123
+MEM,Memphis Grizzlies,2024-11-10,W,POR,False,134
+MEM,Memphis Grizzlies,2024-11-08,W,WAS,True,128
+MEM,Memphis Grizzlies,2024-11-06,W,LAL,True,131
+MEM,Memphis Grizzlies,2024-11-04,L,BKN,False,104
+MEM,Memphis Grizzlies,2024-11-02,W,PHI,False,124
+MEM,Memphis Grizzlies,2024-10-31,W,MIL,True,122
+MEM,Memphis Grizzlies,2024-10-30,L,BKN,True,106
+MEM,Memphis Grizzlies,2024-10-28,L,CHI,True,123
+MEM,Memphis Grizzlies,2024-10-26,W,ORL,True,124
+MEM,Memphis Grizzlies,2024-10-25,L,HOU,False,108
+MEM,Memphis Grizzlies,2024-10-23,W,UTA,False,126
+WAS,Washington Wizards,2025-04-13,W,MIA,False,119
+WAS,Washington Wizards,2025-04-11,L,CHI,False,89
+WAS,Washington Wizards,2025-04-09,L,PHI,True,103
+WAS,Washington Wizards,2025-04-08,L,IND,False,98
+WAS,Washington Wizards,2025-04-06,L,BOS,False,90
+WAS,Washington Wizards,2025-04-03,L,ORL,True,97
+WAS,Washington Wizards,2025-04-02,W,SAC,True,116
+WAS,Washington Wizards,2025-03-31,L,MIA,True,94
+WAS,Washington Wizards,2025-03-29,L,BKN,True,112
+WAS,Washington Wizards,2025-03-27,L,IND,True,109
+WAS,Washington Wizards,2025-03-26,W,PHI,False,119
+WAS,Washington Wizards,2025-03-24,L,TOR,True,104
+WAS,Washington Wizards,2025-03-22,L,NYK,False,103
+WAS,Washington Wizards,2025-03-21,L,ORL,True,105
+WAS,Washington Wizards,2025-03-19,L,UTA,False,112
+WAS,Washington Wizards,2025-03-17,L,POR,False,97
+WAS,Washington Wizards,2025-03-15,W,DEN,False,126
+WAS,Washington Wizards,2025-03-13,W,DET,False,129
+WAS,Washington Wizards,2025-03-11,L,DET,False,103
+WAS,Washington Wizards,2025-03-10,L,TOR,False,104
+WAS,Washington Wizards,2025-03-08,W,TOR,False,118
+WAS,Washington Wizards,2025-03-05,W,UTA,True,125
+WAS,Washington Wizards,2025-03-03,L,MIA,False,90
+WAS,Washington Wizards,2025-03-01,W,CHA,False,113
+WAS,Washington Wizards,2025-02-26,L,POR,True,121
+WAS,Washington Wizards,2025-02-24,W,BKN,True,107
+WAS,Washington Wizards,2025-02-23,L,ORL,False,90
+WAS,Washington Wizards,2025-02-21,L,MIL,True,101
+WAS,Washington Wizards,2025-02-12,L,IND,True,130
+WAS,Washington Wizards,2025-02-10,L,SAS,True,121
+WAS,Washington Wizards,2025-02-08,L,ATL,True,111
+WAS,Washington Wizards,2025-02-07,L,CLE,True,124
+WAS,Washington Wizards,2025-02-05,W,BKN,False,119
+WAS,Washington Wizards,2025-02-03,W,CHA,False,124
+WAS,Washington Wizards,2025-02-01,W,MIN,False,105
+WAS,Washington Wizards,2025-01-30,L,LAL,True,96
+WAS,Washington Wizards,2025-01-29,L,TOR,True,82
+WAS,Washington Wizards,2025-01-27,L,DAL,False,108
+WAS,Washington Wizards,2025-01-25,L,PHX,False,109
+WAS,Washington Wizards,2025-01-23,L,LAC,False,93
+WAS,Washington Wizards,2025-01-21,L,LAL,False,88
+WAS,Washington Wizards,2025-01-19,L,SAC,False,100
+WAS,Washington Wizards,2025-01-18,L,GSW,False,114
+WAS,Washington Wizards,2025-01-16,L,PHX,True,123
+WAS,Washington Wizards,2025-01-13,L,MIN,True,106
+WAS,Washington Wizards,2025-01-12,L,OKC,True,95
+WAS,Washington Wizards,2025-01-10,L,CHI,False,105
+WAS,Washington Wizards,2025-01-08,L,PHI,False,103
+WAS,Washington Wizards,2025-01-07,L,HOU,True,112
+WAS,Washington Wizards,2025-01-05,L,NOP,True,98
+WAS,Washington Wizards,2025-01-03,L,NOP,False,120
+WAS,Washington Wizards,2025-01-01,W,CHI,True,125
+WAS,Washington Wizards,2024-12-30,L,NYK,True,106
+WAS,Washington Wizards,2024-12-28,L,NYK,True,132
+WAS,Washington Wizards,2024-12-26,W,CHA,True,113
+WAS,Washington Wizards,2024-12-23,L,OKC,False,105
+WAS,Washington Wizards,2024-12-21,L,MIL,False,101
+WAS,Washington Wizards,2024-12-19,W,CHA,True,123
+WAS,Washington Wizards,2024-12-15,L,BOS,True,98
+WAS,Washington Wizards,2024-12-13,L,CLE,False,105
+WAS,Washington Wizards,2024-12-08,L,MEM,True,112
+WAS,Washington Wizards,2024-12-07,W,DEN,True,122
+WAS,Washington Wizards,2024-12-05,L,DAL,True,101
+WAS,Washington Wizards,2024-12-03,L,CLE,False,87
+WAS,Washington Wizards,2024-11-30,L,MIL,False,114
+WAS,Washington Wizards,2024-11-27,L,LAC,True,96
+WAS,Washington Wizards,2024-11-26,L,CHI,True,108
+WAS,Washington Wizards,2024-11-24,L,IND,False,103
+WAS,Washington Wizards,2024-11-22,L,BOS,True,96
+WAS,Washington Wizards,2024-11-18,L,NYK,False,106
+WAS,Washington Wizards,2024-11-17,L,DET,True,104
+WAS,Washington Wizards,2024-11-15,L,ATL,False,117
+WAS,Washington Wizards,2024-11-13,L,SAS,False,130
+WAS,Washington Wizards,2024-11-11,L,HOU,False,92
+WAS,Washington Wizards,2024-11-10,L,ORL,False,94
+WAS,Washington Wizards,2024-11-08,L,MEM,False,104
+WAS,Washington Wizards,2024-11-04,L,GSW,True,112
+WAS,Washington Wizards,2024-11-02,L,MIA,True,98
+WAS,Washington Wizards,2024-10-30,W,ATL,True,133
+WAS,Washington Wizards,2024-10-28,W,ATL,False,121
+WAS,Washington Wizards,2024-10-26,L,CLE,True,116
+WAS,Washington Wizards,2024-10-24,L,BOS,True,102
+DET,Detroit Pistons,2025-04-13,L,MIL,False,133
+DET,Detroit Pistons,2025-04-11,L,MIL,True,119
+DET,Detroit Pistons,2025-04-10,W,NYK,True,115
+DET,Detroit Pistons,2025-04-07,L,SAC,True,117
+DET,Detroit Pistons,2025-04-05,L,MEM,True,103
+DET,Detroit Pistons,2025-04-04,W,TOR,False,117
+DET,Detroit Pistons,2025-04-02,L,OKC,False,103
+DET,Detroit Pistons,2025-03-30,L,MIN,False,104
+DET,Detroit Pistons,2025-03-28,W,CLE,True,133
+DET,Detroit Pistons,2025-03-25,W,SAS,True,122
+DET,Detroit Pistons,2025-03-23,W,NOP,True,136
+DET,Detroit Pistons,2025-03-21,L,DAL,False,117
+DET,Detroit Pistons,2025-03-19,W,MIA,False,116
+DET,Detroit Pistons,2025-03-17,W,NOP,False,127
+DET,Detroit Pistons,2025-03-15,L,OKC,True,107
+DET,Detroit Pistons,2025-03-13,L,WAS,True,125
+DET,Detroit Pistons,2025-03-11,W,WAS,True,123
+DET,Detroit Pistons,2025-03-09,W,POR,False,119
+DET,Detroit Pistons,2025-03-08,L,GSW,False,110
+DET,Detroit Pistons,2025-03-05,L,LAC,False,115
+DET,Detroit Pistons,2025-03-03,W,UTA,False,134
+DET,Detroit Pistons,2025-03-01,W,BKN,True,115
+DET,Detroit Pistons,2025-02-28,L,DEN,True,119
+DET,Detroit Pistons,2025-02-26,W,BOS,True,117
+DET,Detroit Pistons,2025-02-24,W,LAC,True,106
+DET,Detroit Pistons,2025-02-23,W,ATL,False,148
+DET,Detroit Pistons,2025-02-21,W,SAS,False,125
+DET,Detroit Pistons,2025-02-12,W,CHI,False,128
+DET,Detroit Pistons,2025-02-11,W,CHI,False,132
+DET,Detroit Pistons,2025-02-09,W,CHA,True,112
+DET,Detroit Pistons,2025-02-07,W,PHI,True,125
+DET,Detroit Pistons,2025-02-05,L,CLE,True,115
+DET,Detroit Pistons,2025-02-03,L,ATL,True,130
+DET,Detroit Pistons,2025-02-02,W,CHI,True,127
+DET,Detroit Pistons,2025-01-31,W,DAL,True,117
+DET,Detroit Pistons,2025-01-29,L,IND,False,119
+DET,Detroit Pistons,2025-01-27,L,CLE,False,91
+DET,Detroit Pistons,2025-01-25,L,ORL,False,113
+DET,Detroit Pistons,2025-01-22,W,ATL,False,114
+DET,Detroit Pistons,2025-01-20,W,HOU,False,107
+DET,Detroit Pistons,2025-01-18,L,PHX,True,121
+DET,Detroit Pistons,2025-01-16,L,IND,True,100
+DET,Detroit Pistons,2025-01-13,W,NYK,False,124
+DET,Detroit Pistons,2025-01-11,W,TOR,True,123
+DET,Detroit Pistons,2025-01-09,L,GSW,True,104
+DET,Detroit Pistons,2025-01-08,W,BKN,False,113
+DET,Detroit Pistons,2025-01-06,W,POR,True,118
+DET,Detroit Pistons,2025-01-04,W,MIN,True,119
+DET,Detroit Pistons,2025-01-03,W,CHA,True,98
+DET,Detroit Pistons,2025-01-01,W,ORL,True,105
+DET,Detroit Pistons,2024-12-28,L,DEN,False,121
+DET,Detroit Pistons,2024-12-26,W,SAC,False,114
+DET,Detroit Pistons,2024-12-23,W,LAL,False,117
+DET,Detroit Pistons,2024-12-21,W,PHX,False,133
+DET,Detroit Pistons,2024-12-19,L,UTA,True,119
+DET,Detroit Pistons,2024-12-16,W,MIA,True,125
+DET,Detroit Pistons,2024-12-12,L,BOS,False,99
+DET,Detroit Pistons,2024-12-07,W,NYK,False,120
+DET,Detroit Pistons,2024-12-04,L,BOS,False,120
+DET,Detroit Pistons,2024-12-03,L,MIL,True,107
+DET,Detroit Pistons,2024-11-30,L,PHI,True,96
+DET,Detroit Pistons,2024-11-29,W,IND,False,130
+DET,Detroit Pistons,2024-11-27,L,MEM,False,111
+DET,Detroit Pistons,2024-11-25,W,TOR,True,102
+DET,Detroit Pistons,2024-11-23,L,ORL,False,100
+DET,Detroit Pistons,2024-11-21,L,CHA,False,121
+DET,Detroit Pistons,2024-11-18,L,CHI,True,112
+DET,Detroit Pistons,2024-11-17,W,WAS,False,124
+DET,Detroit Pistons,2024-11-15,W,TOR,False,99
+DET,Detroit Pistons,2024-11-13,L,MIL,False,120
+DET,Detroit Pistons,2024-11-12,W,MIA,True,123
+DET,Detroit Pistons,2024-11-10,L,HOU,True,99
+DET,Detroit Pistons,2024-11-08,W,ATL,True,122
+DET,Detroit Pistons,2024-11-06,L,CHA,False,107
+DET,Detroit Pistons,2024-11-04,W,LAL,True,115
+DET,Detroit Pistons,2024-11-03,W,BKN,False,106
+DET,Detroit Pistons,2024-11-01,L,NYK,True,98
+DET,Detroit Pistons,2024-10-30,W,PHI,False,105
+DET,Detroit Pistons,2024-10-28,L,MIA,False,98
+DET,Detroit Pistons,2024-10-26,L,BOS,True,118
+DET,Detroit Pistons,2024-10-25,L,CLE,False,101
+DET,Detroit Pistons,2024-10-23,L,IND,True,109
+CHA,Charlotte Hornets,2025-04-13,L,BOS,False,86
+CHA,Charlotte Hornets,2025-04-11,L,BOS,False,94
+CHA,Charlotte Hornets,2025-04-09,L,TOR,False,96
+CHA,Charlotte Hornets,2025-04-08,L,MEM,True,100
+CHA,Charlotte Hornets,2025-04-06,L,CHI,True,117
+CHA,Charlotte Hornets,2025-04-04,L,SAC,True,102
+CHA,Charlotte Hornets,2025-04-02,L,IND,False,105
+CHA,Charlotte Hornets,2025-03-31,W,UTA,True,110
+CHA,Charlotte Hornets,2025-03-30,L,NOP,False,94
+CHA,Charlotte Hornets,2025-03-28,L,TOR,False,97
+CHA,Charlotte Hornets,2025-03-25,L,ORL,True,104
+CHA,Charlotte Hornets,2025-03-23,L,MIA,False,105
+CHA,Charlotte Hornets,2025-03-21,L,OKC,False,106
+CHA,Charlotte Hornets,2025-03-20,W,NYK,True,115
+CHA,Charlotte Hornets,2025-03-18,L,ATL,True,102
+CHA,Charlotte Hornets,2025-03-16,L,LAC,False,88
+CHA,Charlotte Hornets,2025-03-14,W,SAS,False,145
+CHA,Charlotte Hornets,2025-03-12,L,ATL,False,110
+CHA,Charlotte Hornets,2025-03-10,W,MIA,False,105
+CHA,Charlotte Hornets,2025-03-08,W,BKN,True,105
+CHA,Charlotte Hornets,2025-03-07,L,CLE,True,117
+CHA,Charlotte Hornets,2025-03-05,L,MIN,True,110
+CHA,Charlotte Hornets,2025-03-03,L,GSW,True,101
+CHA,Charlotte Hornets,2025-03-01,L,WAS,True,100
+CHA,Charlotte Hornets,2025-02-27,L,DAL,False,96
+CHA,Charlotte Hornets,2025-02-25,L,GSW,False,92
+CHA,Charlotte Hornets,2025-02-24,L,SAC,False,88
+CHA,Charlotte Hornets,2025-02-22,L,POR,False,88
+CHA,Charlotte Hornets,2025-02-20,L,DEN,False,115
+CHA,Charlotte Hornets,2025-02-19,W,LAL,False,100
+CHA,Charlotte Hornets,2025-02-12,L,ORL,False,86
+CHA,Charlotte Hornets,2025-02-10,L,BKN,False,89
+CHA,Charlotte Hornets,2025-02-09,L,DET,False,102
+CHA,Charlotte Hornets,2025-02-07,W,SAS,True,117
+CHA,Charlotte Hornets,2025-02-05,L,MIL,True,102
+CHA,Charlotte Hornets,2025-02-03,L,WAS,True,114
+CHA,Charlotte Hornets,2025-02-01,L,DEN,True,104
+CHA,Charlotte Hornets,2025-01-31,L,LAC,True,104
+CHA,Charlotte Hornets,2025-01-29,L,BKN,True,83
+CHA,Charlotte Hornets,2025-01-27,L,LAL,True,107
+CHA,Charlotte Hornets,2025-01-25,W,NOP,True,123
+CHA,Charlotte Hornets,2025-01-24,L,POR,True,97
+CHA,Charlotte Hornets,2025-01-22,L,MEM,False,120
+CHA,Charlotte Hornets,2025-01-20,W,DAL,True,110
+CHA,Charlotte Hornets,2025-01-17,W,CHI,False,125
+CHA,Charlotte Hornets,2025-01-15,W,UTA,False,117
+CHA,Charlotte Hornets,2025-01-12,L,PHX,False,113
+CHA,Charlotte Hornets,2025-01-07,W,PHX,True,115
+CHA,Charlotte Hornets,2025-01-05,L,CLE,False,105
+CHA,Charlotte Hornets,2025-01-03,L,DET,False,94
+CHA,Charlotte Hornets,2024-12-30,L,CHI,True,108
+CHA,Charlotte Hornets,2024-12-28,L,OKC,True,94
+CHA,Charlotte Hornets,2024-12-26,L,WAS,False,110
+CHA,Charlotte Hornets,2024-12-23,L,HOU,True,101
+CHA,Charlotte Hornets,2024-12-20,L,PHI,False,98
+CHA,Charlotte Hornets,2024-12-19,L,WAS,False,114
+CHA,Charlotte Hornets,2024-12-16,L,PHI,True,108
+CHA,Charlotte Hornets,2024-12-13,L,CHI,False,95
+CHA,Charlotte Hornets,2024-12-08,W,IND,False,113
+CHA,Charlotte Hornets,2024-12-07,L,CLE,True,102
+CHA,Charlotte Hornets,2024-12-05,L,NYK,False,101
+CHA,Charlotte Hornets,2024-12-03,L,PHI,True,104
+CHA,Charlotte Hornets,2024-11-30,L,ATL,True,104
+CHA,Charlotte Hornets,2024-11-29,L,NYK,True,98
+CHA,Charlotte Hornets,2024-11-27,L,MIA,True,94
+CHA,Charlotte Hornets,2024-11-25,L,ORL,True,84
+CHA,Charlotte Hornets,2024-11-23,L,MIL,False,119
+CHA,Charlotte Hornets,2024-11-21,W,DET,True,123
+CHA,Charlotte Hornets,2024-11-19,L,BKN,False,115
+CHA,Charlotte Hornets,2024-11-17,L,CLE,False,114
+CHA,Charlotte Hornets,2024-11-16,W,MIL,True,115
+CHA,Charlotte Hornets,2024-11-12,L,ORL,False,89
+CHA,Charlotte Hornets,2024-11-10,L,PHI,False,105
+CHA,Charlotte Hornets,2024-11-08,W,IND,True,103
+CHA,Charlotte Hornets,2024-11-06,W,DET,True,108
+CHA,Charlotte Hornets,2024-11-04,L,MIN,False,93
+CHA,Charlotte Hornets,2024-11-02,L,BOS,True,103
+CHA,Charlotte Hornets,2024-11-01,L,BOS,True,109
+CHA,Charlotte Hornets,2024-10-30,W,TOR,True,138
+CHA,Charlotte Hornets,2024-10-26,L,MIA,True,106
+CHA,Charlotte Hornets,2024-10-25,L,ATL,False,120
+CHA,Charlotte Hornets,2024-10-23,W,HOU,False,110
