@@ -639,7 +639,7 @@ function createViz() {
         .style("border", "1px solid rgba(102, 126, 234, 0.5)")
         .style("border-radius", "4px")
         .style("background", "rgba(255, 255, 255, 0.1)")
-        .style("color", "#f0f0f0ff")
+        .style("color", "#000000ff")
         .style("cursor", "pointer")
         .on("change", function() {
             ctx.selectedPlayer = d3.select(this).property("value");
@@ -648,7 +648,8 @@ function createViz() {
     
     playerSelect.append("option")
         .attr("value", "all")
-        .text("All Players");
+        .text("All Players")
+        .style("color", "#ffffffff");
     
     const shotSvg = shotCell.append("svg")
         .attr("width", "100%")

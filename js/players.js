@@ -495,42 +495,7 @@
             const matchupHeight = 40;
             const teamHeight = 18;
             const verticalSpacing = 50; // Space between matchups in same round
-            
-            // Helper function to check if team is in focus path
-            function isInFocusPath(team) {
-                if (!focusTeam || focusTeam === team) return true;
-                
-                // Check if this matchup involves the focus team or leads to it
-                function checkPath(matchup) {
-                    if (!matchup) return false;
-                    if (matchup.teams && matchup.teams.includes(focusTeam)) return true;
-                    if (matchup.winner === focusTeam) return true;
-                    return false;
-                }
-                
-                // Check all rounds
-                const allMatchups = [
-                    ...(bracket.east.first_round || []),
-                    ...(bracket.west.first_round || []),
-                    ...(bracket.east.semifinals || []),
-                    ...(bracket.west.semifinals || []),
-                    bracket.east.finals,
-                    bracket.west.finals,
-                    bracket.finals
-                ];
-                
-                for (const m of allMatchups) {
-                    if (m && m.teams && m.teams.includes(team) && checkPath(m)) {
-                        // Check if this leads to focus team
-                        if (m.winner === focusTeam || m.teams.includes(focusTeam)) {
-                            return true;
-                        }
-                    }
-                }
-                
-                return false;
-            }
-            
+
             // Draw a matchup
             function drawMatchup(x, y, matchup, round, isHighlighted) {
                 const g = bracketViz.append('g')
