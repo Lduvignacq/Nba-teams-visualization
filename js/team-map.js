@@ -43,10 +43,12 @@
     const EAST_COLOR='#3a7bd5';
     const WEST_COLOR='#e94e77';
     let selectedTeamAbb = null;
+    let selectedTeamAbb2 = null;
     
-    // Function to highlight selected team
-    function highlightSelectedTeam(teamAbb) {
+    // Function to highlight selected team(s)
+    function highlightSelectedTeam(teamAbb, teamAbb2 = null) {
       selectedTeamAbb = teamAbb;
+      selectedTeamAbb2 = teamAbb2;
       
       // Remove all highlights first
       g.selectAll('.team .highlight-ring').attr('opacity', 0);
@@ -57,12 +59,13 @@
         .attr('fill', '#ddd')
         .style('font-size', '11px');
       
-      // Apply highlight to selected team
+      // Apply highlight to first selected team (yellow)
       if (teamAbb) {
         const selectedTeam = g.select(`.team-${teamAbb.toLowerCase()}`);
         selectedTeam.select('.highlight-ring')
           .transition().duration(300)
-          .attr('opacity', 0.9);
+          .attr('opacity', 0.9)
+          .attr('stroke', '#ffeb3b');
         selectedTeam.select('.team-circle')
           .transition().duration(300)
           .attr('stroke', '#ffeb3b')
@@ -70,6 +73,24 @@
         selectedTeam.select('text')
           .transition().duration(300)
           .attr('fill', '#ffeb3b')
+          .style('font-size', '13px')
+          .style('font-weight', '700');
+      }
+      
+      // Apply highlight to second selected team (red)
+      if (teamAbb2) {
+        const selectedTeam2 = g.select(`.team-${teamAbb2.toLowerCase()}`);
+        selectedTeam2.select('.highlight-ring')
+          .transition().duration(300)
+          .attr('opacity', 0.9)
+          .attr('stroke', '#e74c3c');
+        selectedTeam2.select('.team-circle')
+          .transition().duration(300)
+          .attr('stroke', '#e74c3c')
+          .attr('stroke-width', 2.5);
+        selectedTeam2.select('text')
+          .transition().duration(300)
+          .attr('fill', '#e74c3c')
           .style('font-size', '13px')
           .style('font-weight', '700');
       }
@@ -144,8 +165,33 @@
         })
         .on('click',(event,d)=>{
           const name = d.abb;
-          if(window.setTeamSelection){window.setTeamSelection(name);}
-          highlightSelectedTeam(d.abb);
+          
+          // Check if ctrl key is pressed for second team selection
+          if (event.ctrlKey) {
+            // Select second team
+            if (window.ctx) {
+              window.ctx.team2 = name;
+              console.log('[team-map] Second team selected:', name);
+            }
+            highlightSelectedTeam(selectedTeamAbb, name);
+            // Update scatter plot if available
+            if (window.updateTeamStatsScatter) {
+              window.updateTeamStatsScatter();
+            }
+            if (window.renderPassingOrRadar) {
+              window.renderPassingOrRadar();
+            }
+          } else {
+            // Regular click - select first team and clear second
+            if (window.ctx) {
+              window.ctx.team2 = null;
+            }
+            if(window.setTeamSelection){window.setTeamSelection(name);}
+            highlightSelectedTeam(d.abb, null);
+            if (window.renderPassingOrRadar) {
+              window.renderPassingOrRadar();
+            }
+          }
         });
       // Highlight ring (drawn first, under the circle)
       nodes.append('circle')

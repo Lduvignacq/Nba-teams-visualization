@@ -228,9 +228,17 @@ async function createTeamStatsScatter(containerId = 'graph-cell-4') {
     let yScale = d3.scaleLinear().range([plotHeight, 0]);
 
     function updatePlot(animated = false) {
-        const currentTeam = ctx.team || 'ATL';
-        const currentSeason = ctx.season || '2024-25';
+        const currentTeam = window.ctx?.team || ctx?.team || 'ATL';
+        const currentTeam2 = window.ctx?.team2 || ctx?.team2 || null;
+        const currentSeason = window.ctx?.season || ctx?.season || '2024-25';
         const duration = animated ? 800 : 500;
+        
+        // Log comparison mode status
+        if (currentTeam2) {
+            console.log(`[team-stats] Comparison mode: ${currentTeam} vs ${currentTeam2}`);
+        } else {
+            console.log(`[team-stats] Single team mode: ${currentTeam}`);
+        }
 
         // Filter data for current season
         const seasonData = teamData.filter(d => d.Season === currentSeason && d.abb);
@@ -408,10 +416,11 @@ async function createTeamStatsScatter(containerId = 'graph-cell-4') {
         allPoints
             .style('cursor', 'pointer')
             .on('mouseenter', function(event, d) {
+                const isSelected = d.abb === currentTeam || (currentTeam2 && d.abb === currentTeam2);
                 d3.select(this)
                     .transition()
                     .duration(150)
-                    .attr('r', d.abb === currentTeam ? 12 : 8)
+                    .attr('r', isSelected ? 12 : 8)
                     .style('stroke-width', 3);
 
                 tooltip.style('opacity', 1)
@@ -428,11 +437,12 @@ async function createTeamStatsScatter(containerId = 'graph-cell-4') {
                     .style('top', (event.pageY - 12) + 'px');
             })
             .on('mouseleave', function(event, d) {
+                const isSelected = d.abb === currentTeam || (currentTeam2 && d.abb === currentTeam2);
                 d3.select(this)
                     .transition()
                     .duration(150)
-                    .attr('r', d.abb === currentTeam ? 9 : 5)
-                    .style('stroke-width', d.abb === currentTeam ? 2.5 : 1.5);
+                    .attr('r', isSelected ? 9 : 5)
+                    .style('stroke-width', isSelected ? 2.5 : 1.5);
 
                 tooltip.style('opacity', 0);
             })
@@ -442,27 +452,43 @@ async function createTeamStatsScatter(containerId = 'graph-cell-4') {
                 }
             });
 
-        // Animate points to new positions
+        // Animate points to new positions with dual highlighting
         allPoints
             .transition()
             .duration(duration)
             .ease(d3.easeCubicInOut)
             .attr('cx', d => xScale(d[selectedXMetric]))
             .attr('cy', d => yScale(d[selectedYMetric]))
-            .attr('r', d => d.abb === currentTeam ? 9 : 5)
-            .attr('fill', d => d.abb === currentTeam ? '#e74c3c' : '#3498db')
-            .style('stroke', d => d.abb === currentTeam ? '#fff' : '#2c3e50')
-            .style('stroke-width', d => d.abb === currentTeam ? 2.5 : 1.5)
-            .style('opacity', d => d.abb === currentTeam ? 1 : 0.7);
+            .attr('r', d => {
+                if (d.abb === currentTeam || (currentTeam2 && d.abb === currentTeam2)) return 9;
+                return 5;
+            })
+            .attr('fill', d => {
+                if (d.abb === currentTeam) return '#ffeb3b'; // Primary team - yellow
+                if (currentTeam2 && d.abb === currentTeam2) return '#e74c3c'; // Second team - red
+                return '#3498db'; // Other teams - blue
+            })
+            .style('stroke', d => {
+                if (d.abb === currentTeam || (currentTeam2 && d.abb === currentTeam2)) return '#fff';
+                return '#2c3e50';
+            })
+            .style('stroke-width', d => {
+                if (d.abb === currentTeam || (currentTeam2 && d.abb === currentTeam2)) return 2.5;
+                return 1.5;
+            })
+            .style('opacity', d => {
+                if (d.abb === currentTeam || (currentTeam2 && d.abb === currentTeam2)) return 1;
+                return 0.5;
+            });
 
         // Draw X-axis distribution (histogram) with animation
-        drawDistribution(xDistGroup, xValues, xScale, plotWidth, 30, 'vertical', currentTeam, seasonData, selectedXMetric, duration);
+        drawDistribution(xDistGroup, xValues, xScale, plotWidth, 30, 'vertical', currentTeam, currentTeam2, seasonData, selectedXMetric, duration);
         
         // Draw Y-axis distribution (histogram) with animation
-        drawDistribution(yDistGroup, yValues, yScale, 35, plotHeight, 'horizontal', currentTeam, seasonData, selectedYMetric, duration);
+        drawDistribution(yDistGroup, yValues, yScale, 35, plotHeight, 'horizontal', currentTeam, currentTeam2, seasonData, selectedYMetric, duration);
     }
 
-    function drawDistribution(g, values, scale, width, height, orientation, currentTeam, data, metric, duration = 500) {
+    function drawDistribution(g, values, scale, width, height, orientation, currentTeam, currentTeam2, data, metric, duration = 500) {
         const oldBins = g.selectAll('.dist-bar').data();
 
         const bins = d3.bin()
@@ -515,30 +541,34 @@ async function createTeamStatsScatter(containerId = 'graph-cell-4') {
                 .attr('height', d => height - yBinScale(d.length))
                 .attr('opacity', 0.6);
 
-            // Highlight current team's bin with animation
-            const currentTeamData = data.find(d => d.abb === currentTeam);
-            const highlightBars = g.selectAll('.highlight-bar').data([currentTeamData].filter(d => d));
+            // Highlight both teams' bins with animation
+            const teamsToHighlight = [
+                { data: data.find(d => d.abb === currentTeam), color: '#ffeb3b', className: 'highlight-bar-team1' },
+                currentTeam2 ? { data: data.find(d => d.abb === currentTeam2), color: '#e74c3c', className: 'highlight-bar-team2' } : null
+            ].filter(t => t && t.data);
 
-            highlightBars.exit()
-                .transition()
-                .duration(duration * 0.5)
-                .style('opacity', 0)
-                .remove();
+            teamsToHighlight.forEach(({ data: teamData, color, className }) => {
+                const highlightBars = g.selectAll(`.${className}`).data([teamData]);
 
-            if (currentTeamData) {
-                const teamValue = currentTeamData[metric];
+                highlightBars.exit()
+                    .transition()
+                    .duration(duration * 0.5)
+                    .style('opacity', 0)
+                    .remove();
+
+                const teamValue = teamData[metric];
                 const teamBin = bins.find(bin => teamValue >= bin.x0 && teamValue < bin.x1);
                 if (teamBin) {
                     const binCenter = (teamBin.x0 + teamBin.x1) / 2;
                     
                     const highlightEnter = highlightBars.enter()
                         .append('rect')
-                        .attr('class', 'highlight-bar')
+                        .attr('class', className)
                         .attr('x', scale(binCenter) - xBinScale.bandwidth() / 2)
                         .attr('y', height)
                         .attr('width', xBinScale.bandwidth())
                         .attr('height', 0)
-                        .attr('fill', '#e74c3c')
+                        .attr('fill', color)
                         .attr('opacity', 0);
 
                     highlightBars.merge(highlightEnter)
@@ -548,9 +578,13 @@ async function createTeamStatsScatter(containerId = 'graph-cell-4') {
                         .attr('y', yBinScale(teamBin.length))
                         .attr('width', xBinScale.bandwidth())
                         .attr('height', height - yBinScale(teamBin.length))
-                        .attr('opacity', 0.8);
+                        .attr('fill', color)
+                        .attr('opacity', 0.9);
                 }
-            }
+            });
+
+            // Clean up old highlight bars
+            g.selectAll('.highlight-bar').remove();
 
         } else { // horizontal
             const yBinScale = d3.scaleBand()
@@ -597,30 +631,34 @@ async function createTeamStatsScatter(containerId = 'graph-cell-4') {
                 .attr('height', yBinScale.bandwidth())
                 .attr('opacity', 0.6);
 
-            // Highlight current team's bin with animation
-            const currentTeamData = data.find(d => d.abb === currentTeam);
-            const highlightBars = g.selectAll('.highlight-bar').data([currentTeamData].filter(d => d));
+            // Highlight both teams' bins with animation
+            const teamsToHighlight = [
+                { data: data.find(d => d.abb === currentTeam), color: '#ffeb3b', className: 'highlight-bar-team1' },
+                currentTeam2 ? { data: data.find(d => d.abb === currentTeam2), color: '#e74c3c', className: 'highlight-bar-team2' } : null
+            ].filter(t => t && t.data);
 
-            highlightBars.exit()
-                .transition()
-                .duration(duration * 0.5)
-                .style('opacity', 0)
-                .remove();
+            teamsToHighlight.forEach(({ data: teamData, color, className }) => {
+                const highlightBars = g.selectAll(`.${className}`).data([teamData]);
 
-            if (currentTeamData) {
-                const teamValue = currentTeamData[metric];
+                highlightBars.exit()
+                    .transition()
+                    .duration(duration * 0.5)
+                    .style('opacity', 0)
+                    .remove();
+
+                const teamValue = teamData[metric];
                 const teamBin = bins.find(bin => teamValue >= bin.x0 && teamValue < bin.x1);
                 if (teamBin) {
                     const binCenter = (teamBin.x0 + teamBin.x1) / 2;
                     
                     const highlightEnter = highlightBars.enter()
                         .append('rect')
-                        .attr('class', 'highlight-bar')
+                        .attr('class', className)
                         .attr('x', 0)
                         .attr('y', scale(binCenter) - yBinScale.bandwidth() / 2)
                         .attr('width', 0)
                         .attr('height', yBinScale.bandwidth())
-                        .attr('fill', '#e74c3c')
+                        .attr('fill', color)
                         .attr('opacity', 0);
 
                     highlightBars.merge(highlightEnter)
@@ -630,9 +668,13 @@ async function createTeamStatsScatter(containerId = 'graph-cell-4') {
                         .attr('y', scale(binCenter) - yBinScale.bandwidth() / 2)
                         .attr('width', xBinScale(teamBin.length))
                         .attr('height', yBinScale.bandwidth())
-                        .attr('opacity', 0.8);
+                        .attr('fill', color)
+                        .attr('opacity', 0.9);
                 }
-            }
+            });
+
+            // Clean up old highlight bars
+            g.selectAll('.highlight-bar').remove();
         }
     }
 

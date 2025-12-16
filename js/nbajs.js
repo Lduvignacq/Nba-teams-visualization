@@ -15,9 +15,12 @@ const ctx = {
     crossSeriesTempExtent: [0, 0],
     season : "2024-25",
     team: "ATL",
+    team2: null, // second team for comparison mode
     shotFilter: "all", // all, 3pt, paint, midrange
     selectedPlayer: "all" // all or specific player name
 };
+// Expose ctx globally for other modules
+window.ctx = ctx;
 const config = {
     margin: { top: 60, right: 60, bottom: 80, left: 80 },
     colors: {
@@ -662,41 +665,49 @@ function createViz() {
         .attr("transform", `translate(${ctx.w / 2}, 100), scale(1.8)`);
     ctx.courtGroup = courtGroup;
     
-    // Create SVG for passing chord in its cell
-    const passCell = d3.select("#passing-chart-cell");
-    passCell.selectAll("svg").remove(); // Clear any existing
-    const passSvg = passCell.append("svg")
-        .attr("width", "100%")
-        .attr("height", "100%")
-        .attr("viewBox", `0 0 ${ctx.w} ${ctx.h}`)
-        .attr("preserveAspectRatio", "xMidYMid meet");
-    
-    const passGroup = passSvg.append("g")
-        .attr("id", "g-pass");
-    ctx.passGroup = passGroup;
-    
     createCourt(courtGroup, "#ffffffff");
 
     // draw points for season (change season string as needed)
     drawShotChart(courtGroup, ctx.season, {
         mincount: ctx.hexMinCount || 2 }, ctx.team);
-     // draw passing chord inside the same SVG (uses separate reusable function)
+    // Render passing chord (single team) or radar chart (dual team)
+    if (typeof renderPassingOrRadar === "function") {
+        renderPassingOrRadar();
+    }
+}
+
+// Render passing chord (default) or radar chart (when ctx.team2 is set)
+function renderPassingOrRadar() {
+    const passCell = d3.select("#passing-chart-cell");
+    passCell.selectAll("svg").remove();
+
+    // Dual-team mode: show radar chart
+    if (ctx.team2 && typeof createRadarChart === "function") {
+        createRadarChart(passCell, ctx.season, ctx.team, ctx.team2);
+        return;
+    }
+
+    // Single-team mode: show passing chord
+    const passSvg = passCell.append("svg")
+        .attr("width", "100%")
+        .attr("height", "100%")
+        .attr("viewBox", `0 0 ${ctx.w} ${ctx.h}`)
+        .attr("preserveAspectRatio", "xMidYMid meet");
+
+    const passGroup = passSvg.append("g")
+        .attr("id", "g-pass");
+    ctx.passGroup = passGroup;
+
     if (typeof createPassingChordInSvg === "function") {
-        createPassingChordInSvg(ctx.passGroup, `data/nba_api/passing_data/team${ctx.season}.csv`, ctx.team, {
-            width: 1000, height: 1000, cx: 1*ctx.w / 2, cy: 250
+        createPassingChordInSvg(passGroup, `data/nba_api/passing_data/team${ctx.season}.csv`, ctx.team, {
+            width: 900, height: 800, cx: 1*ctx.w / 2, cy: 250
         });
     }
-    
-    // Initialize calendar visualization
-    if (typeof window.initCalendar === "function") {
-        window.initCalendar();
-    }
-    
-    // loadData(svgEl);
-    // tu peux decommenter si tu veux scaler le terrain
-    // courtGroup.attr("transform", `translate(${ctx.w / 2},60) scale(0.5)`);
+}
 
-};
+// Expose for other modules (e.g., map selection)
+window.renderPassingOrRadar = renderPassingOrRadar;
+
 function applyControls() {
     const sel = d3.select("#season-select");
     const season = sel.empty() ? ctx.season : sel.node().value;
@@ -713,12 +724,7 @@ function applyControls() {
         // Update button states
         updateShotFilterButtons();
     });
-    // console.log(`data\\nba_api\\passing_data\\${ctx.season}\\team${ctx.season}.csv`)
-    if (typeof createPassingChordInSvg === "function") {
-        createPassingChordInSvg(ctx.passGroup, `data/nba_api/passing_data/team${ctx.season}.csv`, ctx.team, {
-            width: 900, height: 800, cx: 1*ctx.w / 2, cy: 250
-        });
-    }
+    renderPassingOrRadar();
 }
 
 function updatePlayerFilterDropdown() {
@@ -802,6 +808,9 @@ window.setTeamSelection = function(teamName) {
         if (teamName && typeof teamName === 'string') {
             ctx.team = teamName;
             applyControls();
+            if (window.renderPassingOrRadar) {
+                window.renderPassingOrRadar();
+            }
             
             // Highlight team on map
             if (window.highlightTeamOnMap) {
