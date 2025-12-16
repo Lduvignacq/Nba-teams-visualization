@@ -621,6 +621,35 @@ function createViz() {
             });
     });
     
+    // Player filter dropdown
+    const playerDiv = controlsDiv.append("div")
+        .style("display", "flex")
+        .style("flex-direction", "column")
+        .style("gap", "4px");
+    
+    playerDiv.append("label")
+        .style("color", "#000000ff")
+        .style("font-size", "11px")
+        .text("Player:");
+    
+    const playerSelect = playerDiv.append("select")
+        .attr("id", "player-filter-select")
+        .style("padding", "4px 6px")
+        .style("font-size", "10px")
+        .style("border", "1px solid rgba(102, 126, 234, 0.5)")
+        .style("border-radius", "4px")
+        .style("background", "rgba(255, 255, 255, 0.1)")
+        .style("color", "#f0f0f0ff")
+        .style("cursor", "pointer")
+        .on("change", function() {
+            ctx.selectedPlayer = d3.select(this).property("value");
+            applyControls();
+        });
+    
+    playerSelect.append("option")
+        .attr("value", "all")
+        .text("All Players");
+    
     const shotSvg = shotCell.append("svg")
         .attr("width", "100%")
         .attr("height", "100%")
@@ -689,8 +718,13 @@ function updatePlayerFilterDropdown() {
     const playerSelect = d3.select("#player-filter-select");
     if (playerSelect.empty()) return;
     
-    // Clear existing options except "All Players"
-    playerSelect.selectAll("option:not([value='all'])").remove();
+    // Remove all options
+    playerSelect.selectAll("option").remove();
+    
+    // Add "All Players" option
+    playerSelect.append("option")
+        .attr("value", "all")
+        .text("All Players");
     
     // Add player options
     if (ctx.shotPlayers && ctx.shotPlayers.length > 0) {
