@@ -3,7 +3,7 @@
 // Uses real NBA API data from team_schedules_2024-25.json
 
 (function() {
-    let currentTeam = 'ATL';
+    let currentTeam = null; // No team selected by default
     let currentMonth = 11; // December (0-11)
     let currentYear = 2024;
     let allTeamSchedules = null;
@@ -30,6 +30,20 @@
     function initCalendar() {
         console.log('[calendar] initializing');
         
+        // Sync currentTeam with global ctx
+        if (window.ctx && window.ctx.team) {
+            currentTeam = window.ctx.team;
+        }
+        
+        // Don't show calendar if in comparison mode (two teams selected)
+        if (window.ctx && window.ctx.team2) {
+            console.log('[calendar] Skipping calendar - in comparison mode');
+            if (window.renderWaffleComparison) {
+                window.renderWaffleComparison();
+            }
+            return;
+        }
+        
         const container = d3.select('#graph-cell-5');
         if (container.empty()) {
             console.warn('[calendar] #graph-cell-5 not found');
@@ -37,6 +51,13 @@
         }
         
         container.selectAll('*').remove();
+        
+        // Don't show calendar if no team is selected
+        if (!currentTeam) {
+            console.log('[calendar] No team selected - showing placeholder');
+            showPlaceholder(container);
+            return;
+        }
         
         // Load the schedule data
         d3.json('data/nba_api/team_schedules_2024-25.json').then(data => {
@@ -89,6 +110,41 @@
             .style('text-align', 'center')
             .style('font-size', '16px')
             .text(message);
+    }
+    
+    function showPlaceholder(container) {
+        container.selectAll('*').remove();
+        
+        const placeholderDiv = container.append('div')
+            .style('display', 'flex')
+            .style('flex-direction', 'column')
+            .style('align-items', 'center')
+            .style('justify-content', 'center')
+            .style('height', '100%')
+            .style('padding', '40px')
+            .style('text-align', 'center')
+            .style('color', '#95a5a6');
+        
+        // Icon
+        placeholderDiv.append('div')
+            .style('font-size', '64px')
+            .style('margin-bottom', '20px')
+            .style('opacity', '0.3')
+            .text('📅');
+        
+        // Main message
+        placeholderDiv.append('div')
+            .style('font-size', '18px')
+            .style('font-weight', '600')
+            .style('margin-bottom', '10px')
+            .style('color', '#bdc3c7')
+            .text('Sélectionnez une équipe');
+        
+        // Instruction
+        placeholderDiv.append('div')
+            .style('font-size', '14px')
+            .style('color', '#7f8c8d')
+            .html('Cliquez sur une équipe sur la carte pour voir son calendrier<br/><span style="color: #3498db;">Shift + Clic</span> pour comparer deux équipes');
     }
     
     function drawCalendar() {
@@ -698,22 +754,21 @@
         console.log('[calendar] updating team to:', teamAbb);
         currentTeam = teamAbb;
         
+        // If no team selected, show placeholder
+        if (!teamAbb) {
+            const container = d3.select('#graph-cell-5');
+            container.selectAll('*').remove();
+            showPlaceholder(container);
+            return;
+        }
+        
         if (allTeamSchedules && allTeamSchedules[teamAbb]) {
             const container = d3.select('#graph-cell-5');
             
-            // Fade out current calendar
-            container.selectAll('svg')
-                .transition()
-                .duration(300)
-                .style('opacity', 0)
-                .on('end', function() {
-                    // Remove old calendar
-                    d3.select(this).remove();
-                    
-                    // Draw new calendar after fade out completes
-                    teamSchedule = processTeamSchedule(allTeamSchedules[teamAbb]);
-                    drawCalendar();
-                });
+            // Direct update without transition for smooth team switching
+            container.selectAll('*').remove();
+            teamSchedule = processTeamSchedule(allTeamSchedules[teamAbb]);
+            drawCalendar();
         } else if (allTeamSchedules) {
             console.error('[calendar] team not found:', teamAbb);
             drawError('Équipe non trouvée: ' + teamAbb);

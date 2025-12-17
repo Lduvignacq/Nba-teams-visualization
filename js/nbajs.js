@@ -14,7 +14,7 @@ const ctx = {
     linePlot: false,
     crossSeriesTempExtent: [0, 0],
     season : "2024-25",
-    team: "ATL",
+    team: null,  // No team selected by default
     team2: null, // second team for comparison mode
     shotFilter: "all", // all, 3pt, paint, midrange
     selectedPlayer: "all" // all or specific player name
@@ -827,9 +827,17 @@ window.setTeamSelection = function(teamName) {
                 window.updateTeamStatsScatter();
             }
             
-            // Update calendar if available
+            // Update calendar if available (only when single team selected)
             if (window.updateCalendarTeam) {
                 window.updateCalendarTeam(teamName);
+            }
+            
+            // Ensure waffle chart is hidden when only one team selected
+            if (!ctx.team2 && window.renderWaffleComparison) {
+                // This will show calendar instead
+                if (window.initCalendar) {
+                    window.initCalendar();
+                }
             }
         }
     } catch (e) {

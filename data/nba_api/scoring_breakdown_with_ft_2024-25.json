@@ -1,0 +1,692 @@
+{
+  "Atlanta Hawks": {
+    "team_name": "Atlanta Hawks",
+    "team_abb": "BOS",
+    "field_goal_points": {
+      "three_pt": 3321.0,
+      "paint": 4524.0,
+      "mid_range": 374.0,
+      "total": 9691.0
+    },
+    "percentages": {
+      "three_pt_pct": 34.3,
+      "paint_pct": 46.7,
+      "mid_range_pct": 3.9,
+      "free_throws_pct": 15.2
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1472,
+      "fta": 1900,
+      "ft_pct": 0.775,
+      "ft_points": 1472.0
+    }
+  },
+  "Boston Celtics": {
+    "team_name": "Boston Celtics",
+    "team_abb": "BOS",
+    "field_goal_points": {
+      "three_pt": 4839.0,
+      "paint": 3792.0,
+      "mid_range": 616.0,
+      "total": 10498.0
+    },
+    "percentages": {
+      "three_pt_pct": 46.1,
+      "paint_pct": 36.1,
+      "mid_range_pct": 5.9,
+      "free_throws_pct": 11.9
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1251,
+      "fta": 1565,
+      "ft_pct": 0.799,
+      "ft_points": 1251.0
+    }
+  },
+  "Brooklyn Nets": {
+    "team_name": "Brooklyn Nets",
+    "team_abb": "NYK",
+    "field_goal_points": {
+      "three_pt": 3339.0,
+      "paint": 3570.0,
+      "mid_range": 376.0,
+      "total": 8619.0
+    },
+    "percentages": {
+      "three_pt_pct": 38.7,
+      "paint_pct": 41.4,
+      "mid_range_pct": 4.4,
+      "free_throws_pct": 15.5
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1334,
+      "fta": 1696,
+      "ft_pct": 0.787,
+      "ft_points": 1334.0
+    }
+  },
+  "Charlotte Hornets": {
+    "team_name": "Charlotte Hornets",
+    "team_abb": "ORL",
+    "field_goal_points": {
+      "three_pt": 3195.0,
+      "paint": 3688.0,
+      "mid_range": 466.0,
+      "total": 8618.0
+    },
+    "percentages": {
+      "three_pt_pct": 37.1,
+      "paint_pct": 42.8,
+      "mid_range_pct": 5.4,
+      "free_throws_pct": 14.7
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1269,
+      "fta": 1621,
+      "ft_pct": 0.783,
+      "ft_points": 1269.0
+    }
+  },
+  "Chicago Bulls": {
+    "team_name": "Chicago Bulls",
+    "team_abb": "CLE",
+    "field_goal_points": {
+      "three_pt": 3798.0,
+      "paint": 4164.0,
+      "mid_range": 390.0,
+      "total": 9660.0
+    },
+    "percentages": {
+      "three_pt_pct": 39.3,
+      "paint_pct": 43.1,
+      "mid_range_pct": 4.0,
+      "free_throws_pct": 13.5
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1308,
+      "fta": 1617,
+      "ft_pct": 0.809,
+      "ft_points": 1308.0
+    }
+  },
+  "Cleveland Cavaliers": {
+    "team_name": "Cleveland Cavaliers",
+    "team_abb": "CLE",
+    "field_goal_points": {
+      "three_pt": 4311.0,
+      "paint": 4648.0,
+      "mid_range": 518.0,
+      "total": 10869.0
+    },
+    "percentages": {
+      "three_pt_pct": 39.7,
+      "paint_pct": 42.8,
+      "mid_range_pct": 4.8,
+      "free_throws_pct": 12.8
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1392,
+      "fta": 1793,
+      "ft_pct": 0.776,
+      "ft_points": 1392.0
+    }
+  },
+  "Dallas Mavericks": {
+    "team_name": "Dallas Mavericks",
+    "team_abb": "GSW",
+    "field_goal_points": {
+      "three_pt": 3060.0,
+      "paint": 4178.0,
+      "mid_range": 668.0,
+      "total": 9364.0
+    },
+    "percentages": {
+      "three_pt_pct": 32.7,
+      "paint_pct": 44.6,
+      "mid_range_pct": 7.1,
+      "free_throws_pct": 15.6
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1458,
+      "fta": 1894,
+      "ft_pct": 0.77,
+      "ft_points": 1458.0
+    }
+  },
+  "Denver Nuggets": {
+    "team_name": "Denver Nuggets",
+    "team_abb": "NOP",
+    "field_goal_points": {
+      "three_pt": 3450.0,
+      "paint": 5426.0,
+      "mid_range": 802.0,
+      "total": 11148.0
+    },
+    "percentages": {
+      "three_pt_pct": 30.9,
+      "paint_pct": 48.7,
+      "mid_range_pct": 7.2,
+      "free_throws_pct": 13.2
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1470,
+      "fta": 1909,
+      "ft_pct": 0.77,
+      "ft_points": 1470.0
+    }
+  },
+  "Detroit Pistons": {
+    "team_name": "Detroit Pistons",
+    "team_abb": "DET",
+    "field_goal_points": {
+      "three_pt": 3336.0,
+      "paint": 4608.0,
+      "mid_range": 620.0,
+      "total": 9978.0
+    },
+    "percentages": {
+      "three_pt_pct": 33.4,
+      "paint_pct": 46.2,
+      "mid_range_pct": 6.2,
+      "free_throws_pct": 14.2
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1414,
+      "fta": 1826,
+      "ft_pct": 0.774,
+      "ft_points": 1414.0
+    }
+  },
+  "Golden State Warriors": {
+    "team_name": "Golden State Warriors",
+    "team_abb": "GSW",
+    "field_goal_points": {
+      "three_pt": 4284.0,
+      "paint": 4158.0,
+      "mid_range": 554.0,
+      "total": 10379.0
+    },
+    "percentages": {
+      "three_pt_pct": 41.3,
+      "paint_pct": 40.1,
+      "mid_range_pct": 5.3,
+      "free_throws_pct": 13.3
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1383,
+      "fta": 1811,
+      "ft_pct": 0.764,
+      "ft_points": 1383.0
+    }
+  },
+  "Houston Rockets": {
+    "team_name": "Houston Rockets",
+    "team_abb": "HOU",
+    "field_goal_points": {
+      "three_pt": 3336.0,
+      "paint": 4550.0,
+      "mid_range": 708.0,
+      "total": 9960.0
+    },
+    "percentages": {
+      "three_pt_pct": 33.5,
+      "paint_pct": 45.7,
+      "mid_range_pct": 7.1,
+      "free_throws_pct": 13.7
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1366,
+      "fta": 1851,
+      "ft_pct": 0.738,
+      "ft_points": 1366.0
+    }
+  },
+  "Indiana Pacers": {
+    "team_name": "Indiana Pacers",
+    "team_abb": "IND",
+    "field_goal_points": {
+      "three_pt": 4152.0,
+      "paint": 5156.0,
+      "mid_range": 1100.0,
+      "total": 11803.0
+    },
+    "percentages": {
+      "three_pt_pct": 35.2,
+      "paint_pct": 43.7,
+      "mid_range_pct": 9.3,
+      "free_throws_pct": 11.8
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1395,
+      "fta": 1768,
+      "ft_pct": 0.789,
+      "ft_points": 1395.0
+    }
+  },
+  "LA Clippers": {
+    "team_name": "LA Clippers",
+    "team_abb": "HOU",
+    "field_goal_points": {
+      "three_pt": 3318.0,
+      "paint": 4590.0,
+      "mid_range": 592.0,
+      "total": 9916.0
+    },
+    "percentages": {
+      "three_pt_pct": 33.5,
+      "paint_pct": 46.3,
+      "mid_range_pct": 6.0,
+      "free_throws_pct": 14.3
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1416,
+      "fta": 1776,
+      "ft_pct": 0.797,
+      "ft_points": 1416.0
+    }
+  },
+  "Los Angeles Lakers": {
+    "team_name": "Los Angeles Lakers",
+    "team_abb": "SAS",
+    "field_goal_points": {
+      "three_pt": 3480.0,
+      "paint": 4116.0,
+      "mid_range": 622.0,
+      "total": 9712.0
+    },
+    "percentages": {
+      "three_pt_pct": 35.8,
+      "paint_pct": 42.4,
+      "mid_range_pct": 6.4,
+      "free_throws_pct": 15.4
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1494,
+      "fta": 1902,
+      "ft_pct": 0.785,
+      "ft_points": 1494.0
+    }
+  },
+  "Memphis Grizzlies": {
+    "team_name": "Memphis Grizzlies",
+    "team_abb": "GSW",
+    "field_goal_points": {
+      "three_pt": 3549.0,
+      "paint": 4768.0,
+      "mid_range": 494.0,
+      "total": 10310.0
+    },
+    "percentages": {
+      "three_pt_pct": 34.4,
+      "paint_pct": 46.2,
+      "mid_range_pct": 4.8,
+      "free_throws_pct": 14.5
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1499,
+      "fta": 1908,
+      "ft_pct": 0.786,
+      "ft_points": 1499.0
+    }
+  },
+  "Miami Heat": {
+    "team_name": "Miami Heat",
+    "team_abb": "DET",
+    "field_goal_points": {
+      "three_pt": 3537.0,
+      "paint": 4024.0,
+      "mid_range": 544.0,
+      "total": 9414.0
+    },
+    "percentages": {
+      "three_pt_pct": 37.6,
+      "paint_pct": 42.7,
+      "mid_range_pct": 5.8,
+      "free_throws_pct": 13.9
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1309,
+      "fta": 1654,
+      "ft_pct": 0.791,
+      "ft_points": 1309.0
+    }
+  },
+  "Milwaukee Bucks": {
+    "team_name": "Milwaukee Bucks",
+    "team_abb": "MIL",
+    "field_goal_points": {
+      "three_pt": 3699.0,
+      "paint": 3838.0,
+      "mid_range": 984.0,
+      "total": 9942.0
+    },
+    "percentages": {
+      "three_pt_pct": 37.2,
+      "paint_pct": 38.6,
+      "mid_range_pct": 9.9,
+      "free_throws_pct": 14.3
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1421,
+      "fta": 1895,
+      "ft_pct": 0.75,
+      "ft_points": 1421.0
+    }
+  },
+  "Minnesota Timberwolves": {
+    "team_name": "Minnesota Timberwolves",
+    "team_abb": "POR",
+    "field_goal_points": {
+      "three_pt": 4296.0,
+      "paint": 4594.0,
+      "mid_range": 454.0,
+      "total": 10755.0
+    },
+    "percentages": {
+      "three_pt_pct": 39.9,
+      "paint_pct": 42.7,
+      "mid_range_pct": 4.2,
+      "free_throws_pct": 13.1
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1411,
+      "fta": 1789,
+      "ft_pct": 0.789,
+      "ft_points": 1411.0
+    }
+  },
+  "New Orleans Pelicans": {
+    "team_name": "New Orleans Pelicans",
+    "team_abb": "NOP",
+    "field_goal_points": {
+      "three_pt": 2958.0,
+      "paint": 4088.0,
+      "mid_range": 604.0,
+      "total": 9006.0
+    },
+    "percentages": {
+      "three_pt_pct": 32.8,
+      "paint_pct": 45.4,
+      "mid_range_pct": 6.7,
+      "free_throws_pct": 15.1
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1356,
+      "fta": 1799,
+      "ft_pct": 0.754,
+      "ft_points": 1356.0
+    }
+  },
+  "New York Knicks": {
+    "team_name": "New York Knicks",
+    "team_abb": "PHI",
+    "field_goal_points": {
+      "three_pt": 3690.0,
+      "paint": 5156.0,
+      "mid_range": 908.0,
+      "total": 11111.0
+    },
+    "percentages": {
+      "three_pt_pct": 33.2,
+      "paint_pct": 46.4,
+      "mid_range_pct": 8.2,
+      "free_throws_pct": 12.2
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1357,
+      "fta": 1696,
+      "ft_pct": 0.8,
+      "ft_points": 1357.0
+    }
+  },
+  "Oklahoma City Thunder": {
+    "team_name": "Oklahoma City Thunder",
+    "team_abb": "OKC",
+    "field_goal_points": {
+      "three_pt": 4392.0,
+      "paint": 5312.0,
+      "mid_range": 966.0,
+      "total": 12039.0
+    },
+    "percentages": {
+      "three_pt_pct": 36.5,
+      "paint_pct": 44.1,
+      "mid_range_pct": 8.0,
+      "free_throws_pct": 11.4
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1369,
+      "fta": 1672,
+      "ft_pct": 0.819,
+      "ft_points": 1369.0
+    }
+  },
+  "Orlando Magic": {
+    "team_name": "Orlando Magic",
+    "team_abb": "ORL",
+    "field_goal_points": {
+      "three_pt": 2886.0,
+      "paint": 3960.0,
+      "mid_range": 732.0,
+      "total": 9042.0
+    },
+    "percentages": {
+      "three_pt_pct": 31.9,
+      "paint_pct": 43.8,
+      "mid_range_pct": 8.1,
+      "free_throws_pct": 16.2
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1464,
+      "fta": 1890,
+      "ft_pct": 0.775,
+      "ft_points": 1464.0
+    }
+  },
+  "Philadelphia 76ers": {
+    "team_name": "Philadelphia 76ers",
+    "team_abb": "PHI",
+    "field_goal_points": {
+      "three_pt": 3123.0,
+      "paint": 3840.0,
+      "mid_range": 586.0,
+      "total": 8988.0
+    },
+    "percentages": {
+      "three_pt_pct": 34.7,
+      "paint_pct": 42.7,
+      "mid_range_pct": 6.5,
+      "free_throws_pct": 16.0
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1439,
+      "fta": 1844,
+      "ft_pct": 0.78,
+      "ft_points": 1439.0
+    }
+  },
+  "Phoenix Suns": {
+    "team_name": "Phoenix Suns",
+    "team_abb": "UTA",
+    "field_goal_points": {
+      "three_pt": 3528.0,
+      "paint": 3462.0,
+      "mid_range": 948.0,
+      "total": 9317.0
+    },
+    "percentages": {
+      "three_pt_pct": 37.9,
+      "paint_pct": 37.2,
+      "mid_range_pct": 10.2,
+      "free_throws_pct": 14.8
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1379,
+      "fta": 1702,
+      "ft_pct": 0.81,
+      "ft_points": 1379.0
+    }
+  },
+  "Portland Trail Blazers": {
+    "team_name": "Portland Trail Blazers",
+    "team_abb": "POR",
+    "field_goal_points": {
+      "three_pt": 3171.0,
+      "paint": 4006.0,
+      "mid_range": 530.0,
+      "total": 9093.0
+    },
+    "percentages": {
+      "three_pt_pct": 34.9,
+      "paint_pct": 44.1,
+      "mid_range_pct": 5.8,
+      "free_throws_pct": 15.2
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1386,
+      "fta": 1820,
+      "ft_pct": 0.762,
+      "ft_points": 1386.0
+    }
+  },
+  "Sacramento Kings": {
+    "team_name": "Sacramento Kings",
+    "team_abb": "SAC",
+    "field_goal_points": {
+      "three_pt": 3096.0,
+      "paint": 3934.0,
+      "mid_range": 1060.0,
+      "total": 9490.0
+    },
+    "percentages": {
+      "three_pt_pct": 32.6,
+      "paint_pct": 41.5,
+      "mid_range_pct": 11.2,
+      "free_throws_pct": 14.8
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1400,
+      "fta": 1738,
+      "ft_pct": 0.806,
+      "ft_points": 1400.0
+    }
+  },
+  "San Antonio Spurs": {
+    "team_name": "San Antonio Spurs",
+    "team_abb": "SAS",
+    "field_goal_points": {
+      "three_pt": 3474.0,
+      "paint": 3924.0,
+      "mid_range": 612.0,
+      "total": 9342.0
+    },
+    "percentages": {
+      "three_pt_pct": 37.2,
+      "paint_pct": 42.0,
+      "mid_range_pct": 6.6,
+      "free_throws_pct": 14.3
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1332,
+      "fta": 1721,
+      "ft_pct": 0.774,
+      "ft_points": 1332.0
+    }
+  },
+  "Toronto Raptors": {
+    "team_name": "Toronto Raptors",
+    "team_abb": "MIL",
+    "field_goal_points": {
+      "three_pt": 2907.0,
+      "paint": 4382.0,
+      "mid_range": 508.0,
+      "total": 9091.0
+    },
+    "percentages": {
+      "three_pt_pct": 32.0,
+      "paint_pct": 48.2,
+      "mid_range_pct": 5.6,
+      "free_throws_pct": 14.2
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1294,
+      "fta": 1729,
+      "ft_pct": 0.748,
+      "ft_points": 1294.0
+    }
+  },
+  "Utah Jazz": {
+    "team_name": "Utah Jazz",
+    "team_abb": "UTA",
+    "field_goal_points": {
+      "three_pt": 3432.0,
+      "paint": 3930.0,
+      "mid_range": 392.0,
+      "total": 9175.0
+    },
+    "percentages": {
+      "three_pt_pct": 37.4,
+      "paint_pct": 42.8,
+      "mid_range_pct": 4.3,
+      "free_throws_pct": 15.5
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1421,
+      "fta": 1836,
+      "ft_pct": 0.774,
+      "ft_points": 1421.0
+    }
+  },
+  "Washington Wizards": {
+    "team_name": "Washington Wizards",
+    "team_abb": "ATL",
+    "field_goal_points": {
+      "three_pt": 3225.0,
+      "paint": 3792.0,
+      "mid_range": 524.0,
+      "total": 8856.0
+    },
+    "percentages": {
+      "three_pt_pct": 36.4,
+      "paint_pct": 42.8,
+      "mid_range_pct": 5.9,
+      "free_throws_pct": 14.8
+    },
+    "note": "Updated with real free throw data from NBA API (season 2024-25)",
+    "free_throws": {
+      "ftm": 1315,
+      "fta": 1690,
+      "ft_pct": 0.778,
+      "ft_points": 1315.0
+    }
+  }
+}

@@ -180,6 +180,10 @@
             if (window.renderPassingOrRadar) {
               window.renderPassingOrRadar();
             }
+            // Show waffle chart comparison
+            if (window.renderWaffleComparison) {
+              window.renderWaffleComparison();
+            }
           } else {
             // Regular click - select first team and clear second
             if (window.ctx) {
@@ -189,6 +193,10 @@
             highlightSelectedTeam(d.abb, null);
             if (window.renderPassingOrRadar) {
               window.renderPassingOrRadar();
+            }
+            // Show calendar (not waffle)
+            if (window.initCalendar) {
+              window.initCalendar();
             }
           }
         });
