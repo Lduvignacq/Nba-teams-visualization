@@ -288,6 +288,15 @@
         // Calculate last result color for off days
         let lastResult = null;
         
+        // Get the last game result BEFORE this month to initialize lastResult
+        const allGameDates = Object.keys(teamSchedule.games).sort();
+        const firstDayOfMonth = `${currentYear}-${String(currentMonth + 1).padStart(2, '0')}-01`;
+        const gamesBeforeMonth = allGameDates.filter(date => date < firstDayOfMonth);
+        if (gamesBeforeMonth.length > 0) {
+            const lastGameBeforeMonth = gamesBeforeMonth[gamesBeforeMonth.length - 1];
+            lastResult = teamSchedule.games[lastGameBeforeMonth].result;
+        }
+        
         // Get all dates for this month sorted
         const monthDates = [];
         for (let day = 1; day <= daysInMonth; day++) {
@@ -320,12 +329,13 @@
                 }
                 strokeColor = '#fff';
             } else {
-                // No game: use last result color but faded
+                // No game: continue the series color (darker shade) if we have a last result
                 if (lastResult === 'W') {
                     fillColor = '#1a5c2a'; // Darker green
                 } else if (lastResult === 'L') {
                     fillColor = '#6b1f2a'; // Darker red
                 }
+                // If no lastResult (beginning of season), stay grey #444
             }
             
             const cellGroup = g.append('g')
@@ -439,8 +449,8 @@
             }
         }
         
-        // Streaks section - ABOVE the legend
-        const streaksY = height - 100;
+        // Streaks section - moved very close to calendar
+        const streaksY = height - 280;
         const streaks = calculateStreaks();
         const rankings = calculateStreakRankings();
         
@@ -536,8 +546,8 @@
                 .text(`${streaks.longestLoseStreak.start} → ${streaks.longestLoseStreak.end}`);
         }
         
-        // Legend
-        const legendY = height - 22;
+        // Legend - moved very close to calendar (right under streaks)
+        const legendY = height - 220;
         const legendGroup = svg.append('g')
             .attr('transform', `translate(${width / 2 - 150}, ${legendY})`)
             .style('opacity', 0);
