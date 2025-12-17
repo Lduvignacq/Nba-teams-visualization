@@ -45,9 +45,13 @@ svg {
 #main {overflow: auto;}
 #graphs {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 0px;
+    grid-template-columns: 1.6fr 1fr 1fr;
+    grid-template-rows: minmax(52vh, auto) minmax(38vh, auto) minmax(34vh, auto);
+    grid-template-areas:
+        "map passing shots"
+        "map scatter scatter"
+        "calendar court court";
+    gap: 12px;
     padding: 10px;
     box-sizing: border-box;
     clear: both;
@@ -68,10 +72,58 @@ svg {
     position: relative;
 }
 
-/* inner svg will be sized by JS to fill its cell */
 .graph-cell svg {
     width: 100%;
     height: 100%;
+    object-fit: contain;
+}
+
+.graph-cell.map { grid-area: map; min-height: 460px; }
+.graph-cell.passing { grid-area: passing; }
+.graph-cell.shots { grid-area: shots; }
+.graph-cell.scatter { grid-area: scatter; min-height: 340px; }
+.graph-cell.calendar { grid-area: calendar; min-height: 320px; }
+.graph-cell.court { grid-area: court; min-height: 320px; }
+
+/* Let calendar/bracket content stretch instead of centering small visuals */
+.graph-cell.calendar,
+.graph-cell.court {
+    align-items: stretch;
+    justify-content: stretch;
+    padding: 8px;
+}
+
+.graph-cell.calendar > *,
+.graph-cell.court > * {
+    width: 100%;
+    height: 100%;
+}
+
+/* responsive fallbacks to prevent overlap on zoom/smaller widths */
+@media (max-width: 1400px) {
+    #graphs {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: minmax(46vh, auto) minmax(38vh, auto) minmax(32vh, auto) minmax(28vh, auto);
+        grid-template-areas:
+            "map map"
+            "passing shots"
+            "scatter scatter"
+            "calendar court";
+    }
+}
+
+@media (max-width: 900px) {
+    #graphs {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, minmax(32vh, auto));
+        grid-template-areas:
+            "map"
+            "passing"
+            "shots"
+            "scatter"
+            "calendar"
+            "court";
+    }
 }
         </style>
     </head>
@@ -91,12 +143,12 @@ svg {
             </div>
         </div>
         <div id="graphs">
-            <div class="graph-cell" id="team-map-cell"></div>
-            <div class="graph-cell" id="passing-chart-cell"></div>
-            <div class="graph-cell" id="shot-chart-cell"></div>
-            <div class="graph-cell" id="graph-cell-4"></div>
-            <div class="graph-cell" id="graph-cell-5"></div>
-            <div class="graph-cell" id="graph-cell-6"></div>
+            <div class="graph-cell map" id="team-map-cell"></div>
+            <div class="graph-cell passing" id="passing-chart-cell"></div>
+            <div class="graph-cell shots" id="shot-chart-cell"></div>
+            <div class="graph-cell scatter" id="graph-cell-4"></div>
+            <div class="graph-cell calendar" id="graph-cell-5"></div>
+            <div class="graph-cell court" id="graph-cell-6"></div>
         </div>
     </body>
 
