@@ -64,7 +64,7 @@ svg {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 1px;
-    min-height: 200px;
+    min-height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,16 +81,16 @@ svg {
 .graph-cell.map { grid-area: map; min-height: 460px; }
 .graph-cell.passing { grid-area: passing; }
 .graph-cell.shots { grid-area: shots; }
-.graph-cell.scatter { grid-area: scatter; min-height: 340px; }
-.graph-cell.calendar { grid-area: calendar; min-height: 320px; }
-.graph-cell.court { grid-area: court; min-height: 320px; }
+.graph-cell.scatter { grid-area: scatter; min-height: 300px; }
+.graph-cell.calendar { grid-area: calendar; min-height: 100px; }
+.graph-cell.court { grid-area: court; min-height: 100px; }
 
 /* Let calendar/bracket content stretch instead of centering small visuals */
 .graph-cell.calendar,
 .graph-cell.court {
     align-items: stretch;
     justify-content: stretch;
-    padding: 8px;
+    padding: 2px;
 }
 
 .graph-cell.calendar > *,

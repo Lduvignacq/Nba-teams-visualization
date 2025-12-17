@@ -218,6 +218,12 @@
         .style('font-size','11px')
         .text(d=> d.abb || '');
 
+      // Auto-select Golden State Warriors on load
+      const defaultTeam = 'GSW';
+      requestAnimationFrame(() => {
+        const target = g.select(`.team-${defaultTeam.toLowerCase()}`).node();
+        if (target) target.dispatchEvent(new Event('click', { bubbles: true }));
+      });
     }).catch(err=>{
       console.error('Failed to initialize team map:', err);
       container.append('div')
