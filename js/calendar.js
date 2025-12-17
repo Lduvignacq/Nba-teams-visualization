@@ -10,19 +10,19 @@
     let teamSchedule = null;
     
     const MONTH_NAMES = [
-        'Octobre', 'Novembre', 'Décembre', 'Janvier', 'Février', 'Mars', 'Avril', 'Mai'
+        'October', 'November', 'Decembre', 'January', 'February', 'March', 'April', 'May'
     ];
     
     // Season months: Oct 2024 to May 2025
     const SEASON_MONTHS = [
-        { month: 9, year: 2024, display: 'Octobre' },   // Oct 2024
-        { month: 10, year: 2024, display: 'Novembre' }, // Nov 2024
-        { month: 11, year: 2024, display: 'Décembre' }, // Dec 2024
-        { month: 0, year: 2025, display: 'Janvier' },   // Jan 2025
-        { month: 1, year: 2025, display: 'Février' },   // Feb 2025
-        { month: 2, year: 2025, display: 'Mars' },      // Mar 2025
-        { month: 3, year: 2025, display: 'Avril' },     // Apr 2025
-        { month: 4, year: 2025, display: 'Mai' }        // May 2025
+        { month: 9, year: 2024, display: 'October' },   // Oct 2024
+        { month: 10, year: 2024, display: 'November' }, // Nov 2024
+        { month: 11, year: 2024, display: 'December' }, // Dec 2024
+        { month: 0, year: 2025, display: 'January' },   // Jan 2025
+        { month: 1, year: 2025, display: 'February ' },   // Feb 2025
+        { month: 2, year: 2025, display: 'March' },      // Mar 2025
+        { month: 3, year: 2025, display: 'April' },     // Apr 2025
+        { month: 4, year: 2025, display: 'May' }        // May 2025
     ];
     
     let currentSeasonMonthIndex = 2; // Start at December
@@ -98,6 +98,9 @@
             drawError('Pas de données pour cette équipe');
             return;
         }
+        
+        // Clear existing calendar before drawing new one
+        container.selectAll('*').remove();
         
         const containerRect = container.node().getBoundingClientRect();
         const width = containerRect.width;
@@ -214,7 +217,7 @@
         const calendarStartX = (calendarWidth - (cellSize * 7)) / 2;
         
         // Day labels
-        const dayLabels = ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam'];
+        const dayLabels = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
         dayLabels.forEach((day, idx) => {
             g.append('text')
                 .attr('x', calendarStartX + idx * cellSize + cellSize / 2)
@@ -328,7 +331,7 @@
                     
                     const homeAway = gameData.home ? 'vs' : '@';
                     const tooltipText = [
-                        `${gameData.result === 'W' ? 'Victoire' : 'Défaite'} ${homeAway} ${gameData.opponent}`,
+                        `${gameData.result === 'W' ? 'Victory' : 'Defeat'} ${homeAway} ${gameData.opponent}`,
                         `Score: ${gameData.points} pts`
                     ];
                     
@@ -412,7 +415,7 @@
                 .style('font-size', '12px')
                 .style('font-weight', 'bold')
                 .style('fill', '#28a745')
-                .text(`Plus longue série de victoires:`);
+                .text('longuest winning streak:');
             
             // Value and ranking on second line
             winStreakGroup.append('text')
@@ -420,7 +423,7 @@
                 .attr('y', 26)
                 .style('font-size', '11px')
                 .style('fill', '#fff')
-                .text(`${streaks.longestWinStreak.length} matchs (${rankings.winRank}e sur 30)`);
+                .text(`${streaks.longestWinStreak.length} matchs (${rankings.winRank}e over 30)`);
             
             // Dates on third line
             winStreakGroup.append('text')
@@ -458,7 +461,7 @@
                 .style('font-size', '12px')
                 .style('font-weight', 'bold')
                 .style('fill', '#dc3545')
-                .text(`Plus longue série de défaites:`);
+                .text('longuest losing streak:');
             
             // Value and ranking on second line
             loseStreakGroup.append('text')
@@ -466,7 +469,7 @@
                 .attr('y', 26)
                 .style('font-size', '11px')
                 .style('fill', '#fff')
-                .text(`${streaks.longestLoseStreak.length} matchs (${rankings.lossRank}e sur 30)`);
+                .text(`${streaks.longestLoseStreak.length} matchs (${rankings.lossRank}e over 30)`);
             
             // Dates on third line
             loseStreakGroup.append('text')
@@ -490,9 +493,9 @@
             .style('opacity', 1);
         
         const legendData = [
-            { label: 'Victoire', color: '#28a745' },
-            { label: 'Défaite', color: '#dc3545' },
-            { label: 'Pas de match', color: '#444' }
+            { label: 'Victory', color: '#28a745' },
+            { label: 'Defeat', color: '#dc3545' },
+            { label: 'No game', color: '#444' }
         ];
         
         legendData.forEach((item, idx) => {
@@ -524,7 +527,7 @@
                 .attr('text-anchor', 'end')
                 .style('font-size', '12px')
                 .style('fill', '#fff')
-                .text(`Ce mois: ${monthRecord.wins}-${monthRecord.losses}`);
+                .text(`This month: ${monthRecord.wins}-${monthRecord.losses}`);
         }
         
         // Fade in the new calendar
@@ -612,7 +615,7 @@
             const endDate = new Date(streak.games[streak.games.length - 1].date);
             
             const formatDate = (date) => {
-                const months = ['Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Aoû', 'Sep', 'Oct', 'Nov', 'Déc'];
+                const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Agu', 'Sep', 'Oct', 'Nov', 'Dec'];
                 return `${date.getDate()} ${months[date.getMonth()]}`;
             };
             

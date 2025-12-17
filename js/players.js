@@ -497,7 +497,7 @@
             const verticalSpacing = 50; // Space between matchups in same round
 
             // Draw a matchup
-            function drawMatchup(x, y, matchup, round, isHighlighted) {
+            function drawMatchup(x, y, matchup, round, isHighlighted, iswest = true) {
                 const g = bracketViz.append('g')
                     .attr('transform', `translate(${x}, ${y})`);
                 
@@ -541,21 +541,35 @@
                 });
                 
                 // Connector line to next round
-                if (round < 3) {
-                    const nextX = 60;
-                    const nextY = matchupHeight / 2;
-                    g.append('line')
-                        .attr('x1', nextX)
-                        .attr('y1', nextY)
-                        .attr('x2', nextX + 20)
-                        .attr('y2', nextY)
-                        .attr('stroke', strokeColor)
-                        .attr('stroke-width', strokeWidth);
+                if(iswest){
+                    if (round < 3) {
+                        const nextX = 60;
+                        const nextY = matchupHeight / 2;
+                        g.append('line')
+                            .attr('x1', nextX)
+                            .attr('y1', nextY)
+                            .attr('x2', nextX +20)
+                            .attr('y2', nextY)
+                            .attr('stroke', strokeColor)
+                            .attr('stroke-width', strokeWidth);
+                    }
                 }
-                
+                else{
+                    
+                    if (round < 3) {
+                        const nextX = 60;
+                        const nextY = matchupHeight / 2;
+                        g.append('line')
+                            .attr('x1', nextX - 80)
+                            .attr('y1', nextY)
+                            .attr('x2', nextX - 60)
+                            .attr('y2', nextY)
+                            .attr('stroke', strokeColor)
+                            .attr('stroke-width', strokeWidth);
+                    }}
                 return { centerY: y + matchupHeight / 2 };
-            }
-            
+                }
+    
             // Draw West Conference (left side)
             const westX = 10;
             bracketViz.append('text')
@@ -649,7 +663,7 @@
             bracket.east.first_round.forEach((matchup, idx) => {
                 const isHighlighted = matchup.teams.includes(focusTeam) || matchup.winner === focusTeam;
                 const y = eastR1Y + idx * (matchupHeight + verticalSpacing);
-                const result = drawMatchup(eastX, y, matchup, 1, isHighlighted);
+                const result = drawMatchup(eastX, y, matchup, 1, isHighlighted, false);
                 eastR1Positions.push(result.centerY);
             });
             
@@ -659,7 +673,7 @@
             bracket.east.semifinals.forEach((matchup, idx) => {
                 const isHighlighted = matchup.teams.includes(focusTeam) || matchup.winner === focusTeam;
                 const y = (eastR1Positions[idx * 2] + eastR1Positions[idx * 2 + 1]) / 2 - matchupHeight / 2;
-                const result = drawMatchup(eastR2X, y, matchup, 2, isHighlighted);
+                const result = drawMatchup(eastR2X, y, matchup, 2, isHighlighted, false);
                 eastR2Positions.push(result.centerY);
                 
                 // Connectors
@@ -677,9 +691,9 @@
                     .attr('stroke-width', isHighlighted ? 3 : 1.5);
                 
                 bracketViz.append('line')
-                    .attr('x1', x1)
+                    .attr('x1', x1- 60)
                     .attr('y1', y2)
-                    .attr('x2', eastR2X + 60)
+                    .attr('x2', eastR2X - 20 )
                     .attr('y2', y2)
                     .attr('stroke', isHighlighted ? '#27ae60' : '#444')
                     .attr('stroke-width', isHighlighted ? 3 : 1.5);
@@ -689,7 +703,7 @@
             const eastR3X = eastR2X - roundSpacing;
             const eastFinalsHighlight = bracket.east.finals.teams.includes(focusTeam) || bracket.east.finals.winner === focusTeam;
             const eastFinalsY = (eastR2Positions[0] + eastR2Positions[1]) / 2 - matchupHeight / 2;
-            const eastFinalsResult = drawMatchup(eastR3X, eastFinalsY, bracket.east.finals, 3, eastFinalsHighlight);
+            const eastFinalsResult = drawMatchup(eastR3X, eastFinalsY, bracket.east.finals, 3, eastFinalsHighlight, false);
             
             // Connectors
             const x3 = eastR2X - 20;
@@ -703,9 +717,9 @@
             
             bracketViz.append('line')
                 .attr('x1', x3)
-                .attr('y1', eastFinalsResult.centerY)
+                .attr('y1', eastFinalsResult.centerY + 50)
                 .attr('x2', eastR3X + 60)
-                .attr('y2', eastFinalsResult.centerY)
+                .attr('y2', eastFinalsResult.centerY + 50)
                 .attr('stroke', eastFinalsHighlight ? '#27ae60' : '#444')
                 .attr('stroke-width', eastFinalsHighlight ? 3 : 1.5);
             

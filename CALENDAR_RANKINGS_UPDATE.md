@@ -33,10 +33,6 @@ Fonction `calculateStreakRankings()` ajoutée :
 
 ### 4. Ajustements visuels
 
-**Espacements :**
-- Série de victoires : à gauche (margin.left + 20)
-- Série de défaites : à droite (width / 2 + 40)
-- Espace entre séries et légende : 22px
 
 **Tailles de police :**
 - Titre : 12px (gras)

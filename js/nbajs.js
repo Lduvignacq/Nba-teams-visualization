@@ -797,6 +797,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // wire the selector and initialize the viz
     setupSeasonteamSelector("2024-25");
 
+    // Initialize calendar
+    if (window.initCalendar) {
+        window.initCalendar();
+    }
+
     // optional additional init
     // initializeVisualizations && initializeVisualizations();
 });

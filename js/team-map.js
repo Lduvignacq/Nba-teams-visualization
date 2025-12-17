@@ -166,9 +166,8 @@
         .on('click',(event,d)=>{
           const name = d.abb;
           
-          // Check if ctrl key is pressed for second team selection
-          if (event.ctrlKey) {
-            // Select second team
+          // Hold "+" (shift+click) to pick the second comparison team
+          if (event.shiftKey) {
             if (window.ctx) {
               window.ctx.team2 = name;
               console.log('[team-map] Second team selected:', name);
@@ -186,7 +185,7 @@
             if (window.ctx) {
               window.ctx.team2 = null;
             }
-            if(window.setTeamSelection){window.setTeamSelection(name);}
+            if(window.setTeamSelection){window.setTeamSelection(name);} 
             highlightSelectedTeam(d.abb, null);
             if (window.renderPassingOrRadar) {
               window.renderPassingOrRadar();
