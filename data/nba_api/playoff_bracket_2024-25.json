@@ -13,20 +13,20 @@
     },
     "semifinals": [
       {
-        "winner": "NYK",
-        "teams": [
-          "BOS",
-          "NYK"
-        ],
-        "series": "2-4"
-      },
-      {
         "winner": "IND",
         "teams": [
           "CLE",
           "IND"
         ],
         "series": "1-4"
+      },
+      {
+        "winner": "NYK",
+        "teams": [
+          "BOS",
+          "NYK"
+        ],
+        "series": "2-4"
       }
     ],
     "first_round": [
@@ -37,6 +37,14 @@
           "MIA"
         ],
         "series": "4-0"
+      },
+      {
+        "winner": "IND",
+        "teams": [
+          "IND",
+          "MIL"
+        ],
+        "series": "4-1"
       },
       {
         "winner": "BOS",
@@ -53,14 +61,6 @@
           "PHI"
         ],
         "series": "4-2"
-      },
-      {
-        "winner": "IND",
-        "teams": [
-          "IND",
-          "MIL"
-        ],
-        "series": "4-1"
       }
     ]
   },
