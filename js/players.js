@@ -745,23 +745,23 @@
             // Connectors to finals
             const finalsConnectY = finalsY + matchupHeight / 2;
             
-            // West to Finals
+            // West to Finals - line should touch the West Finals box
             bracketViz.append('line')
-                .attr('x1', westR3X + 80)
+                .attr('x1', westR3X + 60)
                 .attr('y1', westFinalsResult.centerY)
                 .attr('x2', finalsX)
                 .attr('y2', finalsConnectY)
-                .attr('stroke', westFinalsHighlight ? '#27ae60' : '#444')
-                .attr('stroke-width', westFinalsHighlight ? 3 : 1.5);
+                .attr('stroke', westFinalsHighlight || finalsHighlight ? '#27ae60' : '#444')
+                .attr('stroke-width', westFinalsHighlight || finalsHighlight ? 3 : 1.5);
             
-            // East to Finals
+            // East to Finals - line should touch the East Finals box
             bracketViz.append('line')
-                .attr('x1', eastR3X - 20)
+                .attr('x1', eastR3X)
                 .attr('y1', eastFinalsResult.centerY)
                 .attr('x2', finalsX)
                 .attr('y2', finalsConnectY)
-                .attr('stroke', eastFinalsHighlight ? '#27ae60' : '#444')
-                .attr('stroke-width', eastFinalsHighlight ? 3 : 1.5);
+                .attr('stroke', eastFinalsHighlight || finalsHighlight ? '#27ae60' : '#444')
+                .attr('stroke-width', eastFinalsHighlight || finalsHighlight ? 3 : 1.5);
             
             // Champion trophy (lowered below finals box)
             if (bracket.champion) {

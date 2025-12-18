@@ -31,14 +31,6 @@
     ],
     "first_round": [
       {
-        "winner": "BOS",
-        "teams": [
-          "BOS",
-          "ORL"
-        ],
-        "series": "4-1"
-      },
-      {
         "winner": "CLE",
         "teams": [
           "CLE",
@@ -47,10 +39,10 @@
         "series": "4-0"
       },
       {
-        "winner": "IND",
+        "winner": "BOS",
         "teams": [
-          "IND",
-          "MIL"
+          "BOS",
+          "ORL"
         ],
         "series": "4-1"
       },
@@ -58,9 +50,17 @@
         "winner": "NYK",
         "teams": [
           "NYK",
-          "DET"
+          "PHI"
         ],
         "series": "4-2"
+      },
+      {
+        "winner": "IND",
+        "teams": [
+          "IND",
+          "MIL"
+        ],
+        "series": "4-1"
       }
     ]
   },

@@ -32,24 +32,24 @@ playoff_bracket_2024_25 = {
         ],
         "first_round": [
             {
-                "winner": "BOS",
-                "teams": ["BOS", "ORL"],
-                "series": "4-1"
-            },
-            {
                 "winner": "CLE",
                 "teams": ["CLE", "MIA"],
                 "series": "4-0"
             },
             {
-                "winner": "IND",
-                "teams": ["IND", "MIL"],
+                "winner": "BOS",
+                "teams": ["BOS", "ORL"],
                 "series": "4-1"
             },
             {
                 "winner": "NYK",
-                "teams": ["NYK", "DET"],
+                "teams": ["NYK", "PHI"],
                 "series": "4-2"
+            },
+            {
+                "winner": "IND",
+                "teams": ["IND", "MIL"],
+                "series": "4-1"
             }
         ]
     },
