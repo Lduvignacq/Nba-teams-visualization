@@ -1,7 +1,3 @@
-// Team Starting Five & Bench Visualization
-// Shows starting lineup positioned on a basketball court + bench players list
-// Integrates with nbajs.js context (ctx.team, ctx.season)
-
 (function() {
     'use strict';
 
@@ -21,9 +17,7 @@
 
     // Simple: assigne les 5 positions dans l'ordre
     function getCourtPosition(position, positionIndex, allPositions) {
-        const pos = COURT_POSITIONS[positionIndex] || COURT_POSITIONS[4]; // Default au center si hors limites
-        console.log(`[players] Position ${positionIndex}: ${position} → (${pos.x}, ${pos.y})`);
-        return pos;
+        return COURT_POSITIONS[positionIndex] || COURT_POSITIONS[4];
     }
 
     async function createStartingFiveViz(containerId = 'graph-cell-6') {

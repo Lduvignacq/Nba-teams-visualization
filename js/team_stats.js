@@ -1,7 +1,5 @@
-// Team Statistics Scatter Plot with Distribution Visualization
-// Integrates with nbajs.js context (ctx.team, ctx.season)
-
-async function createTeamStatsScatter(containerId = 'graph-cell-4') {
+async function createTeamStatsScatter(containerId) {
+    if (containerId === undefined) containerId = 'graph-cell-4';
     const container = d3.select(`#${containerId}`);
     if (container.empty()) {
         console.warn(`[team-stats] Container #${containerId} not found`);

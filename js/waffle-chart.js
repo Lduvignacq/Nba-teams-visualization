@@ -1,7 +1,3 @@
-// Waffle Chart for Team Scoring Comparison
-// Shows scoring breakdown by category when two teams are selected
-// Replaces the calendar visualization in comparison mode
-
 (function() {
     let scoringData = null;
     
@@ -65,7 +61,6 @@
         }
         return d3.json('data/nba_api/scoring_breakdown_with_ft_2024-25.json').then(data => {
             scoringData = data;
-            console.log('[waffle-chart] loaded scoring data for', Object.keys(data).length, 'teams');
             return data;
         });
     }
@@ -103,10 +98,6 @@
         
         // True total including free throws
         const trueTotal = fieldGoalTotal + freeThrowPoints;
-        
-        console.log('[waffle-chart] Team:', teamData.team_name);
-        console.log('  Paint:', points.paint, 'Mid:', points.mid_range, 'Three:', points.three_pt);
-        console.log('  Field goals:', fieldGoalTotal, 'Free throws:', freeThrowPoints.toFixed(0), 'Total:', trueTotal.toFixed(0));
         
         // Calculate raw percentages based on TRUE total
         const categories = [
@@ -334,9 +325,6 @@
         });
     }
     
-    /**
-     * Main render function
-     */
     function renderWaffleComparison() {
         const container = d3.select('#graph-cell-5');
         if (container.empty()) {
@@ -346,7 +334,6 @@
         
         // Check if we're in comparison mode
         if (!window.ctx || !window.ctx.team2) {
-            console.log('[waffle-chart] Not in comparison mode, showing calendar');
             // Show calendar instead
             if (window.initCalendar) {
                 window.initCalendar();

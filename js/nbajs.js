@@ -437,7 +437,7 @@ async function createPassingChordInSvg(svgEl, csvPath, teamnameabbr, opts = {}) 
             if (!info) return '';
             const a = players[i], b = players[j];
             const { aToB, bToA, total } = info;
-            return `${a} ↔ ${b}\nTotal: ${total}\n${a}→${b}: ${aToB} (${(aToB/total*100).toFixed(1)}%)\n${b}→${a}: ${bToA} (${(bToA/total*100).toFixed(1)}%)`;
+            return `${a} ↔ ${b}\nTotal passes: ${total}\n${a}→${b}: ${aToB} (${(aToB/total*100).toFixed(1)}%)\n${b}→${a}: ${bToA} (${(bToA/total*100).toFixed(1)}%)`;
         });
 
     // --- Labels with curved text ---
@@ -688,10 +688,14 @@ function renderPassingOrRadar() {
     }
 
     // Single-team mode: show passing chord
+    const rect = passCell.node().getBoundingClientRect();
+    const passWidth = Math.max(420, rect.width || ctx.w || 800);
+    const passHeight = Math.max(420, rect.height || ctx.h || 800);
+
     const passSvg = passCell.append("svg")
         .attr("width", "100%")
         .attr("height", "100%")
-        .attr("viewBox", `0 0 ${ctx.w} ${ctx.h}`)
+        .attr("viewBox", `0 0 ${passWidth} ${passHeight}`)
         .attr("preserveAspectRatio", "xMidYMid meet");
 
     const passGroup = passSvg.append("g")
@@ -699,8 +703,14 @@ function renderPassingOrRadar() {
     ctx.passGroup = passGroup;
 
     if (typeof createPassingChordInSvg === "function") {
+        const innerR = Math.min(passWidth, passHeight) * 0.32;
         createPassingChordInSvg(passGroup, `data/nba_api/passing_data/team${ctx.season}.csv`, ctx.team, {
-            width: 900, height: 800, cx: 1*ctx.w / 2, cy: 250
+            width: passWidth,
+            height: passHeight,
+            cx: passWidth / 2,
+            cy: passHeight / 2,
+            innerRadius: innerR,
+            outerRadius: innerR + 18
         });
     }
 }

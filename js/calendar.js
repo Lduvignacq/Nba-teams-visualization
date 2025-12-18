@@ -1,7 +1,3 @@
-// Calendar visualization for NBA team game results
-// Shows a monthly calendar with wins (green), losses (red), and no-game days (last result color)
-// Uses real NBA API data from team_schedules_2024-25.json
-
 (function() {
     let currentTeam = null; // No team selected by default
     let currentMonth = 11; // December (0-11)
@@ -28,7 +24,6 @@
     let currentSeasonMonthIndex = 2; // Start at December
     
     function initCalendar() {
-        console.log('[calendar] initializing');
         
         // Sync currentTeam with global ctx
         if (window.ctx && window.ctx.team) {
@@ -37,7 +32,6 @@
         
         // Don't show calendar if in comparison mode (two teams selected)
         if (window.ctx && window.ctx.team2) {
-            console.log('[calendar] Skipping calendar - in comparison mode');
             if (window.renderWaffleComparison) {
                 window.renderWaffleComparison();
             }

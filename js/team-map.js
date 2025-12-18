@@ -1,11 +1,7 @@
-// Team Map (D3 v7) — integrates with nbajs.js via window.setTeamSelection(teamName)
-// Data sources: data/map_data/US-states.csv, data/map_data/US-geo.json, data/map_data/NBA-teams.csv
 (function(){
   function initMap(){
-    console.log('[team-map] initializing');
     const container = d3.select('#team-map-cell');
     if (container.empty()) {
-      console.warn('[team-map] #team-map-cell not found at init time.');
       return;
     }
     container.selectAll('*').remove();

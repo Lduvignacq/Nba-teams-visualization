@@ -1,6 +1,3 @@
-// Radar chart for comparing two teams (used when ctx.team2 is set)
-// Data source: data/nba_api/game_statistics/per_100.csv (same as team_stats.js)
-
 (function() {
 	'use strict';
 
